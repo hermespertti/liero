@@ -74,9 +74,11 @@ def main():
         q = bytearray(VW*3)
         for x in range(VW):
             r5 = row[x*3] >> 3; g5 = row[x*3+1] >> 3; b5 = row[x*3+2] >> 3
-            q[x*3]   = (r5 << 3) | (r5 >> 2)
-            q[x*3+1] = (g5 << 3) | (g5 >> 2)
-            q[x*3+2] = (b5 << 3) | (b5 >> 2)
+            # NOTE: this ares fork VI-expands RGB555 by truncating shift (v<<3),
+            # verified vs pattern capture — no bit replication.
+            q[x*3]   = r5 << 3
+            q[x*3+1] = g5 << 3
+            q[x*3+2] = b5 << 3
         rq.append(q)
 
     # auto-detect shot active area: min nonzero column across sampled rows
