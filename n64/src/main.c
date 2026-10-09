@@ -222,8 +222,28 @@ static void stage_hash(const char* tag) {
 }
 
 // ---- rendering: per-scanline run-length flat fills ----
+#ifdef PATTERN
 static void render_view(int camx, int camy) {
-    static uint8_t runs_v[VW+1];
+    // deterministic test pattern: index = ((x>>4) + 2*y) & 255 mapped through palette
+    (void)camx; (void)camy;
+    rdpq_set_mode_standard();
+    rdpq_mode_combiner(RDPQ_COMBINER_FLAT);
+    rdpq_mode_dithering(DITHER_NONE_NONE);
+    for (int y = 0; y < VH; ++y) {
+        int x = 0;
+        while (x < VW) {
+            uint8_t idx = (uint8_t)(((x >> 4) + 2*y) & 255);
+            int x0 = x;
+            while (x < VW && (uint8_t)(((x >> 4) + 2*y) & 255) == idx) ++x;
+            uint16_t c = pal_rgb555[idx];
+            int r = (c >> 10) & 31, g = (c >> 5) & 31, b = c & 31;
+            rdpq_set_prim_color(RGBA32((r<<3)|(r>>2), (g<<3)|(g>>2), (b<<3)|(b>>2), 255));
+            rdpq_fill_rectangle(x0, y, x, y+1);
+        }
+    }
+}
+#else
+static void render_view(int camx, int camy) {
     for (int y = 0; y < VH; ++y) {
         int ly = camy + y;
         if (ly >= LH) break;
@@ -241,10 +261,10 @@ static void render_view(int camx, int camy) {
             int r = (c >> 10) & 31, g = (c >> 5) & 31, b = c & 31;
             rdpq_set_prim_color(RGBA32((r<<3)|(r>>2), (g<<3)|(g>>2), (b<<3)|(b>>2), 255));
             rdpq_fill_rectangle(x0, y, x, y+1);
-            (void)runs_v;
         }
     }
 }
+#endif
 
 static uint32_t fnv(const uint8_t* p, size_t n) {
     uint32_t h = 2166136261u;
@@ -273,6 +293,8 @@ int main(void) {
         display_show(fb);
 
         joypad_poll();
+        joypad_inputs_t jin = joypad_get_inputs(JOYPAD_PORT_1);
+        (void)jin;
 #ifdef AUTOTEST
         // Position-hold ping-pong, robust to frame-count drift in headless
         // capture: hold each camera x for 200 frames.

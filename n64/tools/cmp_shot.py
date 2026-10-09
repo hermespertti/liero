@@ -79,22 +79,26 @@ def main():
             q[x*3+2] = (b5 << 3) | (b5 >> 2)
         rq.append(q)
 
-    # sample rows for speed
+    # auto-detect shot active area: min nonzero column across sampled rows
+    x0 = 0
+    for y in range(0, h2, max(1, h2//8)):
+        nz = [x for x in range(sw) if any(srows[y][x*3:x*3+3])]
+        if nz:
+            x0 = max(x0, min(nz))  # conservative: last row's leftmost
+    # VI doubles width: game x -> screen x0 + 2*x
+
     ys = list(range(0, VH, max(1, VH//16)))
     xs = list(range(0, VW, max(1, VW//40)))
 
-    cand = [exp_cam] if exp_cam is not None else list(range(0, rw-VW+1, 1))
-    # also try a small window around expected
-    if exp_cam is not None:
-        cand = sorted(set(cand + [exp_cam+d for d in range(-24, 25, 4)]))
+    lo, hi = (exp_cam-32, exp_cam+32) if exp_cam is not None else (0, rw-VW)
+    lo = max(0, lo); hi = min(rw-VW, hi)
     best = None
-    for camx in cand:
-        if camx < 0 or camx + VW > rw: continue
+    for camx in range(lo, hi+1):
         bad = tot = 0; sad = 0
         for y in ys:
             sr = srows[y]; rr = rq[y]
             for x in xs:
-                i = (x + camx)*2*3; j = x*3
+                i = (x0 + (x + camx)*2)*3; j = x*3
                 if i+2 >= len(sr): continue
                 d = abs(sr[i]-rr[j]) + abs(sr[i+1]-rr[j+1]) + abs(sr[i+2]-rr[j+2])
                 sad += d
@@ -104,7 +108,7 @@ def main():
         if best is None or m < best[0]:
             best = (m, camx, bad, tot)
         if m == 0: break
-    print(f"shot {sw}x{h2} ref {rw}x{rh} VW={VW}")
+    print(f"shot {sw}x{h2} ref {rw}x{rh} VW={VW} x0={x0}")
     print(f"best camx={best[1]} meanSAD={best[0]:.3f} badpix={best[2]}/{best[3]} ({100*best[2]/best[3]:.2f}%)")
 
 if __name__ == "__main__":
