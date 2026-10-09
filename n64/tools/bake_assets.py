@@ -229,7 +229,7 @@ def generate(mats, textures, pal, large):
             data[(H-1)*W+x] = 13
     stage("shadow")
 
-    return bytes(data)
+    return bytes(data), rnd
 
 def main():
     sw, sh, pal, smallpix = read_tga(os.path.join(TC, "sprites", "small.tga"))
@@ -257,10 +257,46 @@ def main():
         f.write("#define LARGE_FRAMES %d\nstatic const uint8_t large_stamps[]={\n"%(lh//16))
         for i in range(0,len(largepix),32):
             f.write(",".join(map(str,largepix[i:i+32]))+",\n")
-        f.write("};\n")
-    print("wrote assets/baked.h")
+        f.write("};\n\n")
 
-    terrain = generate(mats, textures, pal, largepix)
+        # cossin table: exact upstream math.cpp precomputeTables
+        def fp_reducedfrac(s, bits, tobits):
+            rbits = bits
+            while rbits > 60:
+                s >>= 1; rbits -= 1
+            return s << (tobits - rbits)
+        xs = [0]*128; ys = [0]*128
+        scalebits = 28; scale = 13176795
+        for i in range(128):
+            rf = 0; c = -1; xf = i * scale
+            ns, nb = xf, scalebits
+            t = 1
+            while t < 26:
+                rf += c * fp_reducedfrac(ns, nb, 60)
+                t += 1; ns //= t
+                lim = 1 << 31
+                while ns < -lim-1 or ns > lim: ns >>= 1; nb -= 1
+                ns *= xf; nb += scalebits
+                t += 1; ns //= t
+                while ns < -lim-1 or ns > lim: ns >>= 1; nb -= 1
+                ns *= xf; nb += scalebits
+                c = -c
+            shift = 60 - 16
+            rf += 1 << (shift-1)
+            r = rf >> shift
+            if r >= 0x80000000: r -= 0x100000000
+            xs[i] = r; ys[(i+32) & 0x7f] = r
+        f.write("static const int32_t cs_x[128]={"+",".join(map(str,xs))+"};\n")
+        f.write("static const int32_t cs_y[128]={"+",".join(map(str,ys))+"};\n\n")
+
+        # small sprites (7px frames) for nobject render
+        f.write("#define SMALL_FRAMES %d\nstatic const uint8_t small_pix[]={\n"%(sh//7))
+        for i in range(0,len(smallpix),32):
+            f.write(",".join(map(str,smallpix[i:i+32]))+",\n")
+        f.write("};\n")
+        print("wrote assets/baked.h")
+
+    terrain, _rnd = generate(mats, textures, pal, largepix)
 
     os.makedirs(os.path.join(ROOT, "ref"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)

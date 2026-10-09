@@ -371,7 +371,12 @@ static int angle_frame(void) {
     return x;
 }
 
-typedef struct { uint8_t left, right, up, down, jump; } WormInput;
+typedef struct { uint8_t left, right, up, down, jump, fire; } WormInput;
+
+#ifdef WEAPONS
+static void worm_weapons(void);
+static void worm_try_fire(uint8_t fire);
+#endif
 
 static void worm_process(WormInput in, uint64_t cycle) {
     int32_t next_x = worm.pos_x + worm.vel_x;
@@ -429,6 +434,12 @@ static void worm_process(WormInput in, uint64_t cycle) {
     }
     if (!in.jump) worm.able_to_jump = 1;
     prev_jump = in.jump;
+
+#ifdef WEAPONS
+    // upstream: processWeapons then fire-check, both before processPhysics
+    worm_weapons();
+    worm_try_fire(in.fire);
+#endif
 
     // processPhysics
     if (worm.reacts[RF_UP] > 0)
@@ -521,6 +532,306 @@ static uint32_t fnv2(uint32_t h, const uint8_t* p, size_t n) {
 }
 
 static uint32_t g_worm_acc = 2166136261u;
+
+// =================== slice 3: weapons/projectiles (dirtball) ================
+// Mirrors weapon.cpp Weapon::fire + WObject::process + blowUpObject and
+// nobject.cpp NObject create/process with the shared upstream mwc stream.
+// NOTE: this block is moved below after slice 2 (needs worm struct); marker.
+#define MAX_WOBJ 256
+#define MAX_NOBJ 512
+
+typedef struct {
+    int32_t x, y;       // 16.16
+    int32_t vx, vy;
+    int cur_frame;
+    int time_left;
+    int owner;
+    uint8_t used;
+} WObj;
+static WObj wobj[MAX_WOBJ];
+
+typedef struct {
+    int32_t x, y;
+    int32_t vx, vy;
+    int cur_frame;
+    int time_left;
+    uint8_t used;
+} NObj;
+static NObj nobj[MAX_NOBJ];
+
+// dirtball weapon (openliero params)
+#define W_GRAVITY     1000
+#define W_SPEED       200
+#define W_DIST        12000
+#define W_DELAY       20
+#define W_LOADING     225
+#define W_AMMO        5
+#define W_STARTFRAME  87
+#define W_BOUNCE      30
+#define W_TTIME       80
+#define W_TTIMEV      20
+#define W_SPLINTER    5
+#define W_DIRT        4
+#define W_FIRECONE    0
+// dirt nobject
+#define N_TTIME       1
+#define N_DIRT        4
+
+static struct { int ammo, delay_left, loading_left; } wwp[5];
+static int fire_cone = 0;
+static uint8_t prev_fire = 0;
+
+static void correct_shadow(int x1, int y1, int x2, int y2) {
+    // upstream rect intersect (0,3,LW-3,LH)
+    if (x1 < 0) x1 = 0;
+    if (y1 < 3) y1 = 3;
+    if (x2 > LW-3) x2 = LW-3;
+    if (y2 > LH) y2 = LH;
+    for (int x = x1; x < x2; ++x)
+        for (int y = y1; y < y2; ++y) {
+            int i = y*LW + x;
+            int j = (y-3)*LW + x+3;
+            uint8_t pix = level_data[i];
+            if ((level_mat[i] & M_SEE) && (level_mat[j] & (M_DIRT|M_DIRT2|M_ROCK))) {
+                uint8_t v = (uint8_t)(pix + 4);
+                level_data[i] = v; level_mat[i] = mat_flags[v];
+            } else if (pix >= 164 && pix <= 167 && !(level_mat[j] & (M_DIRT|M_DIRT2|M_ROCK))) {
+                uint8_t v = (uint8_t)(pix - 4);
+                level_data[i] = v; level_mat[i] = mat_flags[v];
+            }
+        }
+}
+
+static int dirtrock_at(int x, int y) {
+    unsigned int idx = (unsigned int)(x + y*LW);
+    if (idx >= (unsigned int)(LW*LH)) return 1;
+    return (level_mat[idx] & (M_DIRT|M_DIRT2|M_ROCK)) != 0;
+}
+
+static void wobj_free(int i) { wobj[i].used = 0; }
+static void nobj_free(int i) { nobj[i].used = 0; }
+
+static int wobj_new(void) {  // exactObjectList getFreeObject: lowest free index
+    for (int i = 0; i < MAX_WOBJ; ++i) if (!wobj[i].used) { wobj[i].used = 1; return i; }
+    return MAX_WOBJ - 1;
+}
+static int nobj_new(void) {
+    for (int i = 0; i < MAX_NOBJ; ++i) if (!nobj[i].used) { nobj[i].used = 1; return i; }
+    return MAX_NOBJ - 1;
+}
+
+static void blow_up(int i) {
+    WObj* o = &wobj[i];
+    int px = o->x >> 16, py = o->y >> 16;
+    wobj_free(i);
+    // splinters: angle, colorSub per splinter, then create2 (rand inside)
+    for (int k = 0; k < W_SPLINTER; ++k) {
+        int angle = (int)rnd(128);
+        int colorSub = (int)rnd(2);
+        int realSpeed = 400 - (int)rnd(800);           // dirt: speed=400 speedV=800
+        int vx = (int)(((int64_t)cs_x[angle & 127] * realSpeed) / 100);
+        int vy = (int)(((int64_t)cs_y[angle & 127] * realSpeed) / 100);
+        // dirt distribution=10000: two rand calls in create2
+        vx += (int)rnd(20000) - 10000;
+        vy += (int)rnd(20000) - 10000;
+        // create(): startFrame=0, color!=0? color = 0 - colorSub; timeToExploV=0 -> no rand
+        int j = nobj_new();
+        nobj[j].x = px << 16; nobj[j].y = py << 16;
+        nobj[j].vx = vx; nobj[j].vy = vy;
+        nobj[j].x += nobj[j].vx; nobj[j].y += nobj[j].vy;  // create2 pos+=vel
+        nobj[j].cur_frame = -colorSub;  // color = splinterColour(0) - colorSub
+        nobj[j].time_left = N_TTIME;
+    }
+    // dirt effect carve + shadow
+    dirt_effect(W_DIRT, px - 7, py - 7);
+    correct_shadow(px - 10, py - 10, px + 11, py + 11);
+}
+
+static void fire_wobj(void) {
+    // W::fire: firing pos
+    int aa = (int)(worm.aim_angle >> 16) & 127;
+    int fx = ((int)cs_x[aa] * 5) + worm.pos_x;        // detectDistance=0: cs*(0+5), fixed
+    int fy = ((int)cs_y[aa] * 5) + worm.pos_y - (1 << 16);
+    // affectByWorm: firingVel = worm.vel*100/speed
+    int fvx = (int)(((int64_t)worm.vel_x * 100) / W_SPEED);
+    int fvy = (int)(((int64_t)worm.vel_y * 100) / W_SPEED);
+    // parts loop (parts=1)
+    int angle = aa;
+    int vx = (int)(((int64_t)cs_x[angle] * W_SPEED) / 100) + fvx;
+    int vy = (int)(((int64_t)cs_y[angle] * W_SPEED) / 100) + fvy;
+    vx += (int)rnd(W_DIST * 2) - W_DIST;
+    vy += (int)rnd(W_DIST * 2) - W_DIST;
+    int cur = 0;  // shotType 0, loopAnim false, startFrame>=0
+    int tl = W_TTIME - (int)rnd(W_TTIMEV);
+    int i = wobj_new();
+    wobj[i].x = fx; wobj[i].y = fy; wobj[i].vx = vx; wobj[i].vy = vy;
+    wobj[i].cur_frame = cur; wobj[i].time_left = tl; wobj[i].owner = 0;
+    // recoil (0): skip rand-free branch entirely
+    fire_cone = W_FIRECONE;
+}
+
+static void worm_try_fire(uint8_t fire_held) {
+    if (fire_held && !prev_fire && wwp[0].loading_left == 0 && wwp[0].delay_left <= 0) {
+        --wwp[0].ammo;
+        wwp[0].delay_left = W_DELAY;
+        fire_wobj();
+    }
+    prev_fire = fire_held;
+}
+
+static void worm_weapons(void) {
+    for (int i = 0; i < 5; ++i)
+        if (wwp[i].delay_left >= 0) --wwp[i].delay_left;
+    if (wwp[0].ammo <= 0) {
+        int lt = (100 * W_LOADING) / 100; if (!lt) lt = 1;
+        wwp[0].loading_left = lt;
+        wwp[0].ammo = W_AMMO;
+    }
+    if (wwp[0].loading_left > 0) --wwp[0].loading_left;
+    if (fire_cone > 0) --fire_cone;
+}
+
+static void process_wobjects(uint64_t cycle) {
+    for (int i = 0; i < MAX_WOBJ; ++i) {
+        if (!wobj[i].used) continue;
+        WObj* o = &wobj[i];
+        o->x += o->vx; o->y += o->vy;
+        int ix = o->x >> 16, iy = o->y >> 16;          // ipos
+        int nx = (o->x + o->vx) >> 16, ny = (o->y + o->vy) >> 16;  // inewPos
+        int inside_ix = ix < 0 ? 0 : (ix >= LW ? LW-1 : ix);
+        int inside_iy = iy < 0 ? 0 : (iy >= LH ? LH-1 : iy);
+        // bounce>0 path (dirtball bounce=30)
+        if ((nx < 0 || nx >= LW) || dirtrock_at(nx, iy)) {
+            o->vx = -(o->vx * W_BOUNCE) / 100;          // !=100: *30/100
+            o->vy = (o->vy * 4) / 5;
+        }
+        if ((ny < 0 || ny >= LH) || dirtrock_at(ix, ny)) {
+            o->vy = -(o->vy * W_BOUNCE) / 100;
+            o->vx = (o->vx * 4) / 5;
+        }
+        // multSpeed 100 skip; objTrail -1 skip; collideWithObjects false skip
+        // inewPos computed once after bounce; clip pos with it; test same value
+        nx = (o->x + o->vx) >> 16; ny = (o->y + o->vy) >> 16;
+        if (nx < 0) o->x = 0;
+        if (ny < 0) o->y = 0;
+        if (nx >= LW) o->x = (LW - 1) << 16;
+        if (ny >= LH) o->y = (LH - 1) << 16;
+        int hit = (nx < 0 || nx >= LW || ny < 0 || ny >= LH) || dirtrock_at(nx, ny);
+        if (hit) {
+            // bounce!=0: no velocity change; gravity skipped
+            (void)inside_ix; (void)inside_iy;
+        } else {
+            o->vy += W_GRAVITY;
+            // numFrames=0: no anim
+        }
+        if (--o->time_left < 0) blow_up(i);
+        // worm hit block: hitDamage/blowAway/bloodOnHit/wormCollide all 0 -> skipped
+    }
+}
+
+static void process_nobjects(uint64_t cycle) {
+    (void)cycle;
+    for (int i = 0; i < MAX_NOBJ; ++i) {
+        if (!nobj[i].used) continue;
+        NObj* o = &nobj[i];
+        o->x += o->vx; o->y += o->vy;
+        int ix = o->x >> 16, iy = o->y >> 16;                    // ipos
+        int nx = (o->x + o->vx) >> 16, ny = (o->y + o->vy) >> 16;  // inewPos
+        // nobject bounce has no ==100 special-case: always *bounce/100 + *4/5 cross-damp
+        if ((nx < 0 || nx >= LW) || dirtrock_at(nx, iy)) {
+            o->vx = -(o->vx * 100) / 100;   // bounce=100
+            o->vy = (o->vy * 4) / 5;
+        }
+        if ((ny < 0 || ny >= LH) || dirtrock_at(ix, ny)) {
+            o->vy = -(o->vy * 100) / 100;
+            o->vx = (o->vx * 4) / 5;
+        }
+        // re-clip: "Yes, we do this again" — upstream recomputes inewPos once here
+        nx = (o->x + o->vx) >> 16; ny = (o->y + o->vy) >> 16;
+        if (nx < 0) o->x = 0;
+        if (ny < 0) o->y = 0;
+        if (nx >= LW) o->x = LW << 16;
+        if (ny >= LH) o->y = LH << 16;
+        int hit = (nx < 0 || nx >= LW || ny < 0 || ny >= LH) || dirtrock_at(nx, ny);
+        if (hit) {
+            o->vx = 0; o->vy = 0;            // explGround false
+        }
+        // dirt gravity=0, leaveObj none, bloodTrail off, numFrames 0
+        if (--o->time_left <= 0) {
+            dirt_effect(N_DIRT, (o->x >> 16) - 7, (o->y >> 16) - 7);
+            correct_shadow((o->x >> 16) - 10, (o->y >> 16) - 10, (o->x >> 16) + 11, (o->y >> 16) + 11);
+            nobj_free(i);
+        }
+    }
+}
+
+// render wobjects: startFrame>0 -> small sprite 7x7 at pos-3; else pixel curFrame
+static void draw_wobjects(int camx, int camy) {
+    rdpq_set_mode_standard();
+    rdpq_mode_combiner(RDPQ_COMBINER_FLAT);
+    rdpq_mode_dithering(DITHER_NONE_NONE);
+    for (int i = 0; i < MAX_WOBJ; ++i) {
+        if (!wobj[i].used) continue;
+        int px = (wobj[i].x >> 16) - 3 - camx;
+        int py = (wobj[i].y >> 16) - 3 - camy;
+        int f = W_STARTFRAME + wobj[i].cur_frame;  // dirtball startFrame 87
+        if (f >= SMALL_FRAMES) f = 87;
+        const uint8_t* src = small_pix + (size_t)f * 49;
+        for (int y = 0; y < 7; ++y) {
+            int dy = py + y;
+            if (dy < 0 || dy >= VH) continue;
+            for (int x = 0; x < 7; ++x) {
+                uint8_t idx = src[y*7 + x];
+                if (idx == 0) continue;
+                int dx = px + x;
+                if (dx < 0 || dx >= VW) continue;
+                uint16_t c = pal_rgb555[idx];
+                int r = (c >> 10) & 31, g = (c >> 5) & 31, b = c & 31;
+                rdpq_set_prim_color(RGBA32((r<<3)|(r>>2), (g<<3)|(g>>2), (b<<3)|(b>>2), 255));
+                rdpq_fill_rectangle(dx, dy, dx+1, dy+1);
+            }
+        }
+    }
+    // dirt nobjects: single pixel, idx -curFrame (0/-1) skipped
+    for (int i = 0; i < MAX_NOBJ; ++i) {
+        if (!nobj[i].used) continue;
+        int cf = nobj[i].cur_frame;
+        if (cf == 0 || cf == -1) continue;
+        int dx = (nobj[i].x >> 16) - camx;
+        int dy = (nobj[i].y >> 16) - camy;
+        if (dx < 0 || dx >= VW || dy < 0 || dy >= VH) continue;
+        uint16_t c = pal_rgb555[-cf & 255];
+        int r = (c >> 10) & 31, g = (c >> 5) & 31, b = c & 31;
+        rdpq_set_prim_color(RGBA32((r<<3)|(r>>2), (g<<3)|(g>>2), (b<<3)|(b>>2), 255));
+        rdpq_fill_rectangle(dx, dy, dx+1, dy+1);
+    }
+}
+
+// wobj/nobj state hash (debug channel)
+static uint32_t g_obj_acc = 2166136261u;
+static void worm_hash_weap(void) {
+    uint8_t b[24];
+    int n = 0;
+    int wcount = 0, ncount = 0;
+    for (int i = 0; i < MAX_WOBJ && n < 24; ++i) {
+        if (!wobj[i].used) continue;
+        if (++wcount > 2) break;
+        b[n++] = (uint8_t)(wobj[i].x >> 8); b[n++] = (uint8_t)(wobj[i].x);
+        b[n++] = (uint8_t)(wobj[i].y >> 8); b[n++] = (uint8_t)(wobj[i].y);
+        b[n++] = (uint8_t)(wobj[i].vx >> 8); b[n++] = (uint8_t)(wobj[i].vx);
+        b[n++] = (uint8_t)(wobj[i].vy >> 8); b[n++] = (uint8_t)(wobj[i].vy);
+    }
+    for (int i = 0; i < MAX_NOBJ && n < 24; ++i) {
+        if (!nobj[i].used) continue;
+        if (++ncount > 1) break;
+        b[n++] = (uint8_t)(nobj[i].x >> 8); b[n++] = (uint8_t)(nobj[i].x);
+        b[n++] = (uint8_t)(nobj[i].y >> 8); b[n++] = (uint8_t)(nobj[i].y);
+    }
+    b[n++] = (uint8_t)wcount; b[n++] = (uint8_t)ncount;
+    b[n++] = (uint8_t)wwp[0].ammo; b[n++] = (uint8_t)(wwp[0].delay_left + 128);
+    g_obj_acc = fnv2(g_obj_acc, b, n);
+}
+
 static void worm_hash(void) {
     uint8_t b[16];
     for (int i = 0; i < 4; ++i) {
@@ -546,17 +857,13 @@ int main(void) {
     // carve a test chamber (post-hash: generator parity stays verifiable).
     // rect x 220..300, y floor at 180, 80x24 air (index 1 = dirt+background).
 #ifdef WORM
+    // chamber idx160 = background+seeThrough: air to worm AND to bullets
     for (int y = 156; y < 180; ++y)
         for (int x = 100; x < 180; ++x) {
-            level_data[y*LW + x] = 1;
-            level_mat[y*LW + x] = mat_flags[1];
+            level_data[y*LW + x] = 160;
+            level_mat[y*LW + x] = mat_flags[160];
         }
-    // small step so walking tests edge reactions
-    for (int y = 168; y < 180; ++y)
-        for (int x = 140; x < 160; ++x) {
-            level_data[y*LW + x] = 1;
-            level_mat[y*LW + x] = mat_flags[1];
-        }
+    wwp[0].ammo = W_AMMO;
 #endif
 
     // spawn: chamber floor with ground contact
@@ -571,22 +878,25 @@ int main(void) {
     int camx = 0;
     uint64_t frame = 0;
     while (1) {
-        surface_t* fb = display_get();
-        rdpq_attach(fb, NULL);
-#ifndef NORENDER
-        render_view(camx, 0);
-#ifdef WORM
-        draw_worm(camx, 0);
-#endif
-#endif
-        rdpq_detach();
-        display_show(fb);
-
         joypad_poll();
         joypad_inputs_t jin = joypad_get_inputs(JOYPAD_PORT_1);
         (void)jin;
-        WormInput win = {0,0,0,0,0};
+        uint64_t cycle = frame + 1;
+#ifdef WEAPONS
+        process_wobjects(cycle);
+        process_nobjects(cycle);
+#ifdef WEAPONS_AUTOTEST_DUMP
+        if (frame >= 108 && frame <= 265 && (frame % 5) == 2) {
+            for (int j = 0; j < MAX_WOBJ; ++j) if (wobj[j].used)
+                debugf("WT f=%llu i=%d x=%ld y=%ld vx=%ld vy=%ld t=%d\n",
+                    (unsigned long long)frame, j,
+                    (long)wobj[j].x, (long)wobj[j].y,
+                    (long)wobj[j].vx, (long)wobj[j].vy, wobj[j].time_left);
+        }
+#endif
+#endif
 #ifdef WORM
+        WormInput win = {0,0,0,0,0,0};
 #ifdef AUTOTEST
         // scripted: walk right 120f, jump, walk left 120f, aim up 60f, repeat
         int ph = (int)(frame % 420);
@@ -594,14 +904,53 @@ int main(void) {
         else if (ph == 120) win.jump = 1;
         else if (ph >= 210 && ph < 330) win.left = 1;
         else if (ph >= 330) win.up = 1;
+#ifdef WEAPONS
+        // aim at floor then fire dirtballs at start of each cycle period
+        if (ph >= 100 && ph < 118) win.down = 1;
+        if (ph == 110 || ph == 135 || ph == 160 || ph == 185 || ph == 210) win.fire = 1;
+#endif
 #else
         win.left  = jin.btn.d_left  != 0;
         win.right = jin.btn.d_right != 0;
         win.up    = jin.btn.d_up    != 0;
         win.down  = jin.btn.d_down  != 0;
         win.jump  = jin.btn.a       != 0;
+#ifdef WEAPONS
+        win.fire  = jin.btn.b       != 0;
+#endif
 #endif
         worm_process(win, frame);
+#endif
+        surface_t* fb = display_get();
+        rdpq_attach(fb, NULL);
+#ifndef NORENDER
+#ifdef WKILLHOLD
+        if ((frame % 8) == 7) {
+            render_view(camx, 0);
+#ifdef WORM
+            draw_worm(camx, 0);
+#endif
+#ifdef WEAPONS
+            draw_wobjects(camx, 0);
+#endif
+        }
+#else
+        render_view(camx, 0);
+#ifdef WORM
+        draw_worm(camx, 0);
+#endif
+#ifdef WEAPONS
+        draw_wobjects(camx, 0);
+#endif
+#endif
+#endif
+        rdpq_detach();
+        display_show(fb);
+
+#ifdef WEAPONS
+        worm_hash_weap();
+#endif
+#ifdef WORM
         worm_hash();
 #endif
 #ifdef AUTOTEST
@@ -617,6 +966,57 @@ int main(void) {
                 (long)(worm.pos_x >> 16), (long)(worm.pos_y >> 16),
                 (long)worm.vel_x, (long)worm.vel_y,
                 (unsigned long)g_worm_acc);
+#ifdef WEAPONS
+        // full-state checkpoints: terrain + rng + worm + object pools
+        {
+            int ck = 0;
+#ifdef AUTOTEST
+            int ph2 = (int)(frame % 420);
+            if (ph2 == 112 || ph2 == 137 || ph2 == 162 || ph2 == 180) ck = 1;
+#else
+            if ((frame % 60) == 5) ck = 1;
+#endif
+            if ((frame % 60) == 59) ck = 1;
+            if (ck) {
+                uint32_t th = fnv(level_data, LW*LH);
+                int wc = 0, nc = 0;
+                uint32_t oh = 2166136261u;
+                uint8_t ab[28];
+                for (int j = 0; j < MAX_WOBJ; ++j) if (wobj[j].used) {
+                    wc++;
+                    int32_t v[7] = {wobj[j].x, wobj[j].y, wobj[j].vx, wobj[j].vy,
+                                    wobj[j].cur_frame, wobj[j].time_left, wobj[j].owner};
+                    for (int k = 0; k < 7; ++k) {
+                        ab[k*4+0] = (uint8_t)(v[k]);
+                        ab[k*4+1] = (uint8_t)(v[k] >> 8);
+                        ab[k*4+2] = (uint8_t)(v[k] >> 16);
+                        ab[k*4+3] = (uint8_t)(v[k] >> 24);
+                    }
+                    oh = fnv2(oh, ab, 28);
+                }
+                for (int j = 0; j < MAX_NOBJ; ++j) if (nobj[j].used) {
+                    nc++;
+                    int32_t v[6] = {nobj[j].x, nobj[j].y, nobj[j].vx, nobj[j].vy,
+                                    nobj[j].cur_frame, nobj[j].time_left};
+                    for (int k = 0; k < 6; ++k) {
+                        ab[k*4+0] = (uint8_t)(v[k]);
+                        ab[k*4+1] = (uint8_t)(v[k] >> 8);
+                        ab[k*4+2] = (uint8_t)(v[k] >> 16);
+                        ab[k*4+3] = (uint8_t)(v[k] >> 24);
+                    }
+                    oh = fnv2(oh, ab, 24);
+                }
+                debugf("CK frame=%llu terr=%08lx rng=%08lx,%08lx wc=%d nc=%d obj=%08lx wpos=%ld,%ld wvel=%ld,%ld ammo=%d dly=%d ld=%d aim=%ld\n",
+                    (unsigned long long)frame, (unsigned long)th,
+                    (unsigned long)rng_x, (unsigned long)rng_c, wc, nc,
+                    (unsigned long)oh,
+                    (long)(worm.pos_x >> 16), (long)(worm.pos_y >> 16),
+                    (long)worm.vel_x, (long)worm.vel_y,
+                    wwp[0].ammo, wwp[0].delay_left, wwp[0].loading_left,
+                    (long)(worm.aim_angle >> 16));
+            }
+        }
+#endif
         ++frame;
     }
 }

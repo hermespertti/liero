@@ -1,0 +1,241 @@
+[ares-test] RDP rendering disabled (software VI scanout only)
+BOOT
+STAGE dirt hash=20aa16b2
+STAGE trails hash=20aa16b2
+STAGE bigrocks hash=e2f9d6f6
+STAGE smallrocks hash=526e1d2d
+STAGE shadow hash=526e1d2d
+GEN hash=526e1d2d
+SPAWN x=115 y=176
+F frame=0 cam=0 wpos=115,176 wvel=3000,0 wacc=a7f42d03
+F frame=1 cam=0 wpos=115,176 wvel=5670,0 wacc=4321a0f0
+F frame=2 cam=0 wpos=115,176 wvel=8046,0 wacc=bc3ab1b2
+F frame=3 cam=0 wpos=115,176 wvel=10160,0 wacc=2cb799b2
+F frame=4 cam=0 wpos=115,176 wvel=12042,0 wacc=6032ad33
+F frame=5 cam=0 wpos=115,176 wvel=13717,0 wacc=3149353c
+F frame=6 cam=0 wpos=115,176 wvel=15208,0 wacc=5dc4d41f
+F frame=7 cam=0 wpos=115,176 wvel=16535,0 wacc=01ffa750
+F frame=8 cam=0 wpos=116,176 wvel=17716,0 wacc=8113b136
+F frame=9 cam=0 wpos=116,176 wvel=18767,0 wacc=742aa1bd
+F frame=10 cam=0 wpos=116,176 wvel=19702,0 wacc=f9365934
+F frame=11 cam=0 wpos=116,176 wvel=20534,0 wacc=31eb3f57
+F frame=12 cam=0 wpos=117,176 wvel=21275,0 wacc=2996c3ec
+F frame=13 cam=0 wpos=117,176 wvel=21934,0 wacc=8b804424
+F frame=14 cam=0 wpos=117,176 wvel=22521,0 wacc=344f6218
+F frame=15 cam=0 wpos=118,176 wvel=23043,0 wacc=b9560845
+F frame=16 cam=0 wpos=118,176 wvel=23508,0 wacc=71ef7018
+F frame=17 cam=0 wpos=118,176 wvel=23922,0 wacc=13bb8bc9
+F frame=18 cam=0 wpos=119,176 wvel=24290,0 wacc=cf5af5b7
+F frame=19 cam=0 wpos=119,176 wvel=24618,0 wacc=e2bc042c
+F frame=20 cam=0 wpos=119,176 wvel=24910,0 wacc=682e60a9
+F frame=21 cam=0 wpos=120,176 wvel=25169,0 wacc=77efabfb
+F frame=22 cam=0 wpos=120,176 wvel=25400,0 wacc=46fae3aa
+F frame=23 cam=0 wpos=120,176 wvel=25606,0 wacc=d7c488be
+F frame=24 cam=0 wpos=121,176 wvel=25789,0 wacc=cc58bd1d
+F frame=25 cam=0 wpos=121,176 wvel=25952,0 wacc=ba50df31
+F frame=26 cam=0 wpos=121,176 wvel=26097,0 wacc=d584f867
+F frame=27 cam=0 wpos=122,176 wvel=26226,0 wacc=6f3d4fcb
+F frame=28 cam=0 wpos=122,176 wvel=26341,0 wacc=6d431f38
+F frame=29 cam=0 wpos=122,176 wvel=26443,0 wacc=0052f5c1
+F frame=30 cam=0 wpos=123,176 wvel=26534,0 wacc=08c763f2
+F frame=31 cam=0 wpos=123,176 wvel=26615,0 wacc=9aa49a01
+F frame=32 cam=0 wpos=123,176 wvel=26687,0 wacc=7fa2d89b
+F frame=33 cam=0 wpos=124,176 wvel=26751,0 wacc=2542d0eb
+F frame=34 cam=0 wpos=124,176 wvel=26808,0 wacc=646c80c9
+F frame=35 cam=0 wpos=125,176 wvel=26859,0 wacc=118bb740
+F frame=36 cam=0 wpos=125,176 wvel=26904,0 wacc=c56b94ca
+F frame=37 cam=0 wpos=125,176 wvel=26944,0 wacc=3d8e02f5
+F frame=38 cam=0 wpos=126,176 wvel=26980,0 wacc=a23bfa3f
+F frame=39 cam=0 wpos=126,176 wvel=27012,0 wacc=2f8bfb5b
+CK frame=59 terr=f28d3d32 rng=0730d84a,73a3d32d wc=0 nc=0 obj=811c9dc5 wpos=133,176 wvel=27243,0 ammo=5 dly=-1 ld=0 aim=64
+F frame=60 cam=0 wpos=134,176 wvel=27246,0 wacc=7e1ffb92
+WT f=112 i=0 x=10089846 y=10896439 vx=28153 vy=-122613 t=60
+CK frame=112 terr=f28d3d32 rng=ea1ca1e6,5830bdc6 wc=1 nc=0 obj=263f43d1 wpos=153,176 wvel=27264,0 ammo=4 dly=18 ld=0 aim=68
+WT f=117 i=0 x=10230611 y=10293374 vx=22522 vy=36583 t=55
+CK frame=119 terr=f28d3d32 rng=ea1ca1e6,5830bdc6 wc=1 nc=0 obj=9948aec0 wpos=156,176 wvel=27264,0 ammo=4 dly=11 ld=0 aim=75
+F frame=120 cam=0 wpos=156,175 wvel=24264,-56064 wacc=71a89af5
+WT f=122 i=0 x=10343221 y=10486289 vx=22522 vy=41583 t=50
+WT f=127 i=0 x=10455831 y=10704204 vx=22522 vy=46583 t=45
+WT f=132 i=0 x=10568441 y=10947119 vx=22522 vy=51583 t=40
+WT f=137 i=0 x=10681051 y=11215034 vx=22522 vy=56583 t=35
+WT f=137 i=1 x=11009739 y=10310961 vx=79049 vy=35587 t=67
+CK frame=137 terr=f28d3d32 rng=8d05cd28,359b70de wc=2 nc=0 obj=0af57597 wpos=162,164 wvel=24264,-30564 ammo=3 dly=18 ld=0 aim=79
+WT f=142 i=0 x=10793661 y=11507949 vx=22522 vy=61583 t=30
+WT f=142 i=1 x=11404984 y=10498896 vx=79049 vy=40587 t=62
+WT f=147 i=0 x=10901766 y=11741907 vx=18017 vy=-17374 t=25
+WT f=147 i=1 x=11697466 y=10703113 vx=-23714 vy=36869 t=57
+WT f=152 i=0 x=10991851 y=11665037 vx=18017 vy=-12374 t=20
+WT f=152 i=1 x=11578896 y=10897458 vx=-23714 vy=41869 t=52
+WT f=157 i=0 x=11081936 y=11613167 vx=18017 vy=-7374 t=15
+WT f=157 i=1 x=11460326 y=11116803 vx=-23714 vy=46869 t=47
+WT f=162 i=0 x=11172021 y=11586297 vx=18017 vy=-2374 t=10
+WT f=162 i=1 x=11341756 y=11361148 vx=-23714 vy=51869 t=42
+WT f=162 i=2 x=11495811 y=10176380 vx=5842 vy=-5808 t=74
+CK frame=162 terr=f28d3d32 rng=3389b757,07e6b641 wc=3 nc=0 obj=230c5b7c wpos=171,161 wvel=24264,18000 ammo=2 dly=18 ld=0 aim=79
+WT f=167 i=0 x=11262106 y=11584427 vx=18017 vy=2626 t=5
+WT f=167 i=1 x=11223186 y=11630493 vx=-23714 vy=56869 t=37
+WT f=167 i=2 x=11500527 y=10171692 vx=-4 vy=4 t=69
+WT f=172 i=0 x=11352191 y=11607557 vx=18017 vy=7626 t=0
+WT f=172 i=1 x=11118845 y=11699151 vx=-18971 vy=-13360 t=32
+WT f=172 i=2 x=11500523 y=10171696 vx=0 vy=0 t=64
+WT f=177 i=1 x=11023990 y=11642351 vx=-18971 vy=-8360 t=27
+WT f=177 i=2 x=11500523 y=10171696 vx=0 vy=0 t=59
+CK frame=179 terr=32ac5d16 rng=70612691,3ee04316 wc=2 nc=0 obj=498e2078 wpos=178,170 wvel=24264,43500 ammo=2 dly=1 ld=0 aim=79
+F frame=180 cam=0 wpos=178,170 wvel=24264,45000 wacc=752f771e
+CK frame=180 terr=32ac5d16 rng=70612691,3ee04316 wc=2 nc=0 obj=b60195d2 wpos=178,170 wvel=24264,45000 ammo=2 dly=0 ld=0 aim=79
+WT f=182 i=1 x=10929135 y=11610551 vx=-18971 vy=-3360 t=22
+WT f=182 i=2 x=11500523 y=10171696 vx=0 vy=0 t=54
+WT f=187 i=0 x=11986840 y=10821793 vx=4439 vy=-5322 t=60
+WT f=187 i=1 x=10834280 y=11603751 vx=-18971 vy=1640 t=17
+WT f=187 i=2 x=11500523 y=10171696 vx=0 vy=0 t=49
+WT f=192 i=0 x=11990424 y=10817498 vx=-3 vy=3 t=55
+WT f=192 i=1 x=10739425 y=11621951 vx=-18971 vy=6640 t=12
+WT f=192 i=2 x=11500523 y=10171696 vx=0 vy=0 t=44
+WT f=197 i=0 x=11990421 y=10817501 vx=0 vy=0 t=50
+WT f=197 i=1 x=10644570 y=11665151 vx=-18971 vy=11640 t=7
+WT f=197 i=2 x=11500523 y=10171696 vx=0 vy=0 t=39
+WT f=202 i=0 x=11990421 y=10817501 vx=0 vy=0 t=45
+WT f=202 i=1 x=10549715 y=11733351 vx=-18971 vy=16640 t=2
+WT f=202 i=2 x=11500523 y=10171696 vx=0 vy=0 t=34
+WT f=207 i=0 x=11990421 y=10817501 vx=0 vy=0 t=40
+WT f=207 i=2 x=11500523 y=10171696 vx=0 vy=0 t=29
+WT f=212 i=0 x=11990421 y=10817501 vx=0 vy=0 t=35
+WT f=212 i=1 x=11989293 y=11144814 vx=4624 vy=-5851 t=78
+WT f=212 i=2 x=11500523 y=10171696 vx=0 vy=0 t=24
+WT f=217 i=0 x=11990421 y=10817501 vx=0 vy=0 t=30
+WT f=217 i=1 x=11993024 y=11140092 vx=-3 vy=4 t=73
+WT f=217 i=2 x=11500523 y=10171696 vx=0 vy=0 t=19
+WT f=222 i=0 x=11990421 y=10817501 vx=0 vy=0 t=25
+WT f=222 i=1 x=11993021 y=11140096 vx=0 vy=0 t=68
+WT f=222 i=2 x=11500523 y=10171696 vx=0 vy=0 t=14
+WT f=227 i=0 x=11990421 y=10817501 vx=0 vy=0 t=20
+WT f=227 i=1 x=11993021 y=11140096 vx=0 vy=0 t=63
+WT f=227 i=2 x=11500523 y=10171696 vx=0 vy=0 t=9
+WT f=232 i=0 x=11990421 y=10817501 vx=0 vy=0 t=15
+WT f=232 i=1 x=11993021 y=11140096 vx=0 vy=0 t=58
+WT f=232 i=2 x=11500523 y=10171696 vx=0 vy=0 t=4
+WT f=237 i=0 x=11990421 y=10817501 vx=0 vy=0 t=10
+WT f=237 i=1 x=11993021 y=11140096 vx=0 vy=0 t=53
+CK frame=239 terr=1ac34f96 rng=e4975ba8,151390ac wc=2 nc=0 obj=72ac195c wpos=170,176 wvel=-26469,0 ammo=5 dly=-1 ld=196 aim=48
+F frame=240 cam=26 wpos=170,176 wvel=-26557,0 wacc=799c1783
+WT f=242 i=0 x=11990421 y=10817501 vx=0 vy=0 t=5
+WT f=242 i=1 x=11993021 y=11140096 vx=0 vy=0 t=48
+WT f=247 i=0 x=11990421 y=10817501 vx=0 vy=0 t=0
+WT f=247 i=1 x=11993021 y=11140096 vx=0 vy=0 t=43
+WT f=252 i=1 x=11993021 y=11140096 vx=0 vy=0 t=38
+WT f=257 i=1 x=11993021 y=11140096 vx=0 vy=0 t=33
+WT f=262 i=1 x=11993021 y=11140096 vx=0 vy=0 t=28
+CK frame=299 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=148,176 wvel=-27264,0 ammo=5 dly=-1 ld=136 aim=48
+F frame=300 cam=26 wpos=148,176 wvel=-27264,0 wacc=483754a3
+CK frame=359 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=-821,0 ammo=5 dly=-1 ld=76 aim=64
+F frame=360 cam=26 wpos=134,176 wvel=-730,0 wacc=d71e4096
+CK frame=419 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=0,0 ammo=5 dly=-1 ld=16 aim=64
+F frame=420 cam=52 wpos=134,176 wvel=3000,0 wacc=6672efaa
+CK frame=479 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=152,176 wvel=27243,0 ammo=5 dly=-1 ld=0 aim=64
+F frame=480 cam=52 wpos=153,176 wvel=27246,0 wacc=7d0f3ed8
+CK frame=532 terr=1ac34f96 rng=f78b7c03,2c845693 wc=1 nc=0 obj=8cd7069f wpos=172,176 wvel=27264,0 ammo=4 dly=18 ld=0 aim=68
+CK frame=539 terr=1ac34f96 rng=f78b7c03,2c845693 wc=1 nc=0 obj=7336b945 wpos=175,176 wvel=27264,0 ammo=4 dly=11 ld=0 aim=75
+F frame=540 cam=52 wpos=175,175 wvel=24264,-56064 wacc=cc1d38de
+CK frame=557 terr=1ac34f96 rng=a3ecfb95,747aaffa wc=2 nc=0 obj=8aa8f756 wpos=178,169 wvel=0,10500 ammo=3 dly=18 ld=0 aim=79
+CK frame=582 terr=1ac34f96 rng=f00d8686,6480fc2d wc=3 nc=0 obj=b54b2dff wpos=178,176 wvel=0,0 ammo=2 dly=18 ld=0 aim=79
+CK frame=599 terr=1ac34f96 rng=117a5cc8,2daffa2f wc=2 nc=0 obj=a7dfac6a wpos=178,176 wvel=0,0 ammo=2 dly=1 ld=0 aim=79
+F frame=600 cam=78 wpos=178,176 wvel=0,0 wacc=1519ea6e
+CK frame=600 terr=1ac34f96 rng=117a5cc8,2daffa2f wc=2 nc=0 obj=bc9a85c4 wpos=178,176 wvel=0,0 ammo=2 dly=0 ld=0 aim=79
+CK frame=659 terr=1ac34f96 rng=3ec0f228,0c797949 wc=2 nc=0 obj=8f3d5e1d wpos=171,176 wvel=-26443,0 ammo=5 dly=-1 ld=196 aim=48
+F frame=660 cam=78 wpos=170,176 wvel=-26534,0 wacc=3ceb574a
+CK frame=719 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=148,176 wvel=-27264,0 ammo=5 dly=-1 ld=136 aim=48
+F frame=720 cam=78 wpos=148,176 wvel=-27264,0 wacc=36fa353a
+CK frame=779 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=-821,0 ammo=5 dly=-1 ld=76 aim=64
+F frame=780 cam=78 wpos=134,176 wvel=-730,0 wacc=10520f89
+CK frame=839 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=0,0 ammo=5 dly=-1 ld=16 aim=64
+F frame=840 cam=104 wpos=134,176 wvel=3000,0 wacc=a4d4f37d
+SPAWN x=115 y=176
+CK frame=59 terr=f28d3d32 rng=0730d84a,73a3d32d wc=0 nc=0 obj=811c9dc5 wpos=133,176 wvel=27243,0 ammo=5 dly=-1 ld=0 aim=64
+WT f=112 i=0 x=10089846 y=10896439 vx=28153 vy=-122613 t=60
+CK frame=112 terr=f28d3d32 rng=ea1ca1e6,5830bdc6 wc=1 nc=0 obj=263f43d1 wpos=153,176 wvel=27264,0 ammo=4 dly=18 ld=0 aim=68
+WT f=117 i=0 x=10230611 y=10293374 vx=22522 vy=36583 t=55
+CK frame=119 terr=f28d3d32 rng=ea1ca1e6,5830bdc6 wc=1 nc=0 obj=9948aec0 wpos=156,176 wvel=27264,0 ammo=4 dly=11 ld=0 aim=75
+WT f=122 i=0 x=10343221 y=10486289 vx=22522 vy=41583 t=50
+WT f=127 i=0 x=10455831 y=10704204 vx=22522 vy=46583 t=45
+WT f=132 i=0 x=10568441 y=10947119 vx=22522 vy=51583 t=40
+WT f=137 i=0 x=10681051 y=11215034 vx=22522 vy=56583 t=35
+WT f=137 i=1 x=11009739 y=10310961 vx=79049 vy=35587 t=67
+CK frame=137 terr=f28d3d32 rng=8d05cd28,359b70de wc=2 nc=0 obj=0af57597 wpos=162,164 wvel=24264,-30564 ammo=3 dly=18 ld=0 aim=79
+WT f=142 i=0 x=10793661 y=11507949 vx=22522 vy=61583 t=30
+WT f=142 i=1 x=11404984 y=10498896 vx=79049 vy=40587 t=62
+WT f=147 i=0 x=10901766 y=11741907 vx=18017 vy=-17374 t=25
+WT f=147 i=1 x=11697466 y=10703113 vx=-23714 vy=36869 t=57
+WT f=152 i=0 x=10991851 y=11665037 vx=18017 vy=-12374 t=20
+WT f=152 i=1 x=11578896 y=10897458 vx=-23714 vy=41869 t=52
+WT f=157 i=0 x=11081936 y=11613167 vx=18017 vy=-7374 t=15
+WT f=157 i=1 x=11460326 y=11116803 vx=-23714 vy=46869 t=47
+WT f=162 i=0 x=11172021 y=11586297 vx=18017 vy=-2374 t=10
+WT f=162 i=1 x=11341756 y=11361148 vx=-23714 vy=51869 t=42
+WT f=162 i=2 x=11495811 y=10176380 vx=5842 vy=-5808 t=74
+CK frame=162 terr=f28d3d32 rng=3389b757,07e6b641 wc=3 nc=0 obj=230c5b7c wpos=171,161 wvel=24264,18000 ammo=2 dly=18 ld=0 aim=79
+WT f=167 i=0 x=11262106 y=11584427 vx=18017 vy=2626 t=5
+WT f=167 i=1 x=11223186 y=11630493 vx=-23714 vy=56869 t=37
+WT f=167 i=2 x=11500527 y=10171692 vx=-4 vy=4 t=69
+WT f=172 i=0 x=11352191 y=11607557 vx=18017 vy=7626 t=0
+WT f=172 i=1 x=11118845 y=11699151 vx=-18971 vy=-13360 t=32
+WT f=172 i=2 x=11500523 y=10171696 vx=0 vy=0 t=64
+WT f=177 i=1 x=11023990 y=11642351 vx=-18971 vy=-8360 t=27
+WT f=177 i=2 x=11500523 y=10171696 vx=0 vy=0 t=59
+CK frame=179 terr=32ac5d16 rng=70612691,3ee04316 wc=2 nc=0 obj=498e2078 wpos=178,170 wvel=24264,43500 ammo=2 dly=1 ld=0 aim=79
+CK frame=180 terr=32ac5d16 rng=70612691,3ee04316 wc=2 nc=0 obj=b60195d2 wpos=178,170 wvel=24264,45000 ammo=2 dly=0 ld=0 aim=79
+WT f=182 i=1 x=10929135 y=11610551 vx=-18971 vy=-3360 t=22
+WT f=182 i=2 x=11500523 y=10171696 vx=0 vy=0 t=54
+WT f=187 i=0 x=11986840 y=10821793 vx=4439 vy=-5322 t=60
+WT f=187 i=1 x=10834280 y=11603751 vx=-18971 vy=1640 t=17
+WT f=187 i=2 x=11500523 y=10171696 vx=0 vy=0 t=49
+WT f=192 i=0 x=11990424 y=10817498 vx=-3 vy=3 t=55
+WT f=192 i=1 x=10739425 y=11621951 vx=-18971 vy=6640 t=12
+WT f=192 i=2 x=11500523 y=10171696 vx=0 vy=0 t=44
+WT f=197 i=0 x=11990421 y=10817501 vx=0 vy=0 t=50
+WT f=197 i=1 x=10644570 y=11665151 vx=-18971 vy=11640 t=7
+WT f=197 i=2 x=11500523 y=10171696 vx=0 vy=0 t=39
+WT f=202 i=0 x=11990421 y=10817501 vx=0 vy=0 t=45
+WT f=202 i=1 x=10549715 y=11733351 vx=-18971 vy=16640 t=2
+WT f=202 i=2 x=11500523 y=10171696 vx=0 vy=0 t=34
+WT f=207 i=0 x=11990421 y=10817501 vx=0 vy=0 t=40
+WT f=207 i=2 x=11500523 y=10171696 vx=0 vy=0 t=29
+WT f=212 i=0 x=11990421 y=10817501 vx=0 vy=0 t=35
+WT f=212 i=1 x=11989293 y=11144814 vx=4624 vy=-5851 t=78
+WT f=212 i=2 x=11500523 y=10171696 vx=0 vy=0 t=24
+WT f=217 i=0 x=11990421 y=10817501 vx=0 vy=0 t=30
+WT f=217 i=1 x=11993024 y=11140092 vx=-3 vy=4 t=73
+WT f=217 i=2 x=11500523 y=10171696 vx=0 vy=0 t=19
+WT f=222 i=0 x=11990421 y=10817501 vx=0 vy=0 t=25
+WT f=222 i=1 x=11993021 y=11140096 vx=0 vy=0 t=68
+WT f=222 i=2 x=11500523 y=10171696 vx=0 vy=0 t=14
+WT f=227 i=0 x=11990421 y=10817501 vx=0 vy=0 t=20
+WT f=227 i=1 x=11993021 y=11140096 vx=0 vy=0 t=63
+WT f=227 i=2 x=11500523 y=10171696 vx=0 vy=0 t=9
+WT f=232 i=0 x=11990421 y=10817501 vx=0 vy=0 t=15
+WT f=232 i=1 x=11993021 y=11140096 vx=0 vy=0 t=58
+WT f=232 i=2 x=11500523 y=10171696 vx=0 vy=0 t=4
+WT f=237 i=0 x=11990421 y=10817501 vx=0 vy=0 t=10
+WT f=237 i=1 x=11993021 y=11140096 vx=0 vy=0 t=53
+CK frame=239 terr=1ac34f96 rng=e4975ba8,151390ac wc=2 nc=0 obj=72ac195c wpos=170,176 wvel=-26469,0 ammo=5 dly=-1 ld=196 aim=48
+WT f=242 i=0 x=11990421 y=10817501 vx=0 vy=0 t=5
+WT f=242 i=1 x=11993021 y=11140096 vx=0 vy=0 t=48
+WT f=247 i=0 x=11990421 y=10817501 vx=0 vy=0 t=0
+WT f=247 i=1 x=11993021 y=11140096 vx=0 vy=0 t=43
+WT f=252 i=1 x=11993021 y=11140096 vx=0 vy=0 t=38
+WT f=257 i=1 x=11993021 y=11140096 vx=0 vy=0 t=33
+WT f=262 i=1 x=11993021 y=11140096 vx=0 vy=0 t=28
+CK frame=299 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=148,176 wvel=-27264,0 ammo=5 dly=-1 ld=136 aim=48
+CK frame=359 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=-821,0 ammo=5 dly=-1 ld=76 aim=64
+CK frame=419 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=0,0 ammo=5 dly=-1 ld=16 aim=64
+CK frame=479 terr=1ac34f96 rng=1f414cc3,12c2d75d wc=0 nc=0 obj=811c9dc5 wpos=152,176 wvel=27243,0 ammo=5 dly=-1 ld=0 aim=64
+CK frame=532 terr=1ac34f96 rng=f78b7c03,2c845693 wc=1 nc=0 obj=8cd7069f wpos=172,176 wvel=27264,0 ammo=4 dly=18 ld=0 aim=68
+CK frame=539 terr=1ac34f96 rng=f78b7c03,2c845693 wc=1 nc=0 obj=7336b945 wpos=175,176 wvel=27264,0 ammo=4 dly=11 ld=0 aim=75
+CK frame=557 terr=1ac34f96 rng=a3ecfb95,747aaffa wc=2 nc=0 obj=8aa8f756 wpos=178,169 wvel=0,10500 ammo=3 dly=18 ld=0 aim=79
+CK frame=582 terr=1ac34f96 rng=f00d8686,6480fc2d wc=3 nc=0 obj=b54b2dff wpos=178,176 wvel=0,0 ammo=2 dly=18 ld=0 aim=79
+CK frame=599 terr=1ac34f96 rng=117a5cc8,2daffa2f wc=2 nc=0 obj=a7dfac6a wpos=178,176 wvel=0,0 ammo=2 dly=1 ld=0 aim=79
+CK frame=600 terr=1ac34f96 rng=117a5cc8,2daffa2f wc=2 nc=0 obj=bc9a85c4 wpos=178,176 wvel=0,0 ammo=2 dly=0 ld=0 aim=79
+CK frame=659 terr=1ac34f96 rng=3ec0f228,0c797949 wc=2 nc=0 obj=8f3d5e1d wpos=171,176 wvel=-26443,0 ammo=5 dly=-1 ld=196 aim=48
+CK frame=719 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=148,176 wvel=-27264,0 ammo=5 dly=-1 ld=136 aim=48
+CK frame=779 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=-821,0 ammo=5 dly=-1 ld=76 aim=64
+CK frame=839 terr=1ac34f96 rng=d528b88d,2848dae7 wc=0 nc=0 obj=811c9dc5 wpos=134,176 wvel=0,0 ammo=5 dly=-1 ld=16 aim=64
+CKLINES 89
