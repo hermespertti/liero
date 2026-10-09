@@ -297,10 +297,245 @@ static uint32_t fnv(const uint8_t* p, size_t n) {
     return h;
 }
 
+// =================== slice 2: worm (upstream process order, fixed 16.16) ===
+#define WORM_FRIC_M 89
+#define WORM_FRIC_D 100
+#define GRAVITY     1500
+#define JUMP_FORCE  56064
+#define WALK_VEL    3000
+#define MAX_VEL     29184
+#define MIN_BOUNCE  53248
+#define AIM_ACC     4000
+#define MAX_AIM_VEL 70000
+#define AIM_FRIC_M  83
+#define AIM_FRIC_D  100
+// aim angle limits (units: 1/128 turn; fixed<<16)
+#define AIM_MIN_R   64
+#define AIM_MAX_R   116
+#define AIM_MAX_L   12
+#define AIM_MIN_L   64
+
+enum { RF_DOWN=0, RF_LEFT=1, RF_UP=2, RF_RIGHT=3 };
+
+typedef struct { int x, y; } pt8;
+static const pt8 col_pts[4][7] = {
+    { {-1,-4},{0,-4},{1,-4},{0,0},{0,0},{0,0},{0,0} }, // DOWN
+    { {1,-3},{1,-2},{1,-1},{1,0},{1,1},{1,2},{1,3} },   // LEFT
+    { {-1,4},{0,4},{1,4},{0,0},{0,0},{0,0},{0,0} },     // UP
+    { {-1,-3},{-1,-2},{-1,-1},{-1,0},{-1,1},{-1,2},{-1,3} }, // RIGHT
+};
+static const int col_pts_n[4] = {3,7,3,7};
+static const int worm_anim_tab[4] = {0,7,0,14};
+
+typedef struct {
+    int32_t pos_x, pos_y;   // 16.16
+    int32_t vel_x, vel_y;
+    int32_t aim_angle, aim_speed;
+    uint8_t reacts[4];
+    uint8_t direction;       // 0 left, 1 right
+    uint8_t color_idx;
+    uint8_t animate;
+    uint8_t able_to_jump;
+    uint8_t current_frame;
+} Worm;
+static Worm worm;
+
+// solid if index has Background flag -> NOT blocking; else blocking incl OOB
+static inline int worm_solid(int x, int y) {
+    unsigned int idx = (unsigned int)(x + y*LW);
+    if (idx >= (unsigned int)(LW*LH)) return 1;
+    return (mat_flags[level_data[idx]] & 8) == 0;
+}
+
+static int reaction_count(int nx, int ny, int dir) {
+    int n = 0;
+    for (int i = 0; i < col_pts_n[dir]; ++i)
+        if (worm_solid(nx + col_pts[dir][i].x, ny + col_pts[dir][i].y)) ++n;
+    return n;
+}
+
+static void calc_reaction(int nx, int ny, int dir) {
+    worm.reacts[dir] = (uint8_t)reaction_count(nx, ny, dir);
+}
+
+static inline int tdiv(int a, int b) {  // C truncation toward zero
+    return a / b;
+}
+
+static int angle_frame(void) {
+    int x = (worm.aim_angle >> 16) - 12;
+    if (worm.direction != 0) x -= 49;
+    x >>= 3;
+    if (x < 0) x = 0; else if (x > 6) x = 6;
+    if (worm.direction != 0) x = 6 - x;
+    return x;
+}
+
+typedef struct { uint8_t left, right, up, down, jump; } WormInput;
+
+static void worm_process(WormInput in, uint64_t cycle) {
+    int32_t next_x = worm.pos_x + worm.vel_x;
+    int32_t next_y = worm.pos_y + worm.vel_y;
+    int inx = next_x >> 16, iny = next_y >> 16;
+
+    // reactions + wall edges, per upstream: edge checks run inside dir loop
+    for (int d = 0; d < 4; ++d) {
+        calc_reaction(inx, iny, d);
+        if (inx < 4) worm.reacts[RF_RIGHT] += 5;
+        else if (inx > LW - 5) worm.reacts[RF_LEFT] += 5;
+        if (iny < 5) worm.reacts[RF_DOWN] += 5;
+        else if (iny > LH - 6) worm.reacts[RF_UP] += 5;
+    }
+    if (worm.reacts[RF_DOWN] < 2 && worm.reacts[RF_UP] > 0 &&
+        (worm.reacts[RF_LEFT] > 0 || worm.reacts[RF_RIGHT] > 0)) {
+        worm.pos_y -= 1<<16;
+        next_y = worm.pos_y + worm.vel_y; iny = next_y >> 16;
+        calc_reaction(inx, iny, RF_LEFT); calc_reaction(inx, iny, RF_RIGHT);
+    }
+    if (worm.reacts[RF_UP] < 2 && worm.reacts[RF_DOWN] > 0 &&
+        (worm.reacts[RF_LEFT] > 0 || worm.reacts[RF_RIGHT] > 0)) {
+        worm.pos_y += 1<<16;
+        next_y = worm.pos_y + worm.vel_y; iny = next_y >> 16;
+        calc_reaction(inx, iny, RF_LEFT); calc_reaction(inx, iny, RF_RIGHT);
+    }
+
+    // processAiming
+    if (worm.aim_speed != 0) {
+        worm.aim_angle += worm.aim_speed;
+        if (!in.up && !in.down)
+            worm.aim_speed = tdiv(worm.aim_speed * AIM_FRIC_M, AIM_FRIC_D);
+        if (worm.direction == 1) {
+            if ((worm.aim_angle >> 16) > AIM_MAX_R) { worm.aim_speed = 0; worm.aim_angle = AIM_MAX_R << 16; }
+            if ((worm.aim_angle >> 16) < AIM_MIN_R) { worm.aim_speed = 0; worm.aim_angle = AIM_MIN_R << 16; }
+        } else {
+            if ((worm.aim_angle >> 16) < AIM_MAX_L) { worm.aim_speed = 0; worm.aim_angle = AIM_MAX_L << 16; }
+            if ((worm.aim_angle >> 16) > AIM_MIN_L) { worm.aim_speed = 0; worm.aim_angle = AIM_MIN_L << 16; }
+        }
+    }
+    if (in.up) {
+        if (worm.direction == 0) { if (worm.aim_speed < MAX_AIM_VEL) worm.aim_speed += AIM_ACC; }
+        else { if (worm.aim_speed > -MAX_AIM_VEL) worm.aim_speed -= AIM_ACC; }
+    }
+    if (in.down) {
+        if (worm.direction == 1) { if (worm.aim_speed < MAX_AIM_VEL) worm.aim_speed += AIM_ACC; }
+        else { if (worm.aim_speed > -MAX_AIM_VEL) worm.aim_speed -= AIM_ACC; }
+    }
+
+    // processTasks: jump (edge-triggered, ground contact RF_UP > 0)
+    static uint8_t prev_jump = 0;
+    if (in.jump && !prev_jump && worm.reacts[RF_UP] > 0 && worm.able_to_jump) {
+        worm.vel_y -= JUMP_FORCE;
+        worm.able_to_jump = 0;
+    }
+    if (!in.jump) worm.able_to_jump = 1;
+    prev_jump = in.jump;
+
+    // processPhysics
+    if (worm.reacts[RF_UP] > 0)
+        worm.vel_x = tdiv(worm.vel_x * WORM_FRIC_M, WORM_FRIC_D);
+    int32_t ax = worm.vel_x < 0 ? -worm.vel_x : worm.vel_x;
+    int32_t ay = worm.vel_y < 0 ? -worm.vel_y : worm.vel_y;
+    uint8_t rh = worm.reacts[worm.vel_x >= 0 ? RF_LEFT : RF_RIGHT];
+    uint8_t rv = worm.reacts[worm.vel_y >= 0 ? RF_UP : RF_DOWN];
+    if (worm.vel_x && rh) {
+        if (ax > MIN_BOUNCE) worm.vel_x = -tdiv(worm.vel_x, 3);
+        else worm.vel_x = 0;
+    }
+    if (worm.vel_y && rv) {
+        if (ay > MIN_BOUNCE) worm.vel_y = -tdiv(worm.vel_y, 3);
+        else worm.vel_y = 0;
+    }
+    if (worm.reacts[RF_UP] == 0) worm.vel_y += GRAVITY;
+    if (worm.reacts[worm.vel_x >= 0 ? RF_LEFT : RF_RIGHT] < 2) worm.pos_x += worm.vel_x;
+    if (worm.reacts[worm.vel_y >= 0 ? RF_UP : RF_DOWN] < 2) worm.pos_y += worm.vel_y;
+
+    // processMovement: walk + facing flip
+    worm.animate = (in.left || in.right) ? 1 : 0;
+    if (in.left && !in.right) {
+        if (worm.vel_x > -MAX_VEL) worm.vel_x -= WALK_VEL;
+        if (worm.direction != 0) {
+            worm.aim_speed = 0;
+            if (worm.aim_angle >= (64<<16)) worm.aim_angle = (128<<16) - worm.aim_angle;
+            worm.direction = 0;
+        }
+    }
+    if (!in.left && in.right) {
+        if (worm.vel_x < MAX_VEL) worm.vel_x += WALK_VEL;
+        if (worm.direction != 1) {
+            worm.aim_speed = 0;
+            if (worm.aim_angle <= (64<<16)) worm.aim_angle = (128<<16) - worm.aim_angle;
+            worm.direction = 1;
+        }
+    }
+
+    int anim = worm.animate ? ((cycle & 31) >> 3) : 0;
+    worm.current_frame = (uint8_t)(angle_frame() + worm_anim_tab[anim]);
+}
+
+static void worm_init(int px, int py) {
+    worm.pos_x = px << 16; worm.pos_y = py << 16;
+    worm.vel_x = worm.vel_y = 0;
+    worm.aim_angle = 64 << 16; worm.aim_speed = 0;
+    worm.direction = 1; worm.color_idx = 0;
+    worm.able_to_jump = 1; worm.animate = 0; worm.current_frame = 0;
+}
+
+// draw worm sprite over terrain: per-row run fills, skip transparent 0
+static void draw_worm(int camx, int camy) {
+    int f = 16 + worm.current_frame;
+    if (f >= LARGE_FRAMES) f = 16;
+    const uint8_t* src = large_stamps + f*256;
+    int sx = (worm.pos_x >> 16) - 7 - camx;
+    int sy = (worm.pos_y >> 16) - 5 - camy;
+    rdpq_set_mode_standard();
+    rdpq_mode_combiner(RDPQ_COMBINER_FLAT);
+    rdpq_mode_dithering(DITHER_NONE_NONE);
+    for (int y = 0; y < 16; ++y) {
+        int dy = sy + y;
+        if (dy < 0 || dy >= VH) continue;
+        int x = 0;
+        while (x < 16) {
+            int px = worm.direction == 1 ? x : 15 - x;
+            uint8_t idx = src[y*16 + px];
+            if (idx == 0) { ++x; continue; }
+            int x0 = x;
+            uint8_t prev_idx = idx;
+            ++x;
+            while (x < 16) {
+                int p2 = worm.direction == 1 ? x : 15 - x;
+                uint8_t i2 = src[y*16 + p2];
+                if (i2 == 0 || i2 != prev_idx) break;
+                prev_idx = i2; ++x;
+            }
+            uint16_t c = pal_rgb555[idx];
+            int r = (c >> 10) & 31, g = (c >> 5) & 31, b = c & 31;
+            rdpq_set_prim_color(RGBA32((r<<3)|(r>>2), (g<<3)|(g>>2), (b<<3)|(b>>2), 255));
+            rdpq_fill_rectangle(sx + x0, dy, sx + x, dy+1);
+        }
+    }
+}
+
+static uint32_t fnv2(uint32_t h, const uint8_t* p, size_t n) {
+    for (size_t i = 0; i < n; ++i) { h ^= p[i]; h *= 16777619u; }
+    return h;
+}
+
+static uint32_t g_worm_acc = 2166136261u;
+static void worm_hash(void) {
+    uint8_t b[16];
+    for (int i = 0; i < 4; ++i) {
+        b[i]    = (uint8_t)(worm.pos_x >> (8*i));
+        b[4+i]  = (uint8_t)(worm.pos_y >> (8*i));
+        b[8+i]  = (uint8_t)(worm.vel_x >> (8*i));
+        b[12+i] = (uint8_t)(worm.vel_y >> (8*i));
+    }
+    g_worm_acc = fnv2(g_worm_acc, b, 16);
+}
+
 int main(void) {
     debug_init_emulog();
-    rdpq_init();
-    display_init(RESOLUTION_320x240, DEPTH_16_BPP, 2, GAMMA_NONE, FILTERS_DISABLED);
+    debugf("BOOT\n");
+    rdpq_init();    display_init(RESOLUTION_320x240, DEPTH_16_BPP, 2, GAMMA_NONE, FILTERS_DISABLED);
     joypad_init();
 
     generate_random();
@@ -308,34 +543,80 @@ int main(void) {
     uint32_t hash = fnv(level_data, sizeof(level_data));
     debugf("GEN hash=%08lx\n", (unsigned long)hash);
 
+    // carve a test chamber (post-hash: generator parity stays verifiable).
+    // rect x 220..300, y floor at 180, 80x24 air (index 1 = dirt+background).
+#ifdef WORM
+    for (int y = 156; y < 180; ++y)
+        for (int x = 100; x < 180; ++x) {
+            level_data[y*LW + x] = 1;
+            level_mat[y*LW + x] = mat_flags[1];
+        }
+    // small step so walking tests edge reactions
+    for (int y = 168; y < 180; ++y)
+        for (int x = 140; x < 160; ++x) {
+            level_data[y*LW + x] = 1;
+            level_mat[y*LW + x] = mat_flags[1];
+        }
+#endif
+
+    // spawn: chamber floor with ground contact
+    {
+        int sx = 115, sy = 175;
+        for (int y = 156; y < 180; ++y)
+            if (reaction_count(sx, y, RF_UP) >= 1) { sy = y; break; }
+        worm_init(sx, sy);
+        debugf("SPAWN x=%d y=%d\n", sx, sy);
+    }
+
     int camx = 0;
     uint64_t frame = 0;
     while (1) {
         surface_t* fb = display_get();
         rdpq_attach(fb, NULL);
+#ifndef NORENDER
         render_view(camx, 0);
+#ifdef WORM
+        draw_worm(camx, 0);
+#endif
+#endif
         rdpq_detach();
         display_show(fb);
 
         joypad_poll();
         joypad_inputs_t jin = joypad_get_inputs(JOYPAD_PORT_1);
         (void)jin;
+        WormInput win = {0,0,0,0,0};
+#ifdef WORM
 #ifdef AUTOTEST
-        // Position-hold ping-pong, robust to frame-count drift in headless
-        // capture: hold each camera x for 200 frames.
+        // scripted: walk right 120f, jump, walk left 120f, aim up 60f, repeat
+        int ph = (int)(frame % 420);
+        if (ph < 120) win.right = 1;
+        else if (ph == 120) win.jump = 1;
+        else if (ph >= 210 && ph < 330) win.left = 1;
+        else if (ph >= 330) win.up = 1;
+#else
+        win.left  = jin.btn.d_left  != 0;
+        win.right = jin.btn.d_right != 0;
+        win.up    = jin.btn.d_up    != 0;
+        win.down  = jin.btn.d_down  != 0;
+        win.jump  = jin.btn.a       != 0;
+#endif
+        worm_process(win, frame);
+        worm_hash();
+#endif
+#ifdef AUTOTEST
         int f = (int)frame;
         int pos = (f / 200) % 8;
         camx = pos * 26;
         if (camx > LW - VW) camx = LW - VW;
-#else
-        if (jin.btn.d_right) camx += 12;
-        if (jin.btn.d_left)  camx -= 12;
-        if (camx < 0) camx = 0;
-        if (camx > LW - VW) camx = LW - VW;
 #endif
 
-        if ((frame % 60) == 0)
-            debugf("F frame=%llu cam=%d\n", (unsigned long long)frame, camx);
+        if (frame < 40 || (frame % 60) == 0)
+            debugf("F frame=%llu cam=%d wpos=%ld,%ld wvel=%ld,%ld wacc=%08lx\n",
+                (unsigned long long)frame, camx,
+                (long)(worm.pos_x >> 16), (long)(worm.pos_y >> 16),
+                (long)worm.vel_x, (long)worm.vel_y,
+                (unsigned long)g_worm_acc);
         ++frame;
     }
 }
