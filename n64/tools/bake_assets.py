@@ -26,10 +26,10 @@ class MWC:
         self.c = t >> 32
         self.x = t & 0xFFFFFFFF
         return self.x
-    def bounded(self, maxv):  # prng_common operator()(uint32_t max)
-        if maxv == 0:
-            return 0
-        return (self.next() * maxv) >> 32
+    def bounded(self, maxv):  # prng_common operator()(uint32_t max): ALWAYS advances state
+        maxv &= 0xFFFFFFFF
+        v = self.next()
+        return (v * maxv) >> 32
 
 # ---------- TGA ----------
 def read_tga(path):

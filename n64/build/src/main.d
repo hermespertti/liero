@@ -107,4 +107,5 @@ build/src/main.o: src/main.c \
  /home/lex/n64/t3d-sdk/mips64-elf/include/mgfx.h \
  /home/lex/n64/t3d-sdk/mips64-elf/include/mgfx_constants.h \
  /home/lex/n64/t3d-sdk/mips64-elf/include/mgfx_macros.h \
- /home/lex/n64/t3d-sdk/mips64-elf/include/sram.h src/../assets/baked.h
+ /home/lex/n64/t3d-sdk/mips64-elf/include/sram.h src/../assets/baked.h \
+ src/../assets/combat.h

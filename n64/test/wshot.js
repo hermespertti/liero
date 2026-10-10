@@ -10,7 +10,7 @@ if (ares.waitLog("GEN ", 120)) {
     console.log("ROMGEN TIMEOUT");
 }
 var outdir = "/home/lex/n64/liero/n64/shots";
-var marks = [112, 137, 162, 180];
+var marks = [359, 391, 592, 606, 631];
 var prev = 0;
 for (var i = 0; i < marks.length; i++) {
     var n = marks[i] - prev; prev = marks[i];
