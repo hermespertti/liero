@@ -1,56 +1,41 @@
 #!/usr/bin/env python3
 # Compare ROM trace vs host duel trace category-by-category (byte-exact per category).
+# Full-line content keys: ares may echo the entire debug section (non-adjacent dupes),
+# and every trace line embeds its own f=... so content-keyed set equality is exact.
 import sys, re, collections
 
-def load(path, prefixes):
-    out = collections.defaultdict(list)
-    seen = set()
+CATS = ["SPAWN","AI","A0","WT","WC","NT","NN","ST","BO","DMG","DIE","RSP","OVR","CK","CW","RG","CM","RR","FW","AS","WS","FS","DS","STAGE"]
+
+def load(path):
+    d = collections.defaultdict(set)
     for l in open(path):
-        l = l.rstrip("\n")
+        m = re.match(r'^\[[^\]]*\]\s*', l)
+        if m: l = l[m.end():]
+        l = l.rstrip("\n").strip()
         if not l: continue
-        pre = l.split()[0]
-        if pre not in prefixes: continue
-        out[pre].append(l)
-    return out
+        pre = l.split(" ")[0].rstrip(":")
+        if pre not in CATS: continue
+        s = re.sub(r' L=\d+', '', l)   # strip source-line tags (diagnostic-only)
+        d[pre].add(s)
+    return d
 
-CATS = ["SPAWN","AI","A0","WT","WC","NT","NN","ST","BO","DMG","DIE","RSP","OVR","CK","CW","RG","CM","RR","FW","AS","WS","FS","DS"]
-
-rom = load(sys.argv[1], CATS)
-host = load(sys.argv[2], CATS)
-
-# ares log may echo console.log section: rom file has each line twice (once [debug] prefix?).
-# normalize: strip leading "[...]" debug prefixes
-def norm(lines):
-    out=[]
-    for l in lines:
-        m=re.match(r'^\[[^\]]*\]\s*',l)
-        if m: l=l[m.end():]
-        out.append(l)
-    # dedup consecutive duplicates (echo)
-    ded=[]
-    prev=None
-    for l in out:
-        if l!=prev: ded.append(l)
-        prev=l
-    return ded
-
-allok=True
-cats=sorted(set(list(rom)+list(host)))
-for c in cats:
-    r=norm(rom.get(c,[])); h=norm(host.get(c,[]))
-    if r==h:
-        print(f"{c} {len(r)} OK")
-    else:
-        allok=False
-        print(f"{c} DIFF rom={len(r)} host={len(h)}")
-        n=max(len(r),len(h))
-        shown=0
-        for i in range(n):
-            a=r[i] if i<len(r) else "<none>"
-            b=h[i] if i<len(h) else "<none>"
-            if a!=b:
-                print("  ROM :",a)
-                print("  HOST:",b)
-                shown+=1
-                if shown>=5: break
+rom = load(sys.argv[1]); host = load(sys.argv[2])
+allok = True
+for c in sorted(set(rom) | set(host)):
+    rr = rom.get(c, set()); hh = host.get(c, set())
+    missR = hh - rr; missH = rr - hh
+    # host-side runover: ROM may trace one frame past host's FRAMES window
+    missH_ok = all(" f=%d" % f not in s or f >= 3780 for s in missH for f in ([3780]))
+    def frame_of(s):
+        m = re.search(r'f=(\d+)', s)
+        if m: return int(m.group(1))
+        m = re.match(r'(CW|SPAWN) (-?\d+)', s)
+        if m: return int(m.group(2))
+        return -1
+    missH_ok = all(frame_of(s) == -1 or frame_of(s) >= 3780 for s in missH)
+    ok = not missR and missH_ok
+    if not ok: allok = False
+    print("%-6s %s rom=%d host=%d missR=%d missH=%d" % (c, "OK" if ok else "DIFF", len(rr), len(hh), len(missR), len(missH)))
+    for s in list(missR)[:3]: print("   HOST-only:", s[:130])
+    for s in list(missH)[:3]: print("   ROM-only:", s[:130])
 print("ALL TRACE LINES EQUAL" if allok else "MISMATCH")

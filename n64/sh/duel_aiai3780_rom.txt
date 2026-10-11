@@ -1,7 +1,5 @@
 [ares-test] RDP rendering disabled (software VI scanout only)
 BOOT
-VI WARNING: __vblank_interrupt outside of vblank period: 18
-VI WARNING: __vblank_interrupt outside of vblank period: 20
 STAGE dirt hash=20aa16b2
 STAGE trails hash=20aa16b2
 STAGE bigrocks hash=e2f9d6f6
@@ -3923,49 +3921,49 @@ AI f=594 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=111 w=4
 A0 f=594 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=594 01f2e6a2,7271b600
 CM f=594 p=158,174 v=29700,-12000 a=111 as=1 dir=1 rv=0,0,0,0
-RR f=595 m=400 v=210 x=867e723c L=469
-RR f=595 m=300 v=195 x=a71bb623 L=471
-RR f=595 m=80 v=1 x=0627bd35 L=464
-RR f=595 m=400 v=66 x=2a8ce2ac L=469
-RR f=595 m=300 v=171 x=923d1d20 L=471
+RR f=595 m=400 v=210 x=867e723c L=476
+RR f=595 m=300 v=195 x=a71bb623 L=478
+RR f=595 m=80 v=1 x=0627bd35 L=471
+RR f=595 m=400 v=66 x=2a8ce2ac L=476
+RR f=595 m=300 v=171 x=923d1d20 L=478
 AI f=595 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=112 w=4
 A0 f=595 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=595 923d1d20,14a4ee80
 CM f=595 p=158,174 v=29700,-10500 a=112 as=1 dir=1 rv=0,0,0,0
-RR f=596 m=80 v=17 x=38b18c40 L=464
-RR f=596 m=400 v=311 x=c72b8f93 L=469
-RR f=596 m=300 v=164 x=8c137b35 L=471
-RR f=596 m=400 v=207 x=84822052 L=469
-RR f=596 m=300 v=147 x=7e49184c L=471
+RR f=596 m=80 v=17 x=38b18c40 L=471
+RR f=596 m=400 v=311 x=c72b8f93 L=476
+RR f=596 m=300 v=164 x=8c137b35 L=478
+RR f=596 m=400 v=207 x=84822052 L=476
+RR f=596 m=300 v=147 x=7e49184c L=478
 NN f=596 n=0
 AI f=596 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=113 w=4
 A0 f=596 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=596 7e49184c,404a17bd
 CM f=596 p=158,173 v=29700,-9000 a=113 as=1 dir=1 rv=0,0,0,0
-RR f=597 m=400 v=113 x=48cf8025 L=469
-RR f=597 m=300 v=176 x=96d4b5f6 L=471
-RR f=597 m=80 v=1 x=06579d7c L=464
-RR f=597 m=400 v=274 x=afaf983c L=469
-RR f=597 m=300 v=232 x=c6679869 L=471
+RR f=597 m=400 v=113 x=48cf8025 L=476
+RR f=597 m=300 v=176 x=96d4b5f6 L=478
+RR f=597 m=80 v=1 x=06579d7c L=471
+RR f=597 m=400 v=274 x=afaf983c L=476
+RR f=597 m=300 v=232 x=c6679869 L=478
 AI f=597 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=114 w=4
 A0 f=597 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=597 c6679869,553cef53
 CM f=597 p=159,173 v=29700,-7500 a=114 as=1 dir=1 rv=0,0,0,0
-RR f=598 m=80 v=43 x=8a519541 L=464
-RR f=598 m=400 v=312 x=c7fdc17c L=469
-RR f=598 m=300 v=127 x=6d0c3e33 L=471
-RR f=598 m=400 v=37 x=17f843f1 L=469
-RR f=598 m=300 v=106 x=5b3a6878 L=471
+RR f=598 m=80 v=43 x=8a519541 L=471
+RR f=598 m=400 v=312 x=c7fdc17c L=476
+RR f=598 m=300 v=127 x=6d0c3e33 L=478
+RR f=598 m=400 v=37 x=17f843f1 L=476
+RR f=598 m=300 v=106 x=5b3a6878 L=478
 ST f=598 i=0 x=194 y=332 cur=3 ad=1 ty=2
 AI f=598 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=115 w=4
 A0 f=598 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=598 5b3a6878,0ba12626
 CM f=598 p=159,173 v=29700,-6000 a=115 as=1 dir=1 rv=0,0,0,0
-RR f=599 m=400 v=210 x=86bc6f36 L=469
-RR f=599 m=300 v=274 x=ea5ca677 L=471
-RR f=599 m=80 v=56 x=b51fcebf L=464
-RR f=599 m=400 v=131 x=5441e7cd L=469
-RR f=599 m=300 v=238 x=cba01838 L=471
+RR f=599 m=400 v=210 x=86bc6f36 L=476
+RR f=599 m=300 v=274 x=ea5ca677 L=478
+RR f=599 m=80 v=56 x=b51fcebf L=471
+RR f=599 m=400 v=131 x=5441e7cd L=476
+RR f=599 m=300 v=238 x=cba01838 L=478
 BO f=599 i=0 x=7958621 y=11902300 vx=-227 vy=730 co=81
 BO f=599 i=1 x=6858194 y=11848225 vx=-141 vy=78 co=81
 BO f=599 i=2 x=11089935 y=11794050 vx=-731 vy=-30 co=80
@@ -3978,11 +3976,11 @@ CM f=599 p=160,173 v=29700,-4500 a=116 as=1 dir=1 rv=0,0,0,0
 CK frame=599 terr=728032ec rng=cba01838,28e1219b wc=0 nc=0 sc=1 bc=5 obj=10799b79 kl=0 vp=34,110|0,53 shk=33536,-2464
 CW 0 p=194,342 v=0,0 hp=100 vis=1 kt=-1 lr=111,110 aim=34 dir=0 cur=2 w=17 wslot=1 am=12 dly=11 ld=0 lv=4 k=0 sf=0
 CW 1 p=160,173 v=29700,-4500 hp=100 vis=1 kt=0 lr=70,96 aim=116 dir=1 cur=0 w=4 wslot=0 am=5 dly=-1 ld=37 lv=5 k=1 sf=0
-RR f=600 m=80 v=28 x=5be2db2b L=464
-RR f=600 m=400 v=293 x=bb89e406 L=469
-RR f=600 m=300 v=110 x=5e4592cd L=471
-RR f=600 m=400 v=2 x=018db3e5 L=469
-RR f=600 m=300 v=194 x=a604dffd L=471
+RR f=600 m=80 v=28 x=5be2db2b L=471
+RR f=600 m=400 v=293 x=bb89e406 L=476
+RR f=600 m=300 v=110 x=5e4592cd L=478
+RR f=600 m=400 v=2 x=018db3e5 L=476
+RR f=600 m=300 v=194 x=a604dffd L=478
 AI f=600 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=600 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=600 a604dffd,00c0f45c
@@ -3990,39 +3988,39 @@ CM f=600 p=160,173 v=29700,-3000 a=116 as=0 dir=1 rv=0,0,0,0
 CK frame=600 terr=728032ec rng=a604dffd,00c0f45c wc=0 nc=0 sc=1 bc=5 obj=6c18bf23 kl=0 vp=34,110|0,53 shk=29536,-2464
 CW 0 p=194,342 v=0,0 hp=100 vis=1 kt=-1 lr=111,110 aim=34 dir=0 cur=2 w=17 wslot=1 am=12 dly=10 ld=0 lv=4 k=0 sf=0
 CW 1 p=160,173 v=29700,-3000 hp=100 vis=1 kt=0 lr=70,96 aim=116 dir=1 cur=14 w=4 wslot=0 am=5 dly=-1 ld=36 lv=5 k=1 sf=0
-RR f=601 m=400 v=254 x=a2c25a22 L=469
-RR f=601 m=300 v=165 x=8d0cb9e4 L=471
-RR f=601 m=80 v=61 x=c501789a L=464
-RR f=601 m=400 v=394 x=fcb9cb00 L=469
-RR f=601 m=300 v=129 x=6e919cb1 L=471
+RR f=601 m=400 v=254 x=a2c25a22 L=476
+RR f=601 m=300 v=165 x=8d0cb9e4 L=478
+RR f=601 m=80 v=61 x=c501789a L=471
+RR f=601 m=400 v=394 x=fcb9cb00 L=476
+RR f=601 m=300 v=129 x=6e919cb1 L=478
 NN f=601 n=0
 AI f=601 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=601 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=601 6e919cb1,7a9d9be1
 CM f=601 p=161,173 v=29700,-1500 a=116 as=0 dir=1 rv=0,0,0,0
-RR f=602 m=80 v=4 x=0eb5af3f L=464
-RR f=602 m=400 v=135 x=5692e5a7 L=469
-RR f=602 m=300 v=40 x=22ac6bea L=471
-RR f=602 m=400 v=262 x=a7dabd59 L=469
-RR f=602 m=300 v=220 x=bc802933 L=471
+RR f=602 m=80 v=4 x=0eb5af3f L=471
+RR f=602 m=400 v=135 x=5692e5a7 L=476
+RR f=602 m=300 v=40 x=22ac6bea L=478
+RR f=602 m=400 v=262 x=a7dabd59 L=476
+RR f=602 m=300 v=220 x=bc802933 L=478
 AI f=602 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=602 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=602 bc802933,51703bd7
 CM f=602 p=161,173 v=29700,0 a=116 as=0 dir=1 rv=0,0,0,0
-RR f=603 m=400 v=135 x=568127b1 L=469
-RR f=603 m=300 v=204 x=ae6dd0eb L=471
-RR f=603 m=80 v=61 x=c5f76074 L=464
-RR f=603 m=400 v=245 x=9ceb0728 L=469
-RR f=603 m=300 v=230 x=c49ed0e8 L=471
+RR f=603 m=400 v=135 x=568127b1 L=476
+RR f=603 m=300 v=204 x=ae6dd0eb L=478
+RR f=603 m=80 v=61 x=c5f76074 L=471
+RR f=603 m=400 v=245 x=9ceb0728 L=476
+RR f=603 m=300 v=230 x=c49ed0e8 L=478
 AI f=603 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=603 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=603 c49ed0e8,4c21e3cb
 CM f=603 p=162,173 v=29700,1500 a=116 as=0 dir=1 rv=0,0,0,0
-RR f=604 m=80 v=56 x=b3e22ffb L=464
-RR f=604 m=400 v=327 x=d1bf499b L=469
-RR f=604 m=300 v=252 x=d76e8556 L=471
-RR f=604 m=400 v=44 x=1cc2a3ef L=469
-RR f=604 m=300 v=168 x=8fa26ba2 L=471
+RR f=604 m=80 v=56 x=b3e22ffb L=471
+RR f=604 m=400 v=327 x=d1bf499b L=476
+RR f=604 m=300 v=252 x=d76e8556 L=478
+RR f=604 m=400 v=44 x=1cc2a3ef L=476
+RR f=604 m=300 v=168 x=8fa26ba2 L=478
 BO f=604 i=0 x=7957486 y=11905950 vx=-227 vy=730 co=81
 BO f=604 i=1 x=6857489 y=11848615 vx=-141 vy=78 co=81
 BO f=604 i=2 x=11086280 y=11793900 vx=-731 vy=-30 co=80
@@ -4032,11 +4030,11 @@ AI f=604 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=604 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=604 8fa26ba2,0df4271d
 CM f=604 p=162,173 v=29700,3000 a=116 as=0 dir=1 rv=0,0,0,0
-RR f=605 m=400 v=268 x=abad9959 L=469
-RR f=605 m=300 v=231 x=c5bcd9fe L=471
-RR f=605 m=80 v=40 x=825c60d6 L=464
-RR f=605 m=400 v=173 x=6f33eaf7 L=469
-RR f=605 m=300 v=225 x=c0093a08 L=471
+RR f=605 m=400 v=268 x=abad9959 L=476
+RR f=605 m=300 v=231 x=c5bcd9fe L=478
+RR f=605 m=80 v=40 x=825c60d6 L=471
+RR f=605 m=400 v=173 x=6f33eaf7 L=476
+RR f=605 m=300 v=225 x=c0093a08 L=478
 AI f=605 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=605 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=605 c0093a08,35f3dbf4
@@ -22499,6 +22497,10 @@ AI f=3780 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
 A0 f=3780 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
 RG f=3780 b35caa2b,25698e98
 CM f=3780 p=166,175 v=0,0 a=116 as=0 dir=1 rv=0,0,1,0
+NN f=3781 n=0
+AI f=3781 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
+A0 f=3781 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
+RG f=3781 f0090e11,4f132ace
 SPAWN i=0 x=115 y=176
 SPAWN i=1 x=150 y=176
 AI f=0 fi=0 j=0 c=0 l=1 r=0 u=1 d=0 aim=64 w=4
@@ -25819,45 +25821,45 @@ BO f=594 i=4 x=6936186 y=12026722 vx=-87 vy=531 co=80
 AI f=594 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=111 w=4
 A0 f=594 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=594 01f2e6a2,7271b600
-RR f=595 m=400 v=210 x=867e723c L=469
-RR f=595 m=300 v=195 x=a71bb623 L=471
-RR f=595 m=80 v=1 x=0627bd35 L=464
-RR f=595 m=400 v=66 x=2a8ce2ac L=469
-RR f=595 m=300 v=171 x=923d1d20 L=471
+RR f=595 m=400 v=210 x=867e723c L=476
+RR f=595 m=300 v=195 x=a71bb623 L=478
+RR f=595 m=80 v=1 x=0627bd35 L=471
+RR f=595 m=400 v=66 x=2a8ce2ac L=476
+RR f=595 m=300 v=171 x=923d1d20 L=478
 AI f=595 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=112 w=4
 A0 f=595 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=595 923d1d20,14a4ee80
-RR f=596 m=80 v=17 x=38b18c40 L=464
-RR f=596 m=400 v=311 x=c72b8f93 L=469
-RR f=596 m=300 v=164 x=8c137b35 L=471
-RR f=596 m=400 v=207 x=84822052 L=469
-RR f=596 m=300 v=147 x=7e49184c L=471
+RR f=596 m=80 v=17 x=38b18c40 L=471
+RR f=596 m=400 v=311 x=c72b8f93 L=476
+RR f=596 m=300 v=164 x=8c137b35 L=478
+RR f=596 m=400 v=207 x=84822052 L=476
+RR f=596 m=300 v=147 x=7e49184c L=478
 NN f=596 n=0
 AI f=596 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=113 w=4
 A0 f=596 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=596 7e49184c,404a17bd
-RR f=597 m=400 v=113 x=48cf8025 L=469
-RR f=597 m=300 v=176 x=96d4b5f6 L=471
-RR f=597 m=80 v=1 x=06579d7c L=464
-RR f=597 m=400 v=274 x=afaf983c L=469
-RR f=597 m=300 v=232 x=c6679869 L=471
+RR f=597 m=400 v=113 x=48cf8025 L=476
+RR f=597 m=300 v=176 x=96d4b5f6 L=478
+RR f=597 m=80 v=1 x=06579d7c L=471
+RR f=597 m=400 v=274 x=afaf983c L=476
+RR f=597 m=300 v=232 x=c6679869 L=478
 AI f=597 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=114 w=4
 A0 f=597 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=597 c6679869,553cef53
-RR f=598 m=80 v=43 x=8a519541 L=464
-RR f=598 m=400 v=312 x=c7fdc17c L=469
-RR f=598 m=300 v=127 x=6d0c3e33 L=471
-RR f=598 m=400 v=37 x=17f843f1 L=469
-RR f=598 m=300 v=106 x=5b3a6878 L=471
+RR f=598 m=80 v=43 x=8a519541 L=471
+RR f=598 m=400 v=312 x=c7fdc17c L=476
+RR f=598 m=300 v=127 x=6d0c3e33 L=478
+RR f=598 m=400 v=37 x=17f843f1 L=476
+RR f=598 m=300 v=106 x=5b3a6878 L=478
 ST f=598 i=0 x=194 y=332 cur=3 ad=1 ty=2
 AI f=598 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=115 w=4
 A0 f=598 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=598 5b3a6878,0ba12626
-RR f=599 m=400 v=210 x=86bc6f36 L=469
-RR f=599 m=300 v=274 x=ea5ca677 L=471
-RR f=599 m=80 v=56 x=b51fcebf L=464
-RR f=599 m=400 v=131 x=5441e7cd L=469
-RR f=599 m=300 v=238 x=cba01838 L=471
+RR f=599 m=400 v=210 x=86bc6f36 L=476
+RR f=599 m=300 v=274 x=ea5ca677 L=478
+RR f=599 m=80 v=56 x=b51fcebf L=471
+RR f=599 m=400 v=131 x=5441e7cd L=476
+RR f=599 m=300 v=238 x=cba01838 L=478
 BO f=599 i=0 x=7958621 y=11902300 vx=-227 vy=730 co=81
 BO f=599 i=1 x=6858194 y=11848225 vx=-141 vy=78 co=81
 BO f=599 i=2 x=11089935 y=11794050 vx=-731 vy=-30 co=80
@@ -25869,47 +25871,47 @@ RG f=599 cba01838,28e1219b
 CK frame=599 terr=728032ec rng=cba01838,28e1219b wc=0 nc=0 sc=1 bc=5 obj=10799b79 kl=0 vp=34,110|0,53 shk=33536,-2464
 CW 0 p=194,342 v=0,0 hp=100 vis=1 kt=-1 lr=111,110 aim=34 dir=0 cur=2 w=17 wslot=1 am=12 dly=11 ld=0 lv=4 k=0 sf=0
 CW 1 p=160,173 v=29700,-4500 hp=100 vis=1 kt=0 lr=70,96 aim=116 dir=1 cur=0 w=4 wslot=0 am=5 dly=-1 ld=37 lv=5 k=1 sf=0
-RR f=600 m=80 v=28 x=5be2db2b L=464
-RR f=600 m=400 v=293 x=bb89e406 L=469
-RR f=600 m=300 v=110 x=5e4592cd L=471
-RR f=600 m=400 v=2 x=018db3e5 L=469
-RR f=600 m=300 v=194 x=a604dffd L=471
+RR f=600 m=80 v=28 x=5be2db2b L=471
+RR f=600 m=400 v=293 x=bb89e406 L=476
+RR f=600 m=300 v=110 x=5e4592cd L=478
+RR f=600 m=400 v=2 x=018db3e5 L=476
+RR f=600 m=300 v=194 x=a604dffd L=478
 AI f=600 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=600 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=600 a604dffd,00c0f45c
 CK frame=600 terr=728032ec rng=a604dffd,00c0f45c wc=0 nc=0 sc=1 bc=5 obj=6c18bf23 kl=0 vp=34,110|0,53 shk=29536,-2464
 CW 0 p=194,342 v=0,0 hp=100 vis=1 kt=-1 lr=111,110 aim=34 dir=0 cur=2 w=17 wslot=1 am=12 dly=10 ld=0 lv=4 k=0 sf=0
 CW 1 p=160,173 v=29700,-3000 hp=100 vis=1 kt=0 lr=70,96 aim=116 dir=1 cur=14 w=4 wslot=0 am=5 dly=-1 ld=36 lv=5 k=1 sf=0
-RR f=601 m=400 v=254 x=a2c25a22 L=469
-RR f=601 m=300 v=165 x=8d0cb9e4 L=471
-RR f=601 m=80 v=61 x=c501789a L=464
-RR f=601 m=400 v=394 x=fcb9cb00 L=469
-RR f=601 m=300 v=129 x=6e919cb1 L=471
+RR f=601 m=400 v=254 x=a2c25a22 L=476
+RR f=601 m=300 v=165 x=8d0cb9e4 L=478
+RR f=601 m=80 v=61 x=c501789a L=471
+RR f=601 m=400 v=394 x=fcb9cb00 L=476
+RR f=601 m=300 v=129 x=6e919cb1 L=478
 NN f=601 n=0
 AI f=601 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=601 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=601 6e919cb1,7a9d9be1
-RR f=602 m=80 v=4 x=0eb5af3f L=464
-RR f=602 m=400 v=135 x=5692e5a7 L=469
-RR f=602 m=300 v=40 x=22ac6bea L=471
-RR f=602 m=400 v=262 x=a7dabd59 L=469
-RR f=602 m=300 v=220 x=bc802933 L=471
+RR f=602 m=80 v=4 x=0eb5af3f L=471
+RR f=602 m=400 v=135 x=5692e5a7 L=476
+RR f=602 m=300 v=40 x=22ac6bea L=478
+RR f=602 m=400 v=262 x=a7dabd59 L=476
+RR f=602 m=300 v=220 x=bc802933 L=478
 AI f=602 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=602 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=602 bc802933,51703bd7
-RR f=603 m=400 v=135 x=568127b1 L=469
-RR f=603 m=300 v=204 x=ae6dd0eb L=471
-RR f=603 m=80 v=61 x=c5f76074 L=464
-RR f=603 m=400 v=245 x=9ceb0728 L=469
-RR f=603 m=300 v=230 x=c49ed0e8 L=471
+RR f=603 m=400 v=135 x=568127b1 L=476
+RR f=603 m=300 v=204 x=ae6dd0eb L=478
+RR f=603 m=80 v=61 x=c5f76074 L=471
+RR f=603 m=400 v=245 x=9ceb0728 L=476
+RR f=603 m=300 v=230 x=c49ed0e8 L=478
 AI f=603 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=603 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=603 c49ed0e8,4c21e3cb
-RR f=604 m=80 v=56 x=b3e22ffb L=464
-RR f=604 m=400 v=327 x=d1bf499b L=469
-RR f=604 m=300 v=252 x=d76e8556 L=471
-RR f=604 m=400 v=44 x=1cc2a3ef L=469
-RR f=604 m=300 v=168 x=8fa26ba2 L=471
+RR f=604 m=80 v=56 x=b3e22ffb L=471
+RR f=604 m=400 v=327 x=d1bf499b L=476
+RR f=604 m=300 v=252 x=d76e8556 L=478
+RR f=604 m=400 v=44 x=1cc2a3ef L=476
+RR f=604 m=300 v=168 x=8fa26ba2 L=478
 BO f=604 i=0 x=7957486 y=11905950 vx=-227 vy=730 co=81
 BO f=604 i=1 x=6857489 y=11848615 vx=-141 vy=78 co=81
 BO f=604 i=2 x=11086280 y=11793900 vx=-731 vy=-30 co=80
@@ -25918,11 +25920,11 @@ BO f=604 i=4 x=6935316 y=12032032 vx=-87 vy=531 co=80
 AI f=604 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=604 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=604 8fa26ba2,0df4271d
-RR f=605 m=400 v=268 x=abad9959 L=469
-RR f=605 m=300 v=231 x=c5bcd9fe L=471
-RR f=605 m=80 v=40 x=825c60d6 L=464
-RR f=605 m=400 v=173 x=6f33eaf7 L=469
-RR f=605 m=300 v=225 x=c0093a08 L=471
+RR f=605 m=400 v=268 x=abad9959 L=476
+RR f=605 m=300 v=231 x=c5bcd9fe L=478
+RR f=605 m=80 v=40 x=825c60d6 L=471
+RR f=605 m=400 v=173 x=6f33eaf7 L=476
+RR f=605 m=300 v=225 x=c0093a08 L=478
 AI f=605 fi=0 j=0 c=0 l=0 r=1 u=0 d=1 aim=116 w=4
 A0 f=605 fi=1 j=0 c=0 l=0 r=0 u=1 d=0
 RG f=605 c0093a08,35f3dbf4
@@ -41209,4 +41211,8 @@ CW 1 p=166,175 v=0,0 hp=72 vis=1 kt=0 lr=70,96 aim=116 dir=1 cur=0 w=17 wslot=1 
 AI f=3780 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
 A0 f=3780 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
 RG f=3780 b35caa2b,25698e98
-CKLINES 18710
+NN f=3781 n=0
+AI f=3781 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
+A0 f=3781 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
+RG f=3781 f0090e11,4f132ace
+CKLINES 18714

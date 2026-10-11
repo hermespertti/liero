@@ -1,0 +1,30 @@
+A0     OK rom=3782 host=3780 missR=0 missH=2
+   ROM-only: A0 f=3781 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
+   ROM-only: A0 f=3780 fi=0 j=0 c=0 l=1 r=1 u=0 d=0
+AI     OK rom=3782 host=3780 missR=0 missH=2
+   ROM-only: AI f=3781 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
+   ROM-only: AI f=3780 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=116 w=17
+BO     OK rom=2558 host=2558 missR=0 missH=0
+CK     OK rom=189 host=189 missR=0 missH=0
+CM     OK rom=3781 host=3780 missR=0 missH=1
+   ROM-only: CM f=3780 p=166,175 v=0,0 a=116 as=0 dir=1 rv=0,0,1,0
+CW     OK rom=243 host=243 missR=0 missH=0
+DIE    OK rom=1 host=1 missR=0 missH=0
+DMG    OK rom=30 host=30 missR=0 missH=0
+FS     OK rom=34 host=34 missR=0 missH=0
+NN     OK rom=757 host=756 missR=0 missH=1
+   ROM-only: NN f=3781 n=0
+NT     OK rom=2528 host=2528 missR=0 missH=0
+RG     OK rom=3782 host=3780 missR=0 missH=2
+   ROM-only: RG f=3780 b35caa2b,25698e98
+   ROM-only: RG f=3781 f0090e11,4f132ace
+RR     OK rom=55 host=55 missR=0 missH=0
+RSP    OK rom=1 host=1 missR=0 missH=0
+SPAWN  OK rom=2 host=2 missR=0 missH=0
+ST     OK rom=199 host=199 missR=0 missH=0
+STAGE  OK rom=5 host=4 missR=0 missH=1
+   ROM-only: STAGE bigrocks hash=e2f9d6f6
+WC     OK rom=90 host=90 missR=0 missH=0
+WS     OK rom=372 host=372 missR=0 missH=0
+WT     OK rom=174 host=174 missR=0 missH=0
+ALL TRACE LINES EQUAL

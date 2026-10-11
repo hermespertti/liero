@@ -38,6 +38,9 @@ static inline uint32_t rng_next(void) {
 static inline uint32_t rnd(uint32_t max) {
     return (uint32_t)(((uint64_t)rng_next() * max) >> 32);
 }
+#ifdef WEAPONS_AUTOTEST_DUMP
+static uint32_t rndm_(int m, int ln);   /* traced wrapper, defined below */
+#endif
 
 static inline void sp(int x, int y, uint8_t v) {
     level_data[y*LW+x] = v;
@@ -63,7 +66,11 @@ static void dirt_effect(int eff, int x, int y) {
     if (g_frame >= 595 && g_frame <= 610) debugf("DS f=%d e=%d x=%d y=%d\n", g_frame, eff, x, y);
 #endif
     const TexEnt* tex = &tex_tab[eff];
+#ifdef WEAPONS_AUTOTEST_DUMP
+    const uint8_t* t_frame = large_stamps + ((size_t)(tex->sFrame + rndm_((int)tex->rFrame, __LINE__)) * 256);
+#else
     const uint8_t* t_frame = large_stamps + ((size_t)(tex->sFrame + rnd(tex->rFrame)) * 256);
+#endif
     const uint8_t* m_frame = large_stamps + ((size_t)tex->mFrame * 256);
     int x1 = x < 0 ? 0 : x, x2 = x+16 > LW ? LW : x+16;
     int y1 = y < 0 ? 0 : y, y2 = y+16 > LH-1 ? LH-1 : y+16;  // clip (0,0,W,H-1)
@@ -598,9 +605,9 @@ static void worm_process(Worm* w, WormInput in, uint64_t cycle) {
 #ifdef WEAPONS
     // upstream: processWeapons then fire-check, both before processPhysics
     worm_weapons(w);
+    worm_try_fire(w, in.fire, in.change);                       // upstream: fire first
     if (in.change) worm_change_weapon(w, in.change, in.left, in.right);
-    worm_try_fire(w, in.fire, in.change);
-    if (!in.change) worm_change_weapon(w, 0, in.left, in.right);
+    else worm_change_weapon(w, 0, in.left, in.right);          // keyChangePressed=false
 #endif
 
     // processPhysics
@@ -789,7 +796,7 @@ static int g_screen_flash = 0;
 
 
 
-static inline uint32_t rndm_(int m, int ln) {   // upstream rand(int): unsigned-wrap bounded, always burns
+static uint32_t rndm_(int m, int ln) {   // upstream rand(int): unsigned-wrap bounded, always burns
     uint32_t v = rnd((uint32_t)m);
 #ifdef WEAPONS_AUTOTEST_DUMP
     if (g_frame >= 595 && g_frame <= 605) debugf("RR f=%d m=%d v=%u x=%08lx L=%d\n", g_frame, m, (unsigned)v, (unsigned long)rng_x, ln);

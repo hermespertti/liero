@@ -516,23 +516,29 @@ def worm_available(w):
     return w.wwp[w.wslot]["loading"] == 0
 
 def change_weapon(w, change_held, left_held, right_held):
+    # upstream processWeaponChange
     if change_held:
-        if left_held and not w.prev_left:
-            w.wslot -= 1
-            if w.wslot < 0: w.wslot = len(WEAPONS_LIST[w.index])-1
-            w.weapon = WEAPONS_LIST[w.index][w.wslot]
-            w.wwp[w.wslot]["ammo"] = WP[w.weapon][WK["ammo"]]
-            w.wwp[w.wslot]["loading"] = 0
-            w.leave_shell_timer = 0
-        if right_held and not w.prev_right:
-            w.wslot += 1
-            if w.wslot >= len(WEAPONS_LIST[w.index]): w.wslot = 0
-            w.weapon = WEAPONS_LIST[w.index][w.wslot]
-            w.wwp[w.wslot]["ammo"] = WP[w.weapon][WK["ammo"]]
-            w.wwp[w.wslot]["loading"] = 0
-            w.leave_shell_timer = 0
-    w.prev_left = left_held if change_held else 0
-    w.prev_right = right_held if change_held else 0
+        if not w.prev_change:
+            w.prev_left = 0; w.prev_right = 0
+        w.fire_cone = 0; w.animate = 0
+        ww = w.wwp[w.wslot]
+        if ww["loading"] == 0 or True:   # available() || loadChange (upstream true)
+            if left_held and not w.prev_left:
+                w.wslot -= 1
+                if w.wslot < 0: w.wslot = len(WEAPONS_LIST[w.index])-1
+                w.weapon = WEAPONS_LIST[w.index][w.wslot]
+                w.wwp[w.wslot]["ammo"] = WP[w.weapon][WK["ammo"]]
+                w.wwp[w.wslot]["loading"] = 0
+                w.leave_shell_timer = 0
+            if right_held and not w.prev_right:
+                w.wslot += 1
+                if w.wslot >= len(WEAPONS_LIST[w.index]): w.wslot = 0
+                w.weapon = WEAPONS_LIST[w.index][w.wslot]
+                w.wwp[w.wslot]["ammo"] = WP[w.weapon][WK["ammo"]]
+                w.wwp[w.wslot]["loading"] = 0
+                w.leave_shell_timer = 0
+    w.prev_left = left_held
+    w.prev_right = right_held
     w.prev_change = change_held
 
 def worm_weapons(w):
@@ -789,15 +795,12 @@ def ai_process(w):
             target = o; min_len = ln
     if target is None: return (0,)*7
     p = WP[w.weapon]
-    _dbg = frame_g[0] == 185
-    if _dbg: print("AS f=%d s0 %08x,%08x real=%d maxd=%d vis=%d" % (frame_g[0], rnd.x, rnd.c, 0, 0, w.visible))
     tte = p[WK["timeToExplo"]]
     if 0 < tte < 500:
         max_dist = tdiv((tte - tdiv(p[WK["timeToExploV"]], 2)) * p[WK["speed"]], 130)
     else:
         max_dist = p[WK["speed"]] - tdiv(p[WK["gravity"]], 10)
     if max_dist < 90: max_dist = 90
-    if _dbg: print("AS f=%d md %08x,%08x real=%d maxd=%d" % (frame_g[0], rnd.x, rnd.c, 0, max_dist))
     dx = (target.pos_x >> 16) - (w.pos_x >> 16)
     dy = (target.pos_y >> 16) - (w.pos_y >> 16)
     real = math.isqrt(dx*dx + dy*dy) if (dx*dx + dy*dy) >= 0 else 0   # vectorLength (isqrt, match ROM)
@@ -808,17 +811,14 @@ def ai_process(w):
             fire = 1 - fire
     else:
         if w.visible: fire = 0
-    if _dbg: print("AS f=%d af %08x,%08x fire=%d" % (frame_g[0], rnd.x, rnd.c, fire))
     # jump
     jump = w.ai_state["jump"]
     if rnd.bounded(AI_K[1 if jump else 0][AI["jump"]]) == 0:
         jump = 1 - jump
-    if _dbg: print("AS f=%d aj %08x,%08x jump=%d" % (frame_g[0], rnd.x, rnd.c, jump))
     # change
     change = w.ai_state["change"]
     if rnd.bounded(AI_K[1 if change else 0][AI["change"]]) == 0:
         change = 1 - change
-    if _dbg: print("AS f=%d ac %08x,%08x chg=%d" % (frame_g[0], rnd.x, rnd.c, change))
     # dir
     if real > 0:
         ddx = tdiv(dx << 16, real); ddy = tdiv(dy << 16, real)
@@ -880,7 +880,6 @@ def ai_process(w):
         if right and react[RF_LEFT]:
             if react[RF_DOWN] > 0: left = 1
             else: jump = 1
-    if _dbg: print("AS f=%d am %08x,%08x l=%d r=%d u=%d d=%d" % (frame_g[0], rnd.x, rnd.c, left, right, up, down))
     w.ai_state = {"fire": fire, "jump": jump, "change": change,
                   "left": left, "right": right, "up": up, "down": down}
     return (fire, jump, change, left, right, up, down)
@@ -962,9 +961,8 @@ def worm_process(w, inp, cycle):
     # change or movement (upstream: processWeaponChange / processMovement)
     if CH:
         if not w.prev_change:
-            # first Change press releases Left/Right
+            # first Change press releases Left/Right (clear prev; held state passes through, ROM/upstream)
             w.prev_left = 0; w.prev_right = 0
-            L = 0; R = 0
         w.animate = 0
         ww = w.wwp[w.wslot]
         if ww["loading"] == 0 or True:   # available() || loadChange (upstream default true, settings.cpp:46)
