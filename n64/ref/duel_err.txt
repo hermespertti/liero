@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lex/n64/liero/n64/tools/duel_ref.py", line 1111, in <module>
+    process_sobjects(cyc)
+    ~~~~~~~~~~~~~~~~^^^^^
+  File "/home/lex/n64/liero/n64/tools/duel_ref.py", line 749, in process_sobjects
+    if o["first"]:
+       ~^^^^^^^^^
+KeyError: 'first'

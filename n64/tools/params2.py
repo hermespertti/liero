@@ -89,6 +89,18 @@ def main():
     for n in nlists["sobjects"]:
         out["s"].append(row(load_cfg(os.path.join(TC, "sobjects", n + ".cfg")), SOBJ_KEYS, nlists))
 
+    # section-aware parse of [constants.aiparams.<name>] on/off pairs
+    # model: ar.obj(name){ "on" -> k[1][i], "off" -> k[0][i] }, i in ctrl order
+    AI_ORDER = ["up","down","left","right","fire","change","jump"]
+    txt = open(os.path.join(TC, "tc.cfg")).read()
+    k2 = [[0]*7, [0]*7]
+    for i, nm in enumerate(AI_ORDER):
+        m = re.search(r"\[constants\.aiparams\.%s\]\s*\n\s*on\s*=\s*(\d+)\s*\n\s*off\s*=\s*(\d+)" % nm, txt)
+        assert m, "aiparams %s not found" % nm
+        k2[1][i] = int(m.group(1))
+        k2[0][i] = int(m.group(2))
+    out["ai_k"] = k2
+
     tc = load_cfg(os.path.join(TC, "tc.cfg"))
     for k in ("WormMinSpawnDistLast","WormMinSpawnDistEnemy","WormSpawnRectX","WormSpawnRectY",
               "WormSpawnRectW","WormSpawnRectH","FirstBloodColour","NumBloodColours","BObjGravity",
@@ -127,6 +139,13 @@ def main():
         f.write("enum WKEY { %s };\n" % ", ".join("WK_%s=%d" % (k, n) for n, k in enumerate(WEAPONS_KEYS)))
         f.write("enum NKEY { %s };\n" % ", ".join("NK_%s=%d" % (k, n) for n, k in enumerate(NOBJ_KEYS)))
         f.write("enum SKEY { %s };\n" % ", ".join("SK_%s=%d" % (k, n) for n, k in enumerate(SOBJ_KEYS)))
+        f.write("\n// AI params: k[2][7] [state(pressed)][ctrl]; ctrl order Up,Down,Left,Right,Fire,Change,Jump\n")
+        f.write("static const int32_t c_ai_k[2][7]={\n")
+        for r in out["ai_k"]: f.write("  {" + ",".join(map(str, r)) + "},\n")
+        f.write("};\n")
+        tcfg = load_cfg(os.path.join(TC, "tc.cfg"))
+        f.write("enum { C_WORMFLOAT=%d, C_WORMFLOATLEVEL=%d, C_WORMFLOATPOWER=%d };\n" % (
+            int(bool(tcfg.get("WormFloat", 0))), int(tcfg.get("WormFloatLevel", 0)), int(tcfg.get("WormFloatPower", 0))))
     print("wrote %s" % h)
 
 if __name__ == "__main__":

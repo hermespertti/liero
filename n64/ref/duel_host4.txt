@@ -1,0 +1,9 @@
+STAGE dirt hash=20aa16b2
+STAGE trails hash=20aa16b2
+STAGE smallrocks hash=526e1d2d
+STAGE shadow hash=526e1d2d
+SPAWN i=0 x=115 y=176
+SPAWN i=1 x=150 y=176
+AI_ON FalseTrue
+AI f=0 fi=0 j=0 c=0 l=1 r=0 u=1 d=0 aim=64 w=4
+A0 f=0 fi=0 j=0 c=0 l=0 r=1 u=0 d=0

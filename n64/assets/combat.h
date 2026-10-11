@@ -100,3 +100,10 @@ enum { C_FIRSTBLOOD=80, C_NUMBLOOD=2, C_BOBJGRAV=1000, C_BONUSDROP=1700, C_BONUS
 enum WKEY { WK_gravity=0, WK_speed=1, WK_distribution=2, WK_parts=3, WK_recoil=4, WK_multSpeed=5, WK_delay=6, WK_loadingTime=7, WK_ammo=8, WK_dirtEffect=9, WK_fireCone=10, WK_bounce=11, WK_timeToExplo=12, WK_timeToExploV=13, WK_hitDamage=14, WK_bloodOnHit=15, WK_startFrame=16, WK_numFrames=17, WK_shotType=18, WK_colorBullets=19, WK_splinterAmount=20, WK_splinterColour=21, WK_splinterType=22, WK_splinterScatter=23, WK_detectDistance=24, WK_blowAway=25, WK_addSpeed=26, WK_affectByWorm=27, WK_wormExplode=28, WK_explGround=29, WK_wormCollide=30, WK_collideWithObjects=31, WK_affectByExplosions=32, WK_loopAnim=33, WK_chainExplosion=34, WK_leaveShells=35, WK_leaveShellDelay=36, WK_objTrailType=37, WK_objTrailDelay=38, WK_partTrailType=39, WK_partTrailObj=40, WK_partTrailDelay=41, WK_createOnExp=42 };
 enum NKEY { NK_gravity=0, NK_speed=1, NK_speedV=2, NK_distribution=3, NK_bounce=4, NK_blowAway=5, NK_hitDamage=6, NK_bloodOnHit=7, NK_startFrame=8, NK_numFrames=9, NK_colorBullets=10, NK_dirtEffect=11, NK_timeToExplo=12, NK_timeToExploV=13, NK_splinterAmount=14, NK_splinterColour=15, NK_splinterType=16, NK_detectDistance=17, NK_bloodTrailDelay=18, NK_leaveObjDelay=19, NK_leaveObj=20, NK_wormExplode=21, NK_explGround=22, NK_wormDestroy=23, NK_drawOnMap=24, NK_affectByExplosions=25, NK_bloodTrail=26, NK_createOnExp=27 };
 enum SKEY { SK_startFrame=0, SK_numFrames=1, SK_animDelay=2, SK_detectRange=3, SK_damage=4, SK_blowAway=5, SK_dirtEffect=6, SK_shake=7, SK_flash=8, SK_startSound=9, SK_numSounds=10 };
+
+// AI params: k[2][7] [state(pressed)][ctrl]; ctrl order Up,Down,Left,Right,Fire,Change,Jump
+static const int32_t c_ai_k[2][7]={
+  {120,120,50,50,80,300,400},
+  {20,20,20,20,80,60,1},
+};
+enum { C_WORMFLOAT=0, C_WORMFLOATLEVEL=163, C_WORMFLOATPOWER=-8386178 };

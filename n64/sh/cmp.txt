@@ -1,0 +1,191 @@
+A0 DIFF rom=2522 host=1260
+  ROM : A0 f=1260 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+  HOST: <none>
+  ROM : A0 f=0 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+  HOST: <none>
+  ROM : A0 f=1 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+  HOST: <none>
+  ROM : A0 f=2 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+  HOST: <none>
+  ROM : A0 f=3 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+  HOST: <none>
+AI DIFF rom=2522 host=1260
+  ROM : AI f=1260 fi=0 j=0 c=0 l=1 r=1 u=0 d=0 aim=106 w=4
+  HOST: <none>
+  ROM : AI f=0 fi=0 j=0 c=0 l=1 r=0 u=1 d=0 aim=64 w=4
+  HOST: <none>
+  ROM : AI f=1 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=64 w=4
+  HOST: <none>
+  ROM : AI f=2 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+  HOST: <none>
+  ROM : AI f=3 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+  HOST: <none>
+AS DIFF rom=0 host=6
+  ROM : <none>
+  HOST: AS f=185 s0 4035e493,6feef6ff real=0 maxd=0 vis=1
+  ROM : <none>
+  HOST: AS f=185 md 4035e493,6feef6ff real=0 maxd=107
+  ROM : <none>
+  HOST: AS f=185 af e213f419,1f2737e8 fire=0
+  ROM : <none>
+  HOST: AS f=185 aj 37b16a76,6dafd687 jump=0
+  ROM : <none>
+  HOST: AS f=185 ac 71460a1b,1b054f6e chg=0
+BO DIFF rom=994 host=497
+  ROM : BO f=369 i=0 x=8809906 y=11515515 vx=-4152 vy=-2867 co=80
+  HOST: <none>
+  ROM : BO f=374 i=0 x=8789146 y=11511180 vx=-4152 vy=2133 co=80
+  HOST: <none>
+  ROM : BO f=379 i=0 x=8768386 y=11531845 vx=-4152 vy=7133 co=80
+  HOST: <none>
+  ROM : BO f=379 i=1 x=8643826 y=11401065 vx=-4152 vy=-1117 co=81
+  HOST: <none>
+  ROM : BO f=379 i=2 x=8751541 y=11447227 vx=-3171 vy=-2085 co=80
+  HOST: <none>
+CK DIFF rom=126 host=63
+  ROM : CK frame=37 terr=f28d3d32 rng=bafa8f65,18436a4f wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=0,56|0,56 shk=0,0
+  HOST: <none>
+  ROM : CK frame=59 terr=f28d3d32 rng=979883a1,7477941e wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=0,56|0,56 shk=0,0
+  HOST: <none>
+  ROM : CK frame=62 terr=f28d3d32 rng=53c7cc11,022e7fb9 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=0,56|0,56 shk=0,0
+  HOST: <none>
+  ROM : CK frame=87 terr=f28d3d32 rng=89e8d6d2,434e183c wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=0,56|0,56 shk=0,0
+  HOST: <none>
+  ROM : CK frame=112 terr=f28d3d32 rng=4552e3fe,22d22add wc=2 nc=0 sc=0 bc=0 obj=57d954cb kl=-1 vp=0,56|0,56 shk=0,0
+  HOST: <none>
+CM DIFF rom=1261 host=1260
+  ROM : CM f=1260 p=178,175 v=0,0 a=106 as=0 dir=1 rv=1,7,1,0
+  HOST: <none>
+CW DIFF rom=252 host=126
+  ROM : CW 0 p=125,176 v=26944,0 hp=100 vis=1 kt=0 lr=0,0 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  HOST: CW 0 p=125,176 v=26944,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  ROM : CW 1 p=149,176 v=-35,0 hp=100 vis=1 kt=0 lr=0,0 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  HOST: CW 1 p=149,176 v=-35,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  ROM : CW 0 p=133,176 v=27243,0 hp=100 vis=1 kt=0 lr=0,0 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  HOST: CW 0 p=133,176 v=27243,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  ROM : CW 1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=0,0 aim=30 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  HOST: CW 1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=30 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  ROM : CW 0 p=134,176 v=27250,0 hp=100 vis=1 kt=0 lr=0,0 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+  HOST: CW 0 p=134,176 v=27250,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+DIE 1 OK
+DMG DIFF rom=4 host=2
+  ROM : DMG f=360 w=0 a=97 hp=3 by=1
+  HOST: <none>
+  ROM : DMG f=420 w=0 a=99 hp=-96 by=1
+  HOST: <none>
+DS DIFF rom=4 host=2
+  ROM : DS f=601 e=0 x=476 y=335
+  HOST: <none>
+  ROM : DS f=606 e=2 x=484 y=333
+  HOST: <none>
+FS DIFF rom=68 host=34
+  ROM : FS f=341 w=0 slot=1 wpn=17 am=15 dly=-1 ld=0 fi=0 chg=1
+  HOST: FS f=341 w=0 slot=0 wpn=4 am=5 dly=-1 ld=94 fi=0 chg=1
+  ROM : FS f=336 w=0 slot=0 wpn=4 am=5 dly=-1 ld=99 fi=0 chg=0
+  HOST: <none>
+  ROM : FS f=336 w=1 slot=0 wpn=4 am=5 dly=-1 ld=152 fi=1 chg=0
+  HOST: <none>
+  ROM : FS f=337 w=0 slot=0 wpn=4 am=5 dly=-1 ld=98 fi=0 chg=0
+  HOST: <none>
+  ROM : FS f=337 w=1 slot=0 wpn=4 am=5 dly=-1 ld=151 fi=1 chg=0
+  HOST: <none>
+FW DIFF rom=0 host=2
+  ROM : <none>
+  HOST: FW f=185 fx=11928259 fy=10892021 aa=79
+  ROM : <none>
+  HOST: FW dist r1=17709 r2=10598 d=12000 vx=93731 vy=-96270
+NN DIFF rom=504 host=252
+  ROM : NN f=1 n=0
+  HOST: <none>
+  ROM : NN f=6 n=0
+  HOST: <none>
+  ROM : NN f=11 n=0
+  HOST: <none>
+  ROM : NN f=16 n=0
+  HOST: <none>
+  ROM : NN f=21 n=0
+  HOST: <none>
+NT DIFF rom=856 host=428
+  ROM : NT f=351 i=0 x=8839211 y=11497072 vx=3439 vy=-6945 t=0 ty=7 ow=0
+  HOST: <none>
+  ROM : NT f=351 i=4 x=8254568 y=10292808 vx=20856 vy=46076 t=0 ty=2 ow=0
+  HOST: <none>
+  ROM : NT f=356 i=0 x=8856406 y=11472347 vx=3439 vy=-1945 t=0 ty=7 ow=0
+  HOST: <none>
+  ROM : NT f=356 i=4 x=8358848 y=10530188 vx=20856 vy=49576 t=0 ty=2 ow=0
+  HOST: <none>
+  ROM : NT f=361 i=0 x=8873601 y=11472622 vx=3439 vy=3055 t=0 ty=7 ow=0
+  HOST: <none>
+RG DIFF rom=2522 host=1260
+  ROM : RG f=1260 2b6c565d,1b309f09
+  HOST: <none>
+  ROM : RG f=0 ea1ca1e6,5830bdc6
+  HOST: <none>
+  ROM : RG f=1 8d05cd28,359b70de
+  HOST: <none>
+  ROM : RG f=2 3389b757,07e6b641
+  HOST: <none>
+  ROM : RG f=3 683c42c7,622b505d
+  HOST: <none>
+RR DIFF rom=52 host=27
+  ROM : RR f=595 m=400 v=349 x=dfb3bc2a L=463
+  HOST: RR f=595 m=400 v=349 x=dfb3bc2a L=817
+  ROM : RR f=595 m=300 v=115 x=622fb24c L=465
+  HOST: RR f=595 m=300 v=115 x=622fb24c L=822
+  ROM : RR f=596 m=400 v=296 x=bd84739f L=463
+  HOST: RR f=596 m=400 v=296 x=bd84739f L=817
+  ROM : RR f=596 m=300 v=179 x=98c1aff5 L=465
+  HOST: RR f=596 m=300 v=179 x=98c1aff5 L=822
+  ROM : RR f=597 m=400 v=248 x=9ef45c98 L=463
+  HOST: RR f=597 m=400 v=248 x=9ef45c98 L=817
+RSP 1 OK
+SPAWN DIFF rom=4 host=2
+  ROM : SPAWN i=0 x=115 y=176
+  HOST: <none>
+  ROM : SPAWN i=1 x=150 y=176
+  HOST: <none>
+ST DIFF rom=18 host=9
+  ROM : ST f=353 i=0 x=119 y=149 cur=1 ad=1 ty=2
+  HOST: <none>
+  ROM : ST f=358 i=0 x=119 y=149 cur=4 ad=2 ty=2
+  HOST: <none>
+  ROM : ST f=608 i=0 x=483 y=332 cur=1 ad=2 ty=2
+  HOST: <none>
+  ROM : ST f=613 i=0 x=483 y=332 cur=3 ad=1 ty=2
+  HOST: <none>
+  ROM : ST f=633 i=0 x=483 y=333 cur=1 ad=2 ty=2
+  HOST: <none>
+WC DIFF rom=40 host=20
+  ROM : WC f=101 wi=0 w=1 x=9479096 y=11484880 vx=-122097 vy=9248 t=64 ty=4
+  HOST: <none>
+  ROM : WC f=110 wi=1 w=0 x=10033540 y=11144665 vx=22521 vy=-119913 t=74 ty=4
+  HOST: <none>
+  ROM : WC f=135 wi=2 w=0 x=10812115 y=10542545 vx=106975 vy=-122386 t=76 ty=4
+  HOST: <none>
+  ROM : WC f=160 wi=3 w=0 x=11418715 y=10253021 vx=95109 vy=-90977 t=61 ty=4
+  HOST: <none>
+  ROM : WC f=185 wi=0 w=0 x=11928259 y=10892021 vx=93731 vy=-96270 t=70 ty=4
+  HOST: <none>
+WS DIFF rom=460 host=230
+  ROM : WS f=102 wi=0 x=9356999 y=11494128 t=64
+  HOST: <none>
+  ROM : WS f=103 wi=0 x=9234902 y=11504376 t=63
+  HOST: <none>
+  ROM : WS f=104 wi=0 x=9112805 y=11515624 t=62
+  HOST: <none>
+  ROM : WS f=105 wi=0 x=8990708 y=11527872 t=61
+  HOST: <none>
+  ROM : WS f=106 wi=0 x=8868611 y=11541120 t=60
+  HOST: <none>
+WT DIFF rom=518 host=259
+  ROM : WT f=102 i=0 x=9356999 y=11494128 vx=-122097 vy=10248 t=63 ty=4 ow=1
+  HOST: <none>
+  ROM : WT f=107 i=0 x=8746514 y=11555368 vx=-122097 vy=15248 t=58 ty=4 ow=1
+  HOST: <none>
+  ROM : WT f=112 i=0 x=8136029 y=11641608 vx=-122097 vy=20248 t=53 ty=4 ow=1
+  HOST: <none>
+  ROM : WT f=112 i=1 x=10078582 y=10905839 vx=22521 vy=-117913 t=72 ty=4 ow=0
+  HOST: <none>
+  ROM : WT f=117 i=0 x=7525544 y=11752848 vx=-122097 vy=25248 t=48 ty=4 ow=1
+  HOST: <none>
+MISMATCH

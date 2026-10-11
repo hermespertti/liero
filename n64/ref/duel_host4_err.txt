@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lex/n64/liero/n64/tools/duel_ref.py", line 1062, in <module>
+    worm_process(worms[0], s_inp, frame)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lex/n64/liero/n64/tools/duel_ref.py", line 866, in worm_process
+    if g_frame == 360 and w.index == 0: do_damage(w, 97, 1)   # AUTOTEST inject
+       ^^^^^^^
+NameError: name 'g_frame' is not defined. Did you mean: 'frame'?

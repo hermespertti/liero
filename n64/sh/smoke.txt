@@ -1,0 +1,16 @@
+[ares-test] angrylion-rdp-plus enabled (CPU renderer)
+BOOT
+STAGE dirt hash=20aa16b2
+STAGE trails hash=20aa16b2
+STAGE bigrocks hash=e2f9d6f6
+STAGE smallrocks hash=526e1d2d
+STAGE shadow hash=526e1d2d
+GEN hash=526e1d2d
+SPAWN i=0 x=115 y=176
+SPAWN i=1 x=150 y=176
+CK frame=5 terr=f28d3d32 rng=8d349295,0fcbcca1 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=0,56|0,56 shk=0,0
+CW 0 p=115,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+CW 1 p=149,176 v=-1674,0 hp=100 vis=1 kt=0 lr=70,96 aim=63 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+captured 0
+captured 1
+captured 2

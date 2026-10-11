@@ -1,0 +1,3332 @@
+STAGE dirt hash=20aa16b2
+STAGE trails hash=20aa16b2
+STAGE smallrocks hash=526e1d2d
+STAGE shadow hash=526e1d2d
+SPAWN i=0 x=115 y=176
+SPAWN i=1 x=150 y=176
+AI_ON FalseTrue
+AI f=0 fi=0 j=0 c=0 l=1 r=0 u=1 d=0 aim=64 w=4
+A0 f=0 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=1 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=64 w=4
+A0 f=1 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=1 n=0
+AI f=2 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=64 w=4
+A0 f=2 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=3 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+A0 f=3 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=4 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+A0 f=4 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=5 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+A0 f=5 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=6 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+A0 f=6 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=6 n=0
+AI f=7 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=63 w=4
+A0 f=7 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=8 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=62 w=4
+A0 f=8 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=9 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=62 w=4
+A0 f=9 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=10 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=61 w=4
+A0 f=10 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=11 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=61 w=4
+A0 f=11 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=11 n=0
+AI f=12 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=60 w=4
+A0 f=12 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=13 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=59 w=4
+A0 f=13 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=14 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=59 w=4
+A0 f=14 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=15 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=58 w=4
+A0 f=15 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=16 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=57 w=4
+A0 f=16 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=16 n=0
+AI f=17 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=56 w=4
+A0 f=17 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=18 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=55 w=4
+A0 f=18 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=19 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=54 w=4
+A0 f=19 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=20 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=53 w=4
+A0 f=20 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=21 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=52 w=4
+A0 f=21 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=21 n=0
+AI f=22 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=51 w=4
+A0 f=22 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=23 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=50 w=4
+A0 f=23 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=24 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=49 w=4
+A0 f=24 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=25 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=48 w=4
+A0 f=25 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=26 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=46 w=4
+A0 f=26 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=26 n=0
+AI f=27 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=45 w=4
+A0 f=27 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=28 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=44 w=4
+A0 f=28 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=29 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=43 w=4
+A0 f=29 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=30 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=42 w=4
+A0 f=30 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=31 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=31 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=31 n=0
+AI f=32 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=40 w=4
+A0 f=32 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=33 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=39 w=4
+A0 f=33 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=34 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=38 w=4
+A0 f=34 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=35 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=37 w=4
+A0 f=35 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=36 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=35 w=4
+A0 f=36 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=36 n=0
+AI f=37 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=37 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=37 terr=f28d3d32 rng=bafa8f65,18436a4f wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=46,97|70,97 shk=0,0 w0 p=125,176 v=26944,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=-35,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=38 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=38 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=39 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=39 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=40 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=40 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=41 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=41 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=41 n=0
+AI f=42 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=42 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=43 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=43 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=44 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=44 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=45 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=45 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=46 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=46 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=46 n=0
+AI f=47 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=47 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=48 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=48 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=49 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=49 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=50 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=27 w=4
+A0 f=50 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=51 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=27 w=4
+A0 f=51 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=51 n=0
+AI f=52 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=27 w=4
+A0 f=52 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=53 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=53 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=54 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=54 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=55 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=55 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=56 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=56 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=56 n=0
+AI f=57 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=57 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=58 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=58 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=59 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=59 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=59 terr=f28d3d32 rng=979883a1,7477941e wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=54,97|70,97 shk=0,0 w0 p=133,176 v=27243,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=30 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=60 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=60 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=61 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=61 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=61 n=0
+AI f=62 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=62 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=62 terr=f28d3d32 rng=53c7cc11,022e7fb9 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=27250,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=63 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=63 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=64 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=64 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=65 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=65 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=66 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=66 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=66 n=0
+AI f=67 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=67 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=68 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=68 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=69 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=69 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=70 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=70 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=71 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=71 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=71 n=0
+AI f=72 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=72 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=73 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=73 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=74 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=74 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=75 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=75 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=76 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=76 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=76 n=0
+AI f=77 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=77 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=78 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=78 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=79 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=79 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=80 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=80 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=81 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=81 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=81 n=0
+AI f=82 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=82 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=83 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=83 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=84 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=84 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=85 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=85 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=86 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=86 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=86 n=0
+AI f=87 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=87 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=87 terr=f28d3d32 rng=89e8d6d2,434e183c wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=65,97|70,97 shk=0,0 w0 p=144,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=31 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=88 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=88 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=89 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=89 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=90 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=90 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=91 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=91 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=91 n=0
+AI f=92 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=92 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=93 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=93 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=94 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=94 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=95 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=95 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=96 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=96 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=96 n=0
+AI f=97 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=97 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=98 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=98 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=99 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=99 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=100 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=100 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=101 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=31 w=4
+A0 f=101 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=101 n=0
+AI f=102 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=31 w=4
+A0 f=102 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=102 i=0 x=9356999 y=11494128 vx=-122097 vy=10248 t=63 ty=4 ow=1
+AI f=103 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=31 w=4
+A0 f=103 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=104 fi=1 j=0 c=0 l=0 r=1 u=1 d=0 aim=31 w=4
+A0 f=104 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=105 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=105 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=106 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=106 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=106 n=0
+AI f=107 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=107 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=107 i=0 x=8746514 y=11555368 vx=-122097 vy=15248 t=58 ty=4 ow=1
+AI f=108 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=108 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=109 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=109 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=110 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=110 fi=1 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=111 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=111 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=111 n=0
+AI f=112 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=112 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=112 i=0 x=8136029 y=11641608 vx=-122097 vy=20248 t=53 ty=4 ow=1
+WT f=112 i=1 x=10078582 y=10905839 vx=22521 vy=-117913 t=72 ty=4 ow=0
+CK frame=112 terr=f28d3d32 rng=4552e3fe,22d22add wc=2 nc=0 sc=0 bc=0 obj=57d954cb kl=-1 vp=74,97|70,97 shk=0,0 w0 p=153,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=68 dir=1 cur=6 w=4 wslot=0 am=4 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=1179,0 hp=100 vis=1 kt=0 lr=70,96 aim=96 dir=1 cur=2 w=4 wslot=0 am=4 dly=9 ld=0 lv=5 k=0 sf=0
+AI f=113 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=113 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=114 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=114 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=115 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=115 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=116 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=116 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=116 n=0
+AI f=117 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=117 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=117 i=0 x=7525544 y=11752848 vx=-122097 vy=25248 t=48 ty=4 ow=1
+WT f=117 i=1 x=10191187 y=10326274 vx=18016 vy=35173 t=67 ty=4 ow=0
+AI f=118 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=118 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=119 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=119 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=119 terr=f28d3d32 rng=7fe378cc,40c62724 wc=2 nc=0 sc=0 bc=0 obj=999476b9 kl=-1 vp=77,97|70,97 shk=0,0 w0 p=156,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=75 dir=1 cur=5 w=4 wslot=0 am=4 dly=11 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=518,0 hp=100 vis=1 kt=0 lr=70,96 aim=96 dir=1 cur=2 w=4 wslot=0 am=4 dly=2 ld=0 lv=5 k=0 sf=0
+AI f=120 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=120 fi=0 j=1 c=0 l=0 r=0 u=0 d=0
+AI f=121 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=121 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=121 n=0
+AI f=122 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=122 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=122 i=0 x=7012739 y=11757800 vx=-97677 vy=-2574 t=43 ty=4 ow=1
+WT f=122 i=1 x=10281267 y=10512139 vx=18016 vy=40173 t=62 ty=4 ow=0
+AI f=123 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=123 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=124 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=124 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=125 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=125 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=126 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=126 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=126 n=0
+AI f=127 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=127 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=127 i=0 x=6651334 y=11754844 vx=29303 vy=2340 t=38 ty=4 ow=1
+WT f=127 i=1 x=10371347 y=10723004 vx=18016 vy=45173 t=57 ty=4 ow=0
+AI f=128 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=128 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=129 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=129 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=130 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=130 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=131 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=131 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=131 n=0
+AI f=132 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=93 w=4
+A0 f=132 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=132 i=0 x=6797849 y=11776544 vx=29303 vy=7340 t=33 ty=4 ow=1
+WT f=132 i=1 x=10461427 y=10958869 vx=18016 vy=50173 t=52 ty=4 ow=0
+AI f=133 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=93 w=4
+A0 f=133 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=134 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=92 w=4
+A0 f=134 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=135 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=92 w=4
+A0 f=135 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=136 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=91 w=4
+A0 f=136 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=136 n=0
+AI f=137 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=90 w=4
+A0 f=137 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=137 i=0 x=6926781 y=11790718 vx=23442 vy=1498 t=28 ty=4 ow=1
+WT f=137 i=1 x=10551507 y=11219734 vx=18016 vy=55173 t=47 ty=4 ow=0
+WT f=137 i=2 x=11026065 y=10298773 vx=85580 vy=37415 t=74 ty=4 ow=0
+CK frame=137 terr=f28d3d32 rng=684b468b,66392944 wc=3 nc=0 sc=0 bc=0 obj=30b2b7a4 kl=-1 vp=83,85|70,97 shk=0,0 w0 p=162,164 v=24264,-30564 hp=100 vis=1 kt=0 lr=35,96 aim=79 dir=1 cur=4 w=4 wslot=0 am=3 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=59,0 hp=100 vis=1 kt=0 lr=70,96 aim=89 dir=1 cur=3 w=4 wslot=0 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=138 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=89 w=4
+A0 f=138 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=139 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=88 w=4
+A0 f=139 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=140 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=87 w=4
+A0 f=140 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=141 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=86 w=4
+A0 f=141 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=141 n=0
+AI f=142 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=85 w=4
+A0 f=142 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=142 i=0 x=7026173 y=11796841 vx=-3600 vy=-150 t=23 ty=4 ow=1
+WT f=142 i=1 x=10641587 y=11505599 vx=18016 vy=60173 t=42 ty=4 ow=0
+WT f=142 i=2 x=11453965 y=10495848 vx=85580 vy=42415 t=69 ty=4 ow=0
+AI f=143 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=84 w=4
+A0 f=143 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=144 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=83 w=4
+A0 f=144 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=145 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=82 w=4
+A0 f=145 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=146 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=81 w=4
+A0 f=146 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=146 n=0
+AI f=147 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=80 w=4
+A0 f=147 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=147 i=0 x=7023268 y=11796720 vx=2 vy=0 t=18 ty=4 ow=1
+WT f=147 i=1 x=10728063 y=11734340 vx=14412 vy=-16951 t=37 ty=4 ow=0
+WT f=147 i=2 x=11770611 y=10708840 vx=-25674 vy=38332 t=64 ty=4 ow=0
+AI f=148 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=79 w=4
+A0 f=148 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=149 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=78 w=4
+A0 f=149 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=150 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=78 w=4
+A0 f=150 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=151 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=151 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=151 n=0
+AI f=152 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=152 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=152 i=0 x=7023270 y=11796720 vx=0 vy=0 t=13 ty=4 ow=1
+WT f=152 i=1 x=10800123 y=11659585 vx=14412 vy=-11951 t=32 ty=4 ow=0
+WT f=152 i=2 x=11642241 y=10910500 vx=-25674 vy=43332 t=59 ty=4 ow=0
+AI f=153 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=153 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=154 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=154 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=155 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=155 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=156 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=156 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=156 n=0
+AI f=157 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=157 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=157 i=0 x=7023270 y=11796720 vx=0 vy=0 t=8 ty=4 ow=1
+WT f=157 i=1 x=10872183 y=11609830 vx=14412 vy=-6951 t=27 ty=4 ow=0
+WT f=157 i=2 x=11513871 y=11137160 vx=-25674 vy=48332 t=54 ty=4 ow=0
+AI f=158 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=158 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=159 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=159 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=160 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=160 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=161 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=161 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=161 n=0
+AI f=162 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=76 w=4
+A0 f=162 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=162 i=0 x=7023270 y=11796720 vx=0 vy=0 t=3 ty=4 ow=1
+WT f=162 i=1 x=10944243 y=11585075 vx=14412 vy=-1951 t=22 ty=4 ow=0
+WT f=162 i=2 x=11385501 y=11388820 vx=-25674 vy=53332 t=49 ty=4 ow=0
+WT f=162 i=3 x=11490999 y=10183878 vx=5477 vy=-5240 t=59 ty=4 ow=0
+CK frame=162 terr=f28d3d32 rng=8437c4b3,62178b6a wc=4 nc=0 sc=0 bc=0 obj=df8e755c kl=-1 vp=92,82|71,97 shk=0,0 w0 p=171,161 v=24264,18000 hp=100 vis=1 kt=0 lr=35,96 aim=79 dir=1 cur=4 w=4 wslot=0 am=2 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=77 dir=1 cur=4 w=4 wslot=0 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=163 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=163 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=164 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=164 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=165 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=77 w=4
+A0 f=165 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=166 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=78 w=4
+A0 f=166 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=166 n=0
+AI f=167 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=78 w=4
+A0 f=167 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=167 i=1 x=11001891 y=11583271 vx=14412 vy=2049 t=18 ty=4 ow=0
+WT f=167 i=2 x=11282805 y=11608148 vx=-25674 vy=57332 t=45 ty=4 ow=0
+WT f=167 i=3 x=11495402 y=10179666 vx=17 vy=-17 t=55 ty=4 ow=0
+AI f=168 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=79 w=4
+A0 f=168 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=169 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=79 w=4
+A0 f=169 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=170 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=80 w=4
+A0 f=170 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=171 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=81 w=4
+A0 f=171 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=171 n=0
+AI f=172 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=82 w=4
+A0 f=172 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=172 i=1 x=11073951 y=11603516 vx=14412 vy=7049 t=13 ty=4 ow=0
+WT f=172 i=2 x=11164705 y=11750546 vx=-20539 vy=-14799 t=40 ty=4 ow=0
+WT f=172 i=3 x=11495415 y=10179652 vx=0 vy=0 t=50 ty=4 ow=0
+AI f=173 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=82 w=4
+A0 f=173 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=174 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=83 w=4
+A0 f=174 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=175 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=84 w=4
+A0 f=175 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=176 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=176 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=176 n=0
+AI f=177 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=87 w=4
+A0 f=177 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=177 i=1 x=11146011 y=11648761 vx=14412 vy=12049 t=8 ty=4 ow=0
+WT f=177 i=2 x=11062010 y=11686551 vx=-20539 vy=-9799 t=35 ty=4 ow=0
+WT f=177 i=3 x=11495415 y=10179652 vx=0 vy=0 t=45 ty=4 ow=0
+AI f=178 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=88 w=4
+A0 f=178 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=179 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=89 w=4
+A0 f=179 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=179 terr=f28d3d32 rng=cd1c9880,7bfcdce5 wc=3 nc=0 sc=0 bc=0 obj=aeb5962a kl=-1 vp=99,91|71,97 shk=0,0 w0 p=178,170 v=24264,43500 hp=100 vis=1 kt=0 lr=35,96 aim=79 dir=1 cur=4 w=4 wslot=0 am=2 dly=1 ld=0 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=90 dir=1 cur=3 w=4 wslot=0 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=180 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=90 w=4
+A0 f=180 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=180 terr=f28d3d32 rng=0f9a9cea,51da1dc1 wc=3 nc=0 sc=0 bc=0 obj=35007e4c kl=-1 vp=99,91|71,97 shk=0,0 w0 p=178,170 v=24264,45000 hp=100 vis=1 kt=0 lr=35,96 aim=79 dir=1 cur=4 w=4 wslot=0 am=2 dly=0 ld=0 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=91 dir=1 cur=3 w=4 wslot=0 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=181 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=91 w=4
+A0 f=181 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=181 n=0
+AI f=182 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=182 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=182 i=1 x=11218071 y=11719006 vx=14412 vy=17049 t=3 ty=4 ow=0
+WT f=182 i=2 x=10959315 y=11647556 vx=-20539 vy=-4799 t=30 ty=4 ow=0
+WT f=182 i=3 x=11495415 y=10179652 vx=0 vy=0 t=40 ty=4 ow=0
+AI f=183 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=183 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=184 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=93 w=4
+A0 f=184 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=185 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=93 w=4
+A0 f=185 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=186 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=186 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=186 n=0
+AI f=187 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=187 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=187 i=0 x=11986131 y=10812302 vx=4385 vy=-6041 t=68 ty=4 ow=0
+WT f=187 i=2 x=10877159 y=11634360 vx=-20539 vy=-799 t=26 ty=4 ow=0
+WT f=187 i=3 x=11495415 y=10179652 vx=0 vy=0 t=36 ty=4 ow=0
+AI f=188 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=188 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=189 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=189 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=190 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=190 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=191 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=191 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=191 n=0
+AI f=192 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=192 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=192 i=0 x=11989670 y=10807427 vx=-3 vy=4 t=63 ty=4 ow=0
+WT f=192 i=2 x=10774464 y=11640365 vx=-20539 vy=4201 t=21 ty=4 ow=0
+WT f=192 i=3 x=11495415 y=10179652 vx=0 vy=0 t=31 ty=4 ow=0
+AI f=193 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=193 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=194 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=194 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=195 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=195 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=196 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=196 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=196 n=0
+AI f=197 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=197 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=197 i=0 x=11989667 y=10807431 vx=0 vy=0 t=58 ty=4 ow=0
+WT f=197 i=2 x=10671769 y=11671370 vx=-20539 vy=9201 t=16 ty=4 ow=0
+WT f=197 i=3 x=11495415 y=10179652 vx=0 vy=0 t=26 ty=4 ow=0
+AI f=198 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=198 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=199 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=199 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=200 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=200 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=201 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=201 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=201 n=0
+AI f=202 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=202 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=202 i=0 x=11989667 y=10807431 vx=0 vy=0 t=53 ty=4 ow=0
+WT f=202 i=1 x=10644360 y=11406080 vx=121965 vy=-5150 t=61 ty=4 ow=1
+WT f=202 i=2 x=10569074 y=11727375 vx=-20539 vy=14201 t=11 ty=4 ow=0
+WT f=202 i=3 x=11495415 y=10179652 vx=0 vy=0 t=21 ty=4 ow=0
+AI f=203 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=203 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=204 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=204 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=205 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=205 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=206 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=93 w=4
+A0 f=206 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=206 n=0
+AI f=207 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=93 w=4
+A0 f=207 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=207 i=0 x=11989667 y=10807431 vx=0 vy=0 t=48 ty=4 ow=0
+WT f=207 i=1 x=11254185 y=11390330 vx=121965 vy=-150 t=56 ty=4 ow=1
+WT f=207 i=2 x=10470487 y=11786019 vx=-16431 vy=-3160 t=6 ty=4 ow=0
+WT f=207 i=3 x=11495415 y=10179652 vx=0 vy=0 t=16 ty=4 ow=0
+AI f=208 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=208 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=209 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=209 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=210 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=210 fi=1 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=211 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=211 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=211 n=0
+AI f=212 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=212 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=212 i=0 x=11989667 y=10807431 vx=0 vy=0 t=43 ty=4 ow=0
+WT f=212 i=1 x=11705456 y=11399010 vx=-36589 vy=4280 t=51 ty=4 ow=1
+WT f=212 i=2 x=10388332 y=11780219 vx=-16431 vy=1840 t=1 ty=4 ow=0
+WT f=212 i=3 x=11495415 y=10179652 vx=0 vy=0 t=11 ty=4 ow=0
+WT f=212 i=4 x=11990373 y=11151897 vx=4707 vy=-5314 t=63 ty=4 ow=0
+AI f=213 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=213 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=214 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=214 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=215 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=215 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=216 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=216 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=216 n=0
+AI f=217 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=217 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=217 i=0 x=11989667 y=10807431 vx=0 vy=0 t=38 ty=4 ow=0
+WT f=217 i=1 x=11522511 y=11430410 vx=-36589 vy=9280 t=46 ty=4 ow=1
+WT f=217 i=3 x=11495415 y=10179652 vx=0 vy=0 t=7 ty=4 ow=0
+WT f=217 i=4 x=11994157 y=11147625 vx=15 vy=-17 t=59 ty=4 ow=0
+AI f=218 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=218 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=219 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=219 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=220 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=220 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=221 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=221 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=221 n=0
+AI f=222 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=222 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=222 i=0 x=11989667 y=10807431 vx=0 vy=0 t=33 ty=4 ow=0
+WT f=222 i=1 x=11339566 y=11486810 vx=-36589 vy=14280 t=41 ty=4 ow=1
+WT f=222 i=2 x=10676573 y=11446820 vx=129722 vy=1025 t=68 ty=4 ow=1
+WT f=222 i=3 x=11495415 y=10179652 vx=0 vy=0 t=2 ty=4 ow=0
+WT f=222 i=4 x=11994169 y=11147611 vx=0 vy=0 t=54 ty=4 ow=0
+AI f=223 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=223 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=224 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=224 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=225 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=225 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=226 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=226 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=226 n=0
+AI f=227 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=227 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=227 i=0 x=11989667 y=10807431 vx=0 vy=0 t=28 ty=4 ow=0
+WT f=227 i=1 x=11156621 y=11568210 vx=-36589 vy=19280 t=36 ty=4 ow=1
+WT f=227 i=2 x=11325183 y=11461945 vx=129722 vy=6025 t=63 ty=4 ow=1
+WT f=227 i=4 x=11994169 y=11147611 vx=0 vy=0 t=50 ty=4 ow=0
+AI f=228 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=228 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=229 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=229 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=230 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=230 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=231 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=231 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=231 n=0
+AI f=232 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=232 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=232 i=0 x=11989667 y=10807431 vx=0 vy=0 t=23 ty=4 ow=0
+WT f=232 i=1 x=10973676 y=11674610 vx=-36589 vy=24280 t=31 ty=4 ow=1
+WT f=232 i=2 x=11636517 y=11498860 vx=-38916 vy=9420 t=58 ty=4 ow=1
+WT f=232 i=4 x=11994169 y=11147611 vx=0 vy=0 t=45 ty=4 ow=0
+AI f=233 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=233 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=234 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=234 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=235 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=235 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=236 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=236 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=236 n=0
+AI f=237 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=237 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=237 i=0 x=11989667 y=10807431 vx=0 vy=0 t=18 ty=4 ow=0
+WT f=237 i=1 x=10798049 y=11770546 vx=-29271 vy=-6184 t=26 ty=4 ow=1
+WT f=237 i=2 x=11441937 y=11555960 vx=-38916 vy=14420 t=53 ty=4 ow=1
+WT f=237 i=4 x=11994169 y=11147611 vx=0 vy=0 t=40 ty=4 ow=0
+AI f=238 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=238 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=239 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=239 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=239 terr=1ac34f96 rng=d42daac3,0a998e51 wc=5 nc=0 sc=0 bc=0 obj=6fb5640d kl=-1 vp=91,97|71,97 shk=0,0 w0 p=170,176 v=-26469,0 hp=100 vis=1 kt=0 lr=35,96 aim=48 dir=0 cur=11 w=4 wslot=0 am=5 dly=-1 ld=196 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=97 dir=1 cur=2 w=4 wslot=0 am=1 dly=19 ld=0 lv=5 k=0 sf=0
+AI f=240 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=240 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=241 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=241 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=241 n=0
+AI f=242 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=242 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=242 i=0 x=11989667 y=10807431 vx=0 vy=0 t=13 ty=4 ow=0
+WT f=242 i=1 x=10651694 y=11749626 vx=-29271 vy=-1184 t=21 ty=4 ow=1
+WT f=242 i=2 x=11247357 y=11638060 vx=-38916 vy=19420 t=48 ty=4 ow=1
+WT f=242 i=3 x=10722369 y=11479168 vx=141171 vy=1072 t=75 ty=4 ow=1
+WT f=242 i=4 x=11994169 y=11147611 vx=0 vy=0 t=35 ty=4 ow=0
+AI f=243 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=243 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=244 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=244 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=245 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=245 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=246 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=246 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=246 n=0
+AI f=247 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=247 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=247 i=0 x=11989667 y=10807431 vx=0 vy=0 t=8 ty=4 ow=0
+WT f=247 i=1 x=10505339 y=11753706 vx=-29271 vy=3816 t=16 ty=4 ow=1
+WT f=247 i=2 x=11052777 y=11745160 vx=-38916 vy=24420 t=43 ty=4 ow=1
+WT f=247 i=3 x=11428224 y=11494528 vx=141171 vy=6072 t=70 ty=4 ow=1
+WT f=247 i=4 x=11994169 y=11147611 vx=0 vy=0 t=30 ty=4 ow=0
+AI f=248 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=248 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=249 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=249 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=250 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=250 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=251 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=251 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=251 n=0
+AI f=252 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=252 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=252 i=0 x=11989667 y=10807431 vx=0 vy=0 t=3 ty=4 ow=0
+WT f=252 i=1 x=10358984 y=11782786 vx=-29271 vy=8816 t=11 ty=4 ow=1
+WT f=252 i=2 x=10881549 y=11778122 vx=-31132 vy=-3626 t=38 ty=4 ow=1
+WT f=252 i=3 x=11583513 y=11530643 vx=-42351 vy=9657 t=65 ty=4 ow=1
+WT f=252 i=4 x=11994169 y=11147611 vx=0 vy=0 t=25 ty=4 ow=0
+AI f=253 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=253 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=254 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=254 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=255 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=255 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=256 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=256 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=256 n=0
+AI f=257 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=257 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=257 i=1 x=10259465 y=11789670 vx=-23416 vy=1356 t=7 ty=4 ow=1
+WT f=257 i=2 x=10757021 y=11769618 vx=-31132 vy=374 t=34 ty=4 ow=1
+WT f=257 i=3 x=11414109 y=11575271 vx=-42351 vy=13657 t=61 ty=4 ow=1
+WT f=257 i=4 x=11994169 y=11147611 vx=0 vy=0 t=21 ty=4 ow=0
+AI f=258 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=258 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=259 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=259 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=260 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=260 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=261 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=261 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=261 n=0
+AI f=262 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=262 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=262 i=1 x=10193488 y=11796887 vx=323 vy=10 t=2 ty=4 ow=1
+WT f=262 i=2 x=10601361 y=11781488 vx=-31132 vy=5374 t=29 ty=4 ow=1
+WT f=262 i=3 x=11202354 y=11653556 vx=-42351 vy=18657 t=56 ty=4 ow=1
+WT f=262 i=4 x=11994169 y=11147611 vx=0 vy=0 t=16 ty=4 ow=0
+CK frame=262 terr=1ac34f96 rng=80cad14c,0b6922f3 wc=4 nc=0 sc=0 bc=0 obj=c0ae2178 kl=-1 vp=83,97|71,97 shk=0,0 w0 p=162,176 v=-27214,0 hp=100 vis=1 kt=0 lr=35,96 aim=48 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=173 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=97 dir=1 cur=2 w=4 wslot=0 am=1 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=263 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=263 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=264 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=264 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=265 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=265 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=266 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=266 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=266 n=0
+AI f=267 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=267 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=267 i=0 x=10707057 y=11538532 vx=137343 vy=15913 t=59 ty=4 ow=1
+WT f=267 i=2 x=10489287 y=11792412 vx=-24905 vy=1088 t=25 ty=4 ow=1
+WT f=267 i=3 x=11032950 y=11734184 vx=-42351 vy=22657 t=52 ty=4 ow=1
+WT f=267 i=4 x=11994169 y=11147611 vx=0 vy=0 t=12 ty=4 ow=0
+AI f=268 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=268 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=269 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=269 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=270 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=270 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=271 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=271 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=271 n=0
+AI f=272 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=272 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=272 i=0 x=11393772 y=11628097 vx=137343 vy=20913 t=54 ty=4 ow=1
+WT f=272 i=2 x=10404410 y=11797007 vx=-1147 vy=78 t=20 ty=4 ow=1
+WT f=272 i=3 x=10846608 y=11765207 vx=-33880 vy=-3097 t=47 ty=4 ow=1
+WT f=272 i=4 x=11994169 y=11147611 vx=0 vy=0 t=7 ty=4 ow=0
+AI f=273 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=273 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=274 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=274 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=275 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=275 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=276 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=276 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=276 n=0
+AI f=277 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=277 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=277 i=0 x=11544852 y=11729513 vx=-41202 vy=21530 t=49 ty=4 ow=1
+WT f=277 i=2 x=10403485 y=11797071 vx=0 vy=0 t=15 ty=4 ow=1
+WT f=277 i=3 x=10677208 y=11759722 vx=-33880 vy=1903 t=42 ty=4 ow=1
+WT f=277 i=4 x=11994169 y=11147611 vx=0 vy=0 t=2 ty=4 ow=0
+AI f=278 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=278 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=279 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=279 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=280 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=280 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=281 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=281 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=281 n=0
+AI f=282 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=282 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=282 i=0 x=11441022 y=11788809 vx=9888 vy=-2647 t=44 ty=4 ow=1
+WT f=282 i=2 x=10403485 y=11797071 vx=0 vy=0 t=10 ty=4 ow=1
+WT f=282 i=3 x=10507808 y=11779237 vx=-33880 vy=6903 t=37 ty=4 ow=1
+AI f=283 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=283 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=284 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=284 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=285 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=285 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=286 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=286 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=286 n=0
+AI f=287 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=287 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=287 i=0 x=11490462 y=11785574 vx=9888 vy=2353 t=39 ty=4 ow=1
+WT f=287 i=2 x=10403485 y=11797071 vx=0 vy=0 t=5 ty=4 ow=1
+WT f=287 i=3 x=10358736 y=11792933 vx=-27104 vy=1630 t=32 ty=4 ow=1
+CK frame=287 terr=1ac34f96 rng=2d546422,42b27edc wc=3 nc=0 sc=0 bc=0 obj=1f070446 kl=-1 vp=74,97|71,97 shk=0,0 w0 p=153,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=48 dir=0 cur=18 w=4 wslot=0 am=5 dly=-1 ld=148 lv=5 k=0 sf=0 | w1 p=150,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=97 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=201 lv=5 k=0 sf=0
+AI f=288 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=288 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=289 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=289 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=290 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=290 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=291 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=291 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=291 n=0
+AI f=292 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=292 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=292 i=0 x=11535946 y=11796023 vx=6328 vy=792 t=34 ty=4 ow=1
+WT f=292 i=2 x=10403485 y=11797071 vx=0 vy=0 t=0 ty=4 ow=1
+WT f=292 i=3 x=10309549 y=11796940 vx=-112 vy=28 t=27 ty=4 ow=1
+AI f=293 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=293 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=294 fi=1 j=0 c=0 l=1 r=0 u=1 d=0 aim=97 w=4
+A0 f=294 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=295 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=30 w=4
+A0 f=295 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=296 fi=1 j=0 c=0 l=0 r=1 u=1 d=0 aim=30 w=4
+A0 f=296 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=296 n=0
+AI f=297 fi=1 j=0 c=0 l=1 r=0 u=1 d=0 aim=97 w=4
+A0 f=297 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=297 i=0 x=11541128 y=11797320 vx=-5 vy=-11 t=29 ty=4 ow=1
+WT f=297 i=3 x=10309458 y=11796963 vx=0 vy=0 t=23 ty=4 ow=1
+AI f=298 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=30 w=4
+A0 f=298 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=299 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=299 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=299 terr=1ac34f96 rng=c3abd1a1,0ff45c06 wc=2 nc=0 sc=0 bc=0 obj=fc9d9af6 kl=-1 vp=69,97|70,97 shk=0,0 w0 p=148,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=48 dir=0 cur=11 w=4 wslot=0 am=5 dly=-1 ld=136 lv=5 k=0 sf=0 | w1 p=149,176 v=-1936,0 hp=100 vis=1 kt=0 lr=70,96 aim=30 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=189 lv=5 k=0 sf=0
+AI f=300 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=300 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=301 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=301 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=301 n=0
+AI f=302 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=302 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=302 i=0 x=11541123 y=11797311 vx=0 vy=0 t=24 ty=4 ow=1
+WT f=302 i=3 x=10309458 y=11796963 vx=0 vy=0 t=18 ty=4 ow=1
+AI f=303 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=303 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=304 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=304 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=305 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=305 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=306 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=306 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=306 n=0
+AI f=307 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=307 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=307 i=0 x=11541123 y=11797311 vx=0 vy=0 t=19 ty=4 ow=1
+WT f=307 i=3 x=10309458 y=11796963 vx=0 vy=0 t=13 ty=4 ow=1
+AI f=308 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=308 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=309 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=309 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=310 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=310 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=311 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=311 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=311 n=0
+AI f=312 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=312 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=312 i=0 x=11541123 y=11797311 vx=0 vy=0 t=14 ty=4 ow=1
+WT f=312 i=3 x=10309458 y=11796963 vx=0 vy=0 t=8 ty=4 ow=1
+CK frame=312 terr=1ac34f96 rng=28673260,029cdc22 wc=2 nc=0 sc=0 bc=0 obj=1c057d02 kl=-1 vp=64,97|70,97 shk=0,0 w0 p=143,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=48 dir=0 cur=18 w=4 wslot=0 am=5 dly=-1 ld=123 lv=5 k=0 sf=0 | w1 p=149,176 v=-422,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=176 lv=5 k=0 sf=0
+AI f=313 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=313 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=314 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=314 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=315 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=315 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=316 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=316 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=316 n=0
+AI f=317 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=317 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=317 i=0 x=11541123 y=11797311 vx=0 vy=0 t=9 ty=4 ow=1
+WT f=317 i=3 x=10309458 y=11796963 vx=0 vy=0 t=3 ty=4 ow=1
+AI f=318 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=318 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=319 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=319 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=320 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=320 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=321 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=321 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=321 n=0
+AI f=322 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=322 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=322 i=0 x=11541123 y=11797311 vx=0 vy=0 t=4 ty=4 ow=1
+AI f=323 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=323 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=324 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=324 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=325 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=325 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=326 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=326 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=326 n=0
+AI f=327 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=327 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=328 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=328 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=329 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=329 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=330 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=330 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=331 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=331 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=331 n=0
+AI f=332 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=332 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=333 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=333 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=334 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=334 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=335 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=335 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=336 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=336 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=336 n=0
+AI f=337 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=337 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=337 terr=1ac34f96 rng=1989fe82,32b46444 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=56,97|70,97 shk=0,0 w0 p=135,176 v=-10729,0 hp=100 vis=1 kt=0 lr=35,96 aim=49 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=98 lv=5 k=0 sf=0 | w1 p=149,176 v=-18,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=151 lv=5 k=0 sf=0
+AI f=338 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=338 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=339 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=339 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=340 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=340 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=341 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=341 fi=0 j=0 c=1 l=1 r=0 u=1 d=0
+NN f=341 n=0
+AI f=342 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=342 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=343 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=343 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=344 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=344 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=345 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=345 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=346 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=346 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=346 n=0
+AI f=347 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=347 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=348 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=348 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=349 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=349 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=350 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=350 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=351 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=351 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=351 n=0
+AI f=352 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=352 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=353 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=353 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=354 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=354 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=355 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=355 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=356 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=356 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=356 n=0
+AI f=357 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=357 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=358 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=358 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=359 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=359 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=359 terr=1ac34f96 rng=804bfaef,012f61ec wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=-821,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=76 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=129 lv=5 k=0 sf=0
+AI f=360 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=360 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=361 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=361 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=361 n=0
+AI f=362 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=362 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=362 terr=1ac34f96 rng=e91ca4e4,29e57c37 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=-577,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=73 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=126 lv=5 k=0 sf=0
+AI f=363 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=363 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=364 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=364 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=365 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=365 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=366 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=366 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=366 n=0
+AI f=367 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=367 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=368 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=368 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=369 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=369 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=370 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=370 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=371 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=371 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=371 n=0
+AI f=372 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=372 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=373 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=373 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=374 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=374 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=375 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=375 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=376 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=376 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=376 n=0
+AI f=377 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=377 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=378 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=378 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=379 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=379 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=380 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=380 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=381 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=381 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=381 n=0
+AI f=382 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=382 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=383 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=383 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=384 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=384 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=385 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=385 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=386 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=386 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=386 n=0
+AI f=387 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=387 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=387 terr=1ac34f96 rng=f4e28cd4,3789f0b0 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=-27,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=48 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=101 lv=5 k=0 sf=0
+AI f=388 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=388 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=389 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=389 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=390 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=390 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=391 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=391 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=391 n=0
+AI f=392 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=392 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=393 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=393 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=394 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=394 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=395 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=395 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=396 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=396 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=396 n=0
+AI f=397 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=397 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=398 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=398 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=399 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=399 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=400 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=400 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=401 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=401 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=401 n=0
+AI f=402 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=402 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=403 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=403 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=404 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=404 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=405 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=405 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=406 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=406 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=406 n=0
+AI f=407 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=407 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=408 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=408 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=409 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=409 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=410 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=410 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=411 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=411 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=411 n=0
+AI f=412 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=412 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=412 terr=1ac34f96 rng=c90aefca,79432ee7 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=23 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=76 lv=5 k=0 sf=0
+AI f=413 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=413 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=414 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=414 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=415 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=415 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=416 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=416 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=416 n=0
+AI f=417 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=417 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=418 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=418 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=419 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=419 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=419 terr=1ac34f96 rng=e7741bba,18d7020f wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|70,97 shk=0,0 w0 p=134,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=16 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=69 lv=5 k=0 sf=0
+AI f=420 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=420 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=421 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=421 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=421 n=0
+AI f=422 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=422 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=423 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=423 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=424 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=424 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=425 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=425 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=426 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=426 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=426 n=0
+AI f=427 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=427 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=428 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=428 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=429 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=429 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=430 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=430 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=431 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=431 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=431 n=0
+AI f=432 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=432 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=433 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=433 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=434 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=434 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=435 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=435 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=436 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=436 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=436 n=0
+AI f=437 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=437 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=438 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=438 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=439 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=439 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=440 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=440 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=441 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=441 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=441 n=0
+AI f=442 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=442 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=443 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=443 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=444 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=444 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=445 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=445 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=446 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=446 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=446 n=0
+AI f=447 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=447 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=448 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=448 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=449 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=449 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=450 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=450 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=451 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=451 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=451 n=0
+AI f=452 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=452 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=453 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=453 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=454 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=454 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=455 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=455 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=456 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=456 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=456 n=0
+AI f=457 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=457 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=457 terr=1ac34f96 rng=78fb4768,57e58fef wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=65,97|70,97 shk=0,0 w0 p=144,176 v=26944,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=13 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=31 lv=5 k=0 sf=0
+AI f=458 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=458 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=459 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=459 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=460 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=460 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=461 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=461 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=461 n=0
+AI f=462 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=462 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=463 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=463 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=464 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=464 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=465 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=465 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=466 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=466 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=466 n=0
+AI f=467 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=467 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=468 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=468 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=469 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=469 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=470 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=470 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=471 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=471 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=471 n=0
+AI f=472 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=472 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=473 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=473 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=474 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=474 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=475 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=475 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=476 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=476 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=476 n=0
+AI f=477 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=477 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=478 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=478 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=479 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=479 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=479 terr=1ac34f96 rng=dc7f5ef9,0c4e94cf wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=73,97|70,97 shk=0,0 w0 p=152,176 v=27243,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=9 lv=5 k=0 sf=0
+AI f=480 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=480 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=481 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=481 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=481 n=0
+AI f=482 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=482 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=482 terr=1ac34f96 rng=db1eca88,063ba31a wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=75,97|70,97 shk=0,0 w0 p=154,176 v=27250,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=6 lv=5 k=0 sf=0
+AI f=483 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=483 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=484 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=484 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=485 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=485 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=486 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=486 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=486 n=0
+AI f=487 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=487 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=488 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=488 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=489 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=489 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=490 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=490 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=491 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=491 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=491 n=0
+AI f=492 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=492 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=493 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=493 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=494 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=494 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=495 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=495 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=496 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=496 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=496 n=0
+AI f=497 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=497 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=498 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=498 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=499 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=499 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=500 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=500 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=501 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=501 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=501 n=0
+AI f=502 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=502 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=503 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=4
+A0 f=503 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=504 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=504 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=505 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=505 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=506 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=506 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=506 n=0
+AI f=507 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=507 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=507 terr=1ac34f96 rng=da180921,78d9d8d9 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=84,97|70,97 shk=0,0 w0 p=163,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=17 wslot=1 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=508 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=508 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=509 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=509 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=510 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=510 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=511 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=511 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=511 n=0
+AI f=512 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=512 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=513 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=513 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=514 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=514 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=515 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=515 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=516 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=516 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=516 n=0
+AI f=517 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=517 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=518 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=518 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=519 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=519 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=520 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=520 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=521 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=521 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=521 n=0
+AI f=522 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=522 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=523 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=523 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=524 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=524 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=525 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=525 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=526 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=526 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=526 n=0
+AI f=527 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=527 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=528 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=528 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=529 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=529 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=530 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=530 fi=1 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=531 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=531 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=531 n=0
+AI f=532 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=532 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=532 i=0 x=11375032 y=10902517 vx=43625 vy=-119832 t=66 ty=4 ow=0
+CK frame=532 terr=1ac34f96 rng=7f436559,21090f3c wc=1 nc=0 sc=0 bc=0 obj=87812a96 kl=-1 vp=93,97|70,97 shk=0,0 w0 p=172,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=69 dir=1 cur=5 w=4 wslot=0 am=4 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=533 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=533 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=534 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=534 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=535 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=535 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=536 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=536 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=536 n=0
+AI f=537 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=537 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=537 i=0 x=11593157 y=10313357 vx=34900 vy=35749 t=61 ty=4 ow=0
+AI f=538 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=538 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=539 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=539 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=539 terr=1ac34f96 rng=52fd3a92,3e8fbb6e wc=1 nc=0 sc=0 bc=0 obj=898ea426 kl=-1 vp=96,97|70,97 shk=0,0 w0 p=175,176 v=27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=75 dir=1 cur=19 w=4 wslot=0 am=4 dly=11 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=540 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=540 fi=0 j=1 c=0 l=0 r=0 u=0 d=0
+AI f=541 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=541 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=541 n=0
+AI f=542 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=542 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=542 i=0 x=11767657 y=10502102 vx=-10470 vy=32799 t=56 ty=4 ow=0
+AI f=543 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=543 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=544 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=544 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=545 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=545 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=546 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=546 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=546 n=0
+AI f=547 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=547 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=547 i=0 x=11715307 y=10676097 vx=-10470 vy=37799 t=51 ty=4 ow=0
+AI f=548 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=548 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=549 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=4
+A0 f=549 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=550 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=550 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=551 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=551 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=551 n=0
+AI f=552 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=552 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=552 i=0 x=11662957 y=10875092 vx=-10470 vy=42799 t=46 ty=4 ow=0
+AI f=553 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=553 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=554 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=554 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=555 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=555 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=556 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=556 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=556 n=0
+AI f=557 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=557 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=557 i=0 x=11610607 y=11099087 vx=-10470 vy=47799 t=41 ty=4 ow=0
+WT f=557 i=1 x=12036051 y=10696814 vx=6014 vy=-4748 t=64 ty=4 ow=0
+CK frame=557 terr=1ac34f96 rng=25bc0a0d,2ab2b3d4 wc=2 nc=0 sc=0 bc=0 obj=2c8c0bc0 kl=-1 vp=99,90|70,97 shk=0,0 w0 p=178,169 v=0,10500 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=3 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=17 wslot=1 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=558 fi=0 j=0 c=1 l=1 r=1 u=0 d=0 aim=32 w=17
+A0 f=558 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=559 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=559 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=560 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=560 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=561 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=561 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=561 n=0
+AI f=562 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=562 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=562 i=0 x=11558257 y=11348082 vx=-10470 vy=52799 t=36 ty=4 ow=0
+WT f=562 i=1 x=12040904 y=10692982 vx=-4 vy=3 t=59 ty=4 ow=0
+AI f=563 fi=0 j=0 c=1 l=0 r=1 u=0 d=0 aim=32 w=17
+A0 f=563 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=564 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=564 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=565 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=565 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=566 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=566 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=566 n=0
+AI f=567 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=567 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=567 i=0 x=11505907 y=11622077 vx=-10470 vy=57799 t=31 ty=4 ow=0
+WT f=567 i=1 x=12040900 y=10692985 vx=0 vy=0 t=54 ty=4 ow=0
+AI f=568 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=568 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=569 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=569 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=570 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=570 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=571 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=571 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=571 n=0
+AI f=572 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=572 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=572 i=0 x=11459839 y=11691758 vx=-8376 vy=-13639 t=26 ty=4 ow=0
+WT f=572 i=1 x=12040900 y=10692985 vx=0 vy=0 t=49 ty=4 ow=0
+AI f=573 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=573 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=574 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=574 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=575 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=575 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=576 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=576 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=576 n=0
+AI f=577 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=577 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=577 i=0 x=11417959 y=11633563 vx=-8376 vy=-8639 t=21 ty=4 ow=0
+WT f=577 i=1 x=12040900 y=10692985 vx=0 vy=0 t=44 ty=4 ow=0
+AI f=578 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=578 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=579 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=579 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=580 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=580 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=581 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=581 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=581 n=0
+AI f=582 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=582 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=582 i=0 x=11376079 y=11600368 vx=-8376 vy=-3639 t=16 ty=4 ow=0
+WT f=582 i=1 x=12040900 y=10692985 vx=0 vy=0 t=39 ty=4 ow=0
+WT f=582 i=2 x=12020485 y=11157525 vx=4834 vy=-5983 t=61 ty=4 ow=0
+CK frame=582 terr=1ac34f96 rng=4c8b1802,30b53f24 wc=3 nc=0 sc=0 bc=0 obj=bca631d8 kl=-1 vp=99,97|70,97 shk=0,0 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=149,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=17 wslot=1 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=583 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=583 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=584 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=584 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=585 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=585 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=586 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=586 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=586 n=0
+AI f=587 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=587 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=587 i=0 x=11334199 y=11592173 vx=-8376 vy=1361 t=11 ty=4 ow=0
+WT f=587 i=1 x=12040900 y=10692985 vx=0 vy=0 t=34 ty=4 ow=0
+WT f=587 i=2 x=12024386 y=11152696 vx=-3 vy=4 t=56 ty=4 ow=0
+AI f=588 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=588 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=589 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=17
+A0 f=589 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=590 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=590 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=591 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=591 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=591 n=0
+AI f=592 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=592 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=592 i=0 x=11292319 y=11608978 vx=-8376 vy=6361 t=6 ty=4 ow=0
+WT f=592 i=1 x=12040900 y=10692985 vx=0 vy=0 t=29 ty=4 ow=0
+WT f=592 i=2 x=12024383 y=11152700 vx=0 vy=0 t=51 ty=4 ow=0
+AI f=593 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=593 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=594 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=594 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=595 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=595 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=596 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=596 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=596 n=0
+AI f=597 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=597 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=597 i=0 x=11250439 y=11650783 vx=-8376 vy=11361 t=1 ty=4 ow=0
+WT f=597 i=1 x=12040900 y=10692985 vx=0 vy=0 t=24 ty=4 ow=0
+WT f=597 i=2 x=12024383 y=11152700 vx=0 vy=0 t=46 ty=4 ow=0
+AI f=598 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=598 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=599 fi=0 j=1 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=599 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=599 terr=1ac34f96 rng=0d7695f0,51b0118f wc=2 nc=0 sc=0 bc=0 obj=13177538 kl=-1 vp=99,97|70,96 shk=0,0 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=1 ld=0 lv=5 k=0 sf=0 | w1 p=149,175 v=0,-56064 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=600 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=600 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=600 terr=1ac34f96 rng=cbd8fab6,3787591d wc=2 nc=0 sc=0 bc=0 obj=a39fa698 kl=-1 vp=99,97|70,95 shk=0,0 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=0 ld=0 lv=5 k=0 sf=0 | w1 p=149,174 v=0,-54564 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=601 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=601 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=601 n=0
+AI f=602 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=602 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=602 i=1 x=12040900 y=10692985 vx=0 vy=0 t=20 ty=4 ow=0
+WT f=602 i=2 x=12024383 y=11152700 vx=0 vy=0 t=42 ty=4 ow=0
+AI f=603 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=603 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=604 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=604 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=605 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=605 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=606 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=606 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=606 n=0
+AI f=607 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=607 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=607 i=0 x=12033762 y=11174039 vx=5840 vy=-4845 t=62 ty=4 ow=0
+WT f=607 i=1 x=12040900 y=10692985 vx=0 vy=0 t=15 ty=4 ow=0
+WT f=607 i=2 x=12024383 y=11152700 vx=0 vy=0 t=37 ty=4 ow=0
+AI f=608 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=608 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=609 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=609 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=610 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=610 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=611 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=611 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=611 n=0
+AI f=612 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=612 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=612 i=0 x=12038476 y=11170129 vx=-4 vy=3 t=57 ty=4 ow=0
+WT f=612 i=1 x=12040900 y=10692985 vx=0 vy=0 t=10 ty=4 ow=0
+WT f=612 i=2 x=12024383 y=11152700 vx=0 vy=0 t=32 ty=4 ow=0
+AI f=613 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=613 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=614 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=614 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=615 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=615 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=616 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=616 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=616 n=0
+AI f=617 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=617 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=617 i=0 x=12038472 y=11170132 vx=0 vy=0 t=52 ty=4 ow=0
+WT f=617 i=1 x=12040900 y=10692985 vx=0 vy=0 t=5 ty=4 ow=0
+WT f=617 i=2 x=12024383 y=11152700 vx=0 vy=0 t=27 ty=4 ow=0
+AI f=618 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=618 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=619 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=619 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=620 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=620 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=621 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=621 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=621 n=0
+AI f=622 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=622 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=622 i=0 x=12038472 y=11170132 vx=0 vy=0 t=47 ty=4 ow=0
+WT f=622 i=1 x=12040900 y=10692985 vx=0 vy=0 t=0 ty=4 ow=0
+WT f=622 i=2 x=12024383 y=11152700 vx=0 vy=0 t=22 ty=4 ow=0
+AI f=623 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=623 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=624 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=624 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=625 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=625 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=626 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=626 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=626 n=0
+AI f=627 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=627 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=627 i=0 x=12038472 y=11170132 vx=0 vy=0 t=42 ty=4 ow=0
+WT f=627 i=2 x=12024383 y=11152700 vx=0 vy=0 t=18 ty=4 ow=0
+AI f=628 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=628 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=629 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=629 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=630 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=630 fi=1 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=631 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=631 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=631 n=0
+AI f=632 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=632 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=632 i=0 x=12038472 y=11170132 vx=0 vy=0 t=37 ty=4 ow=0
+WT f=632 i=1 x=12025188 y=11173646 vx=5191 vy=-4874 t=77 ty=4 ow=0
+WT f=632 i=2 x=12024383 y=11152700 vx=0 vy=0 t=13 ty=4 ow=0
+AI f=633 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=633 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=634 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=634 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=635 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=32 w=4
+A0 f=635 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=636 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=636 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=636 n=0
+AI f=637 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=637 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=637 i=0 x=12038472 y=11170132 vx=0 vy=0 t=32 ty=4 ow=0
+WT f=637 i=1 x=12029377 y=11169713 vx=-3 vy=3 t=72 ty=4 ow=0
+WT f=637 i=2 x=12024383 y=11152700 vx=0 vy=0 t=8 ty=4 ow=0
+AI f=638 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=638 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=639 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=639 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=640 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=640 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=641 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=641 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=641 n=0
+AI f=642 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=642 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=642 i=0 x=12038472 y=11170132 vx=0 vy=0 t=27 ty=4 ow=0
+WT f=642 i=1 x=12029374 y=11169716 vx=0 vy=0 t=67 ty=4 ow=0
+WT f=642 i=2 x=12024383 y=11152700 vx=0 vy=0 t=3 ty=4 ow=0
+AI f=643 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=643 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=644 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=644 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=645 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=645 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=646 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=646 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=646 n=0
+AI f=647 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=647 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=647 i=0 x=12038472 y=11170132 vx=0 vy=0 t=22 ty=4 ow=0
+WT f=647 i=1 x=12029374 y=11169716 vx=0 vy=0 t=62 ty=4 ow=0
+AI f=648 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=648 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=649 fi=1 j=0 c=0 l=0 r=1 u=1 d=0 aim=32 w=4
+A0 f=649 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=650 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=95 w=4
+A0 f=650 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=651 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=95 w=4
+A0 f=651 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=651 n=0
+AI f=652 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=95 w=4
+A0 f=652 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=652 i=0 x=12038472 y=11170132 vx=0 vy=0 t=17 ty=4 ow=0
+WT f=652 i=1 x=12029374 y=11169716 vx=0 vy=0 t=57 ty=4 ow=0
+WT f=652 i=2 x=9058689 y=10767376 vx=-139998 vy=20020 t=69 ty=4 ow=1
+AI f=653 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=95 w=4
+A0 f=653 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=654 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=95 w=4
+A0 f=654 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=655 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=96 w=4
+A0 f=655 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=656 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=96 w=4
+A0 f=656 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=656 n=0
+AI f=657 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=96 w=4
+A0 f=657 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=657 i=0 x=12038472 y=11170132 vx=0 vy=0 t=12 ty=4 ow=0
+WT f=657 i=1 x=12029374 y=11169716 vx=0 vy=0 t=52 ty=4 ow=0
+WT f=657 i=2 x=8358699 y=10877476 vx=-139998 vy=25020 t=64 ty=4 ow=1
+AI f=658 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=97 w=4
+A0 f=658 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=659 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=97 w=4
+A0 f=659 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=659 terr=1ac34f96 rng=0abeb16d,131d28be wc=3 nc=0 sc=0 bc=0 obj=119a68de kl=-1 vp=92,97|71,91 shk=0,0 w0 p=171,176 v=-26443,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=196 lv=5 k=0 sf=0 | w1 p=150,170 v=3000,45000 hp=100 vis=1 kt=0 lr=70,96 aim=98 dir=1 cur=2 w=4 wslot=0 am=4 dly=10 ld=0 lv=5 k=0 sf=0
+AI f=660 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=98 w=4
+A0 f=660 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=661 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=98 w=4
+A0 f=661 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=661 n=0
+AI f=662 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=662 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=662 i=0 x=12038472 y=11170132 vx=0 vy=0 t=7 ty=4 ow=0
+WT f=662 i=1 x=12029374 y=11169716 vx=0 vy=0 t=47 ty=4 ow=0
+WT f=662 i=2 x=7658709 y=11012576 vx=-139998 vy=30020 t=59 ty=4 ow=1
+AI f=663 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=663 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=664 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=664 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=665 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=101 w=4
+A0 f=665 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=666 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=101 w=4
+A0 f=666 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=666 n=0
+AI f=667 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=667 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=667 i=0 x=12038472 y=11170132 vx=0 vy=0 t=2 ty=4 ow=0
+WT f=667 i=1 x=12029374 y=11169716 vx=0 vy=0 t=42 ty=4 ow=0
+WT f=667 i=2 x=6958719 y=11172676 vx=-139998 vy=35020 t=54 ty=4 ow=1
+AI f=668 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=668 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=669 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=669 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=670 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=670 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=671 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=103 w=4
+A0 f=671 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=671 n=0
+AI f=672 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=103 w=4
+A0 f=672 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=672 i=1 x=12029374 y=11169716 vx=0 vy=0 t=38 ty=4 ow=0
+WT f=672 i=2 x=6762721 y=11304348 vx=41999 vy=31816 t=50 ty=4 ow=1
+AI f=673 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=103 w=4
+A0 f=673 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=674 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=103 w=4
+A0 f=674 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=675 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=675 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=676 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=676 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=676 n=0
+AI f=677 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=677 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=677 i=1 x=12029374 y=11169716 vx=0 vy=0 t=33 ty=4 ow=0
+WT f=677 i=2 x=6972716 y=11473428 vx=41999 vy=36816 t=45 ty=4 ow=1
+AI f=678 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=102 w=4
+A0 f=678 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=679 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=101 w=4
+A0 f=679 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=680 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=101 w=4
+A0 f=680 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=681 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=681 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=681 n=0
+AI f=682 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=682 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=682 i=1 x=12029374 y=11169716 vx=0 vy=0 t=28 ty=4 ow=0
+WT f=682 i=2 x=7182711 y=11667508 vx=41999 vy=41816 t=40 ty=4 ow=1
+CK frame=682 terr=1ac34f96 rng=328f9e2b,665897dd wc=2 nc=0 sc=0 bc=0 obj=74a7e9cc kl=-1 vp=83,97|72,94 shk=0,0 w0 p=162,176 v=-27212,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=11 w=4 wslot=0 am=5 dly=-1 ld=173 lv=5 k=0 sf=0 | w1 p=151,173 v=2670,6000 hp=100 vis=1 kt=0 lr=70,96 aim=100 dir=1 cur=2 w=4 wslot=0 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=683 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=683 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=684 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=684 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=685 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=100 w=4
+A0 f=685 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=686 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=686 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=686 n=0
+AI f=687 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=687 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=687 i=1 x=12029374 y=11169716 vx=0 vy=0 t=23 ty=4 ow=0
+WT f=687 i=2 x=7375906 y=11772668 vx=33599 vy=-10144 t=35 ty=4 ow=1
+AI f=688 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=688 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=689 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=689 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=690 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=690 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=691 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=691 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=691 n=0
+AI f=692 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=692 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=692 i=1 x=12029374 y=11169716 vx=0 vy=0 t=18 ty=4 ow=0
+WT f=692 i=2 x=7543901 y=11731948 vx=33599 vy=-5144 t=30 ty=4 ow=1
+AI f=693 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=693 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=694 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=694 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=695 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=695 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=696 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=696 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=696 n=0
+AI f=697 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=697 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=697 i=1 x=12029374 y=11169716 vx=0 vy=0 t=13 ty=4 ow=0
+WT f=697 i=2 x=7711896 y=11716228 vx=33599 vy=-144 t=25 ty=4 ow=1
+AI f=698 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=698 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=699 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=99 w=4
+A0 f=699 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=700 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=4
+A0 f=700 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=701 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=701 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=701 n=0
+AI f=702 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=702 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=702 i=1 x=12029374 y=11169716 vx=0 vy=0 t=8 ty=4 ow=0
+WT f=702 i=2 x=7879891 y=11725508 vx=33599 vy=4856 t=20 ty=4 ow=1
+AI f=703 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=703 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=704 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=704 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=705 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=705 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=706 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=706 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=706 n=0
+AI f=707 fi=1 j=0 c=1 l=0 r=1 u=0 d=0 aim=99 w=17
+A0 f=707 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=707 i=1 x=12029374 y=11169716 vx=0 vy=0 t=3 ty=4 ow=0
+WT f=707 i=2 x=8047886 y=11759788 vx=33599 vy=9856 t=15 ty=4 ow=1
+CK frame=707 terr=1ac34f96 rng=60440edc,453068e2 wc=2 nc=0 sc=0 bc=0 obj=b44cc4b9 kl=-1 vp=74,97|72,97 shk=0,0 w0 p=153,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=148 lv=5 k=0 sf=0 | w1 p=151,176 v=518,0 hp=100 vis=1 kt=0 lr=70,96 aim=99 dir=1 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=708 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=99 w=17
+A0 f=708 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=709 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=99 w=17
+A0 f=709 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=710 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=99 w=17
+A0 f=710 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=711 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=99 w=17
+A0 f=711 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=711 n=1
+NT f=711 i=0 x=9932405 y=11521649 vx=-1346 vy=-4140 t=0 ty=7 ow=1
+AI f=712 fi=1 j=0 c=0 l=1 r=0 u=1 d=0 aim=99 w=17
+A0 f=712 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=712 i=0 x=11199897 y=11665956 vx=232397 vy=38890 t=0 ty=17 ow=1
+WT f=712 i=2 x=8175562 y=11789800 vx=26879 vy=-1556 t=11 ty=4 ow=1
+AI f=713 fi=1 j=0 c=0 l=0 r=1 u=1 d=0 aim=28 w=17
+A0 f=713 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=714 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=99 w=17
+A0 f=714 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=715 fi=1 j=0 c=0 l=1 r=0 u=1 d=0 aim=99 w=17
+A0 f=715 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=716 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=28 w=17
+A0 f=716 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=716 n=3
+NT f=716 i=0 x=9925675 y=11510949 vx=-1346 vy=860 t=0 ty=7 ow=1
+NT f=716 i=2 x=11665100 y=11529532 vx=-32845 vy=-16010 t=0 ty=2 ow=1
+NT f=716 i=4 x=11501380 y=11760668 vx=-24623 vy=-7378 t=0 ty=2 ow=1
+AI f=717 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=28 w=17
+A0 f=717 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=717 i=2 x=8283078 y=11789576 vx=26879 vy=2444 t=7 ty=4 ow=1
+AI f=718 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=718 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+ST f=718 i=0 x=169 y=171 cur=2 ad=2 ty=2
+AI f=719 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=719 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=719 terr=1ac34f96 rng=cd6076d7,5ddb9ab3 wc=1 nc=3 sc=1 bc=0 obj=e3d514c2 kl=-1 vp=69,97|71,97 shk=45536,45536 w0 p=148,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=11 w=4 wslot=0 am=5 dly=-1 ld=136 lv=5 k=0 sf=0 | w1 p=150,176 v=-6076,0 hp=100 vis=1 kt=0 lr=70,96 aim=28 dir=0 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=720 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=720 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=721 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=721 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=721 n=3
+NT f=721 i=0 x=9918945 y=11525249 vx=-1346 vy=5860 t=0 ty=7 ow=1
+NT f=721 i=2 x=11500875 y=11456482 vx=-32845 vy=-12510 t=0 ty=2 ow=1
+NT f=721 i=4 x=11378265 y=11730778 vx=-24623 vy=-3878 t=0 ty=2 ow=1
+AI f=722 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=722 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=722 i=2 x=8397044 y=11797108 vx=-4128 vy=-170 t=2 ty=4 ow=1
+AI f=723 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=723 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+ST f=723 i=0 x=169 y=171 cur=4 ad=1 ty=2
+AI f=724 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=17
+A0 f=724 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=725 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=17
+A0 f=725 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=726 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=17
+A0 f=726 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=726 n=3
+NT f=726 i=0 x=9912215 y=11564549 vx=-1346 vy=10860 t=0 ty=7 ow=1
+NT f=726 i=2 x=11336650 y=11400932 vx=-32845 vy=-9010 t=0 ty=2 ow=1
+NT f=726 i=4 x=11255150 y=11718388 vx=-24623 vy=-378 t=0 ty=2 ow=1
+AI f=727 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=17
+A0 f=727 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=728 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=17
+A0 f=728 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=729 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=30 w=17
+A0 f=729 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=730 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=31 w=17
+A0 f=730 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=731 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=17
+A0 f=731 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=731 n=4
+NT f=731 i=0 x=9905485 y=11628849 vx=-1346 vy=15860 t=0 ty=7 ow=1
+NT f=731 i=1 x=9819330 y=11496113 vx=627 vy=-17343 t=0 ty=7 ow=1
+NT f=731 i=2 x=11172425 y=11362882 vx=-32845 vy=-5510 t=0 ty=2 ow=1
+NT f=731 i=4 x=11132035 y=11723498 vx=-24623 vy=3122 t=0 ty=2 ow=1
+AI f=732 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=732 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=732 i=0 x=8532994 y=11594591 vx=-237375 vy=24981 t=0 ty=17 ow=1
+CK frame=732 terr=1ac34f96 rng=ada5c619,3e580dff wc=1 nc=4 sc=0 bc=0 obj=f0688073 kl=-1 vp=65,97|71,97 shk=-2464,-2464 w0 p=144,176 v=-27264,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=18 w=4 wslot=0 am=5 dly=-1 ld=123 lv=5 k=0 sf=0 | w1 p=150,176 v=7509,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=733 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=733 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=734 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=17
+A0 f=734 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=735 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=735 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=736 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=736 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=736 n=4
+NT f=736 i=0 x=9898755 y=11718149 vx=-1346 vy=20860 t=0 ty=7 ow=1
+NT f=736 i=1 x=9822465 y=11419398 vx=627 vy=-12343 t=0 ty=7 ow=1
+NT f=736 i=2 x=11008200 y=11342332 vx=-32845 vy=-2010 t=0 ty=2 ow=1
+NT f=736 i=4 x=11008920 y=11746108 vx=-24623 vy=6622 t=0 ty=2 ow=1
+AI f=737 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=737 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=737 i=0 x=7346119 y=11726496 vx=-237375 vy=28481 t=0 ty=17 ow=1
+AI f=738 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=738 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=739 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=739 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=740 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=740 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=741 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=741 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=741 n=5
+NT f=741 i=0 x=9892565 y=11768441 vx=-1076 vy=-6144 t=0 ty=7 ow=1
+NT f=741 i=1 x=9825600 y=11367683 vx=627 vy=-7343 t=0 ty=7 ow=1
+NT f=741 i=2 x=10843975 y=11339282 vx=-32845 vy=1490 t=0 ty=2 ow=1
+NT f=741 i=3 x=6905692 y=11761516 vx=38871 vy=-23550 t=0 ty=2 ow=1
+NT f=741 i=4 x=10885805 y=11786218 vx=-24623 vy=10122 t=0 ty=2 ow=1
+AI f=742 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=742 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=743 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=743 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+ST f=743 i=0 x=96 y=171 cur=2 ad=2 ty=2
+AI f=744 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=17
+A0 f=744 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=745 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=17
+A0 f=745 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=746 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=17
+A0 f=746 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=746 n=4
+NT f=746 i=0 x=9887185 y=11747721 vx=-1076 vy=-1144 t=0 ty=7 ow=1
+NT f=746 i=1 x=9828735 y=11340968 vx=627 vy=-2343 t=0 ty=7 ow=1
+NT f=746 i=2 x=10679750 y=11353732 vx=-32845 vy=4990 t=0 ty=2 ow=1
+NT f=746 i=3 x=7100047 y=11650766 vx=38871 vy=-20050 t=0 ty=2 ow=1
+AI f=747 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=747 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=748 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=748 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+ST f=748 i=0 x=96 y=171 cur=4 ad=1 ty=2
+AI f=749 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=749 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=750 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=750 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=751 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=751 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=751 n=5
+NT f=751 i=0 x=9881805 y=11752001 vx=-1076 vy=3856 t=0 ty=7 ow=1
+NT f=751 i=1 x=9831870 y=11339253 vx=627 vy=2657 t=0 ty=7 ow=1
+NT f=751 i=2 x=10515525 y=11385682 vx=-32845 vy=8490 t=0 ty=2 ow=1
+NT f=751 i=3 x=7294402 y=11557516 vx=38871 vy=-16550 t=0 ty=2 ow=1
+NT f=751 i=4 x=9937263 y=11519809 vx=10666 vy=-6461 t=0 ty=7 ow=1
+AI f=752 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=752 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=752 i=0 x=8628356 y=11415555 vx=-236870 vy=-7890 t=0 ty=17 ow=1
+AI f=753 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=753 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=754 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=754 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=755 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=755 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=756 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=756 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=756 n=5
+NT f=756 i=0 x=9876425 y=11781281 vx=-1076 vy=8856 t=0 ty=7 ow=1
+NT f=756 i=1 x=9835005 y=11362538 vx=627 vy=7657 t=0 ty=7 ow=1
+NT f=756 i=2 x=10351300 y=11435132 vx=-32845 vy=11990 t=0 ty=2 ow=1
+NT f=756 i=3 x=7488757 y=11481766 vx=38871 vy=-13050 t=0 ty=2 ow=1
+NT f=756 i=4 x=9990593 y=11497504 vx=10666 vy=-1461 t=0 ty=7 ow=1
+AI f=757 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=757 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=757 i=0 x=7444006 y=11383105 vx=-236870 vy=-4390 t=0 ty=17 ow=1
+CK frame=757 terr=1ac34f96 rng=4b886881,1d02637c wc=1 nc=5 sc=0 bc=0 obj=99b732c6 kl=-1 vp=56,97|73,97 shk=-2464,-2464 w0 p=135,176 v=-10729,0 hp=100 vis=1 kt=0 lr=35,96 aim=49 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=98 lv=5 k=0 sf=0 | w1 p=152,176 v=4485,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=758 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=758 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=759 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=759 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=760 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=760 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=761 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=761 fi=0 j=0 c=1 l=1 r=0 u=1 d=0
+NN f=761 n=6
+NT f=761 i=0 x=9871909 y=11785969 vx=-860 vy=1458 t=0 ty=7 ow=1
+NT f=761 i=1 x=9838140 y=11410823 vx=627 vy=12657 t=0 ty=7 ow=1
+NT f=761 i=2 x=10187075 y=11502082 vx=-32845 vy=15490 t=0 ty=2 ow=1
+NT f=761 i=3 x=7683112 y=11423516 vx=38871 vy=-9550 t=0 ty=2 ow=1
+NT f=761 i=4 x=10043923 y=11500199 vx=10666 vy=3539 t=0 ty=7 ow=1
+NT f=761 i=7 x=6637089 y=11426541 vx=49675 vy=30771 t=0 ty=2 ow=1
+AI f=762 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=762 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=763 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=763 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+ST f=763 i=0 x=94 y=165 cur=1 ad=1 ty=2
+AI f=764 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=764 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=765 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=765 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=766 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=766 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=766 n=6
+NT f=766 i=0 x=9867953 y=11793577 vx=-688 vy=1617 t=0 ty=7 ow=1
+NT f=766 i=1 x=9841275 y=11484108 vx=627 vy=17657 t=0 ty=7 ow=1
+NT f=766 i=2 x=10022850 y=11586532 vx=-32845 vy=18990 t=0 ty=2 ow=1
+NT f=766 i=3 x=7877467 y=11382766 vx=38871 vy=-6050 t=0 ty=2 ow=1
+NT f=766 i=4 x=10097253 y=11527894 vx=10666 vy=8539 t=0 ty=7 ow=1
+NT f=766 i=7 x=6885464 y=11587396 vx=49675 vy=34271 t=0 ty=2 ow=1
+AI f=767 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=767 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=768 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=768 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+ST f=768 i=0 x=94 y=165 cur=4 ad=2 ty=2
+AI f=769 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=769 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=770 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=770 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=771 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=771 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=771 n=5
+NT f=771 i=1 x=9844410 y=11582393 vx=627 vy=22657 t=0 ty=7 ow=1
+NT f=771 i=2 x=9858625 y=11688482 vx=-32845 vy=22490 t=0 ty=2 ow=1
+NT f=771 i=3 x=8071822 y=11359516 vx=38871 vy=-2550 t=0 ty=2 ow=1
+NT f=771 i=4 x=10150583 y=11580589 vx=10666 vy=13539 t=0 ty=7 ow=1
+NT f=771 i=5 x=10043872 y=11547395 vx=11392 vy=7332 t=0 ty=7 ow=1
+AI f=772 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=772 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=772 i=0 x=8743958 y=11404819 vx=-234238 vy=-10574 t=0 ty=17 ow=1
+AI f=773 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=773 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=774 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=774 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=775 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=775 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=776 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=776 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=776 n=4
+NT f=776 i=1 x=9847545 y=11705678 vx=627 vy=27657 t=0 ty=7 ow=1
+NT f=776 i=3 x=8266177 y=11353766 vx=38871 vy=950 t=0 ty=2 ow=1
+NT f=776 i=4 x=10203913 y=11658284 vx=10666 vy=18539 t=0 ty=7 ow=1
+NT f=776 i=5 x=10100832 y=11594055 vx=11392 vy=12332 t=0 ty=7 ow=1
+AI f=777 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=777 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=777 i=0 x=7572768 y=11358949 vx=-234238 vy=-7074 t=0 ty=17 ow=1
+AI f=778 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=778 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=779 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=779 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=779 terr=76afd2ed rng=7de6e20e,0be1999b wc=1 nc=4 sc=0 bc=0 obj=a4870065 kl=-1 vp=55,97|75,97 shk=-2464,-2464 w0 p=134,176 v=-821,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=76 lv=5 k=0 sf=0 | w1 p=154,176 v=3575,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=780 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=780 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=781 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=781 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=781 n=4
+NT f=781 i=1 x=9850680 y=11853963 vx=627 vy=32657 t=0 ty=7 ow=1
+NT f=781 i=3 x=8460532 y=11365516 vx=38871 vy=4450 t=0 ty=2 ow=1
+NT f=781 i=4 x=10257243 y=11760979 vx=10666 vy=23539 t=0 ty=7 ow=1
+NT f=781 i=5 x=10157792 y=11665715 vx=11392 vy=17332 t=0 ty=7 ow=1
+AI f=782 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=782 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=782 terr=76afd2ed rng=08112d9b,4d44a592 wc=0 nc=4 sc=1 bc=0 obj=c89bfa53 kl=-1 vp=55,97|75,97 shk=61536,61536 w0 p=134,176 v=-577,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=73 lv=5 k=0 sf=0 | w1 p=154,176 v=2519,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=17 wslot=1 am=4 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=783 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=783 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+ST f=783 i=0 x=93 y=164 cur=1 ad=2 ty=2
+AI f=784 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=784 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=785 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=785 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=786 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=786 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=786 n=4
+NT f=786 i=1 x=9853437 y=11885891 vx=501 vy=-9462 t=0 ty=7 ow=1
+NT f=786 i=3 x=8654887 y=11394766 vx=38871 vy=7950 t=0 ty=2 ow=1
+NT f=786 i=4 x=10302037 y=11756858 vx=8532 vy=-4415 t=0 ty=7 ow=1
+NT f=786 i=5 x=10214752 y=11762375 vx=11392 vy=22332 t=0 ty=7 ow=1
+AI f=787 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=787 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=788 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=788 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+ST f=788 i=0 x=93 y=164 cur=3 ad=1 ty=2
+AI f=789 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=789 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=790 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=790 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=791 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=791 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=791 n=4
+NT f=791 i=1 x=9855942 y=11848581 vx=501 vy=-4462 t=0 ty=7 ow=1
+NT f=791 i=3 x=8849242 y=11441516 vx=38871 vy=11450 t=0 ty=2 ow=1
+NT f=791 i=4 x=10344697 y=11744783 vx=8532 vy=585 t=0 ty=7 ow=1
+NT f=791 i=5 x=10262596 y=11758979 vx=9113 vy=-3932 t=0 ty=7 ow=1
+AI f=792 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=17
+A0 f=792 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=793 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=17
+A0 f=793 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=794 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=794 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=795 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=795 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=796 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=796 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=796 n=4
+NT f=796 i=1 x=9858447 y=11836271 vx=501 vy=538 t=0 ty=7 ow=1
+NT f=796 i=3 x=9043597 y=11505766 vx=38871 vy=14950 t=0 ty=2 ow=1
+NT f=796 i=4 x=10387357 y=11757708 vx=8532 vy=5585 t=0 ty=7 ow=1
+NT f=796 i=5 x=10308161 y=11749319 vx=9113 vy=1068 t=0 ty=7 ow=1
+AI f=797 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=797 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=798 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=798 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=799 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=799 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=800 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=800 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=801 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=801 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=801 n=4
+NT f=801 i=1 x=9860952 y=11848961 vx=501 vy=5538 t=0 ty=7 ow=1
+NT f=801 i=3 x=9237952 y=11587516 vx=38871 vy=18450 t=0 ty=2 ow=1
+NT f=801 i=4 x=10430017 y=11795633 vx=6825 vy=-2834 t=0 ty=7 ow=1
+NT f=801 i=5 x=10353726 y=11764659 vx=9113 vy=6068 t=0 ty=7 ow=1
+AI f=802 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=802 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=803 fi=1 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=803 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=804 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=804 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=805 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=805 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=806 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=806 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=806 n=4
+NT f=806 i=1 x=9863457 y=11886651 vx=501 vy=10538 t=0 ty=7 ow=1
+NT f=806 i=3 x=9432307 y=11686766 vx=38871 vy=21950 t=0 ty=2 ow=1
+NT f=806 i=4 x=10464142 y=11791463 vx=6825 vy=2166 t=0 ty=7 ow=1
+NT f=806 i=5 x=10397468 y=11792304 vx=7290 vy=-1627 t=0 ty=7 ow=1
+AI f=807 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=807 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=807 terr=76afd2ed rng=3d02001e,198a95c1 wc=0 nc=4 sc=0 bc=0 obj=e5e3bfff kl=-1 vp=55,97|75,97 shk=-2464,-2464 w0 p=134,176 v=-27,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=48 lv=5 k=0 sf=0 | w1 p=154,176 v=133,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=808 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=808 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=809 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=809 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=810 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=810 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=811 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=811 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=811 n=2
+NT f=811 i=1 x=9865760 y=11914235 vx=400 vy=-2015 t=0 ty=7 ow=1
+NT f=811 i=5 x=10433918 y=11794169 vx=7290 vy=3373 t=0 ty=7 ow=1
+AI f=812 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=812 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=813 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=813 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=814 fi=0 j=0 c=1 l=1 r=0 u=0 d=0 aim=33 w=4
+A0 f=814 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=815 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=815 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=816 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=816 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=816 n=2
+NT f=816 i=1 x=9867760 y=11914160 vx=400 vy=2985 t=0 ty=7 ow=1
+NT f=816 i=5 x=10470368 y=11821034 vx=7290 vy=8373 t=0 ty=7 ow=1
+AI f=817 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=817 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=818 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=818 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=819 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=819 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=820 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=820 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=821 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=821 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=821 n=2
+NT f=821 i=1 x=9869600 y=11925127 vx=320 vy=1006 t=0 ty=7 ow=1
+NT f=821 i=5 x=10505360 y=11856977 vx=5832 vy=-2549 t=0 ty=7 ow=1
+AI f=822 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=822 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=823 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=823 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=824 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=824 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=825 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=825 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=826 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=826 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=826 n=1
+NT f=826 i=5 x=10534520 y=11854232 vx=5832 vy=2451 t=0 ty=7 ow=1
+AI f=827 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=827 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=828 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=828 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=829 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=829 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=830 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=830 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=831 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=831 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=831 n=0
+AI f=832 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=832 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=832 terr=e1fd459d rng=948181cf,7b1f3f91 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|75,97 shk=-2464,-2464 w0 p=134,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=23 lv=5 k=0 sf=0 | w1 p=154,176 v=3,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=833 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=833 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=834 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=834 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=835 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=835 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=836 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=836 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=836 n=0
+AI f=837 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=837 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=838 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=838 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=839 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=839 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=839 terr=e1fd459d rng=e07aac96,78b98a5b wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=55,97|75,97 shk=-2464,-2464 w0 p=134,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=16 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=840 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=840 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=841 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=841 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=841 n=0
+AI f=842 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=842 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=843 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=843 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=844 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=844 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=845 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=845 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=846 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=846 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=846 n=0
+AI f=847 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=847 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=848 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=848 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=849 fi=0 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=849 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=850 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=850 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=851 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=851 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=851 n=0
+AI f=852 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=852 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=853 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=853 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=854 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=854 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=855 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=855 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=856 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=856 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=856 n=0
+AI f=857 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=857 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=858 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=858 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=859 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=859 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=860 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=860 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=861 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=861 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=861 n=0
+AI f=862 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=862 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=863 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=863 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=864 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=864 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=865 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=865 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=866 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=866 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=866 n=0
+AI f=867 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=867 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=868 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=868 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=869 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=869 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=870 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=870 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=871 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=871 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=871 n=0
+AI f=872 fi=1 j=0 c=1 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=872 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=873 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=873 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=874 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=874 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=875 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=875 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=876 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=876 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=876 n=0
+AI f=877 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=877 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=877 i=0 x=9266494 y=11440103 vx=-132828 vy=-1003 t=57 ty=4 ow=1
+CK frame=877 terr=e1fd459d rng=2e7c5ba9,2747bfde wc=1 nc=0 sc=0 bc=0 obj=eb924959 kl=-1 vp=66,97|75,97 shk=-2464,-2464 w0 p=145,176 v=26944,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=13 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=33 dir=0 cur=2 w=4 wslot=0 am=4 dly=16 ld=0 lv=5 k=0 sf=0
+AI f=878 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=878 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=879 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=879 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=880 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=880 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=881 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=881 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=881 n=0
+AI f=882 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=882 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=882 i=0 x=8602354 y=11445088 vx=-132828 vy=3997 t=52 ty=4 ow=1
+AI f=883 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=883 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=884 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=884 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=885 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=885 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=886 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=886 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=886 n=0
+AI f=887 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=887 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=887 i=0 x=7938214 y=11475073 vx=-132828 vy=8997 t=47 ty=4 ow=1
+AI f=888 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=888 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=889 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=889 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=890 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=890 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=891 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=33 w=4
+A0 f=891 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=891 n=0
+AI f=892 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=34 w=4
+A0 f=892 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=892 i=0 x=7274074 y=11530058 vx=-132828 vy=13997 t=42 ty=4 ow=1
+AI f=893 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=34 w=4
+A0 f=893 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=894 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=34 w=4
+A0 f=894 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=895 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=35 w=4
+A0 f=895 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=896 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=35 w=4
+A0 f=896 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=896 n=0
+AI f=897 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=36 w=4
+A0 f=897 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=897 i=0 x=6609934 y=11610043 vx=39848 vy=15397 t=37 ty=4 ow=1
+WT f=897 i=1 x=9258991 y=11386483 vx=-135000 vy=-10398 t=61 ty=4 ow=1
+AI f=898 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=37 w=4
+A0 f=898 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=899 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=37 w=4
+A0 f=899 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=899 terr=e1fd459d rng=576c67c9,7338d33f wc=2 nc=0 sc=0 bc=0 obj=10ac3fb5 kl=-1 vp=74,96|75,97 shk=-2464,-2464 w0 p=153,175 v=30237,3000 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=38 dir=0 cur=3 w=4 wslot=0 am=3 dly=14 ld=0 lv=5 k=0 sf=0
+AI f=900 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=38 w=4
+A0 f=900 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=901 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=39 w=4
+A0 f=901 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=901 n=0
+AI f=902 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=39 w=4
+A0 f=902 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=902 i=0 x=6809174 y=11697028 vx=39848 vy=20397 t=32 ty=4 ow=1
+WT f=902 i=1 x=8583991 y=11344493 vx=-135000 vy=-5398 t=56 ty=4 ow=1
+CK frame=902 terr=e1fd459d rng=1e05f5ac,45473711 wc=2 nc=0 sc=0 bc=0 obj=68ef7cf8 kl=-1 vp=75,96|75,97 shk=-2464,-2464 w0 p=154,175 v=30237,7500 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=6 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=40 dir=0 cur=3 w=4 wslot=0 am=3 dly=11 ld=0 lv=5 k=0 sf=0
+AI f=903 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=40 w=4
+A0 f=903 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=904 fi=1 j=0 c=0 l=0 r=1 u=1 d=0 aim=41 w=4
+A0 f=904 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=905 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=85 w=4
+A0 f=905 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=906 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=906 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=906 n=0
+AI f=907 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=85 w=4
+A0 f=907 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=907 i=0 x=7000444 y=11778597 vx=31878 vy=-5019 t=27 ty=4 ow=1
+WT f=907 i=1 x=7908991 y=11327503 vx=-135000 vy=-398 t=51 ty=4 ow=1
+AI f=908 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=908 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=909 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=909 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=910 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=910 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=911 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=911 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=911 n=0
+AI f=912 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=85 w=4
+A0 f=912 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=912 i=0 x=7159834 y=11763502 vx=31878 vy=-19 t=22 ty=4 ow=1
+WT f=912 i=1 x=7233991 y=11335513 vx=-135000 vy=4602 t=46 ty=4 ow=1
+AI f=913 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=86 w=4
+A0 f=913 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=914 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=86 w=4
+A0 f=914 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=915 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=86 w=4
+A0 f=915 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=916 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=87 w=4
+A0 f=916 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=916 n=0
+AI f=917 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=87 w=4
+A0 f=917 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=917 i=0 x=7319224 y=11773407 vx=31878 vy=4981 t=17 ty=4 ow=1
+WT f=917 i=1 x=6558991 y=11368523 vx=40500 vy=7881 t=41 ty=4 ow=1
+WT f=917 i=2 x=10926697 y=11120070 vx=124477 vy=-46415 t=74 ty=4 ow=1
+AI f=918 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=88 w=4
+A0 f=918 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=919 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=88 w=4
+A0 f=919 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=920 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=89 w=4
+A0 f=920 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=921 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=90 w=4
+A0 f=921 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=921 n=0
+AI f=922 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=91 w=4
+A0 f=922 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=922 i=0 x=7465862 y=11790162 vx=25502 vy=906 t=12 ty=4 ow=1
+WT f=922 i=1 x=6761491 y=11417928 vx=40500 vy=12881 t=36 ty=4 ow=1
+WT f=922 i=2 x=11549082 y=10897995 vx=124477 vy=-41415 t=69 ty=4 ow=1
+AI f=923 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=923 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=924 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=924 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=925 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=93 w=4
+A0 f=925 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=926 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=926 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=926 n=0
+AI f=927 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=927 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=927 i=0 x=7583170 y=11797138 vx=-4896 vy=-270 t=7 ty=4 ow=1
+WT f=927 i=1 x=6963991 y=11492333 vx=40500 vy=17881 t=31 ty=4 ow=1
+WT f=927 i=2 x=11524187 y=10734052 vx=-37343 vy=-28132 t=64 ty=4 ow=1
+CK frame=927 terr=e1fd459d rng=56fa3597,3d263eaf wc=3 nc=0 sc=0 bc=0 obj=6fa9dee0 kl=-1 vp=86,96|75,97 shk=-2464,-2464 w0 p=165,175 v=30302,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=1 cur=20 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=201,0 hp=100 vis=1 kt=0 lr=70,96 aim=95 dir=1 cur=2 w=4 wslot=0 am=2 dly=6 ld=0 lv=5 k=0 sf=0
+AI f=928 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=928 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=929 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=929 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=930 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=930 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=931 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=931 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=931 n=0
+AI f=932 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=932 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=932 i=0 x=7579218 y=11796920 vx=3 vy=0 t=2 ty=4 ow=1
+WT f=932 i=1 x=7166491 y=11591738 vx=40500 vy=22881 t=26 ty=4 ow=1
+WT f=932 i=2 x=11337472 y=10603392 vx=-37343 vy=-23132 t=59 ty=4 ow=1
+AI f=933 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=933 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=934 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=934 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=935 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=935 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=936 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=936 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+NN f=936 n=0
+AI f=937 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=937 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+WT f=937 i=1 x=7328491 y=11689262 vx=40500 vy=26881 t=22 ty=4 ow=1
+WT f=937 i=2 x=11188100 y=10516864 vx=-37343 vy=-19132 t=55 ty=4 ow=1
+WT f=937 i=3 x=10891472 y=11491096 vx=138483 vy=8967 t=69 ty=4 ow=1
+AI f=938 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=938 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=939 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=939 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=940 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=940 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=941 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=941 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=941 n=0
+AI f=942 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=942 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=942 i=1 x=7514791 y=11758577 vx=32400 vy=-5664 t=17 ty=4 ow=1
+WT f=942 i=2 x=11001385 y=10431204 vx=-37343 vy=-14132 t=50 ty=4 ow=1
+WT f=942 i=3 x=11583887 y=11545931 vx=138483 vy=13967 t=64 ty=4 ow=1
+AI f=943 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=943 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=944 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=944 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=945 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=945 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=946 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=946 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=946 n=0
+AI f=947 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=947 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=947 i=1 x=7676791 y=11740257 vx=32400 vy=-664 t=12 ty=4 ow=1
+WT f=947 i=2 x=10814670 y=10370544 vx=-37343 vy=-9132 t=45 ty=4 ow=1
+WT f=947 i=3 x=11556194 y=11614590 vx=-41544 vy=16173 t=59 ty=4 ow=1
+AI f=948 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=948 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=949 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=949 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=950 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=950 fi=1 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=951 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=951 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=951 n=0
+AI f=952 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=952 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=952 i=0 x=11499323 y=10905357 vx=32630 vy=-118824 t=66 ty=4 ow=0
+WT f=952 i=1 x=7838791 y=11746937 vx=32400 vy=4336 t=7 ty=4 ow=1
+WT f=952 i=2 x=10627955 y=10334884 vx=-37343 vy=-4132 t=40 ty=4 ow=1
+WT f=952 i=3 x=11348474 y=11705455 vx=-41544 vy=21173 t=54 ty=4 ow=1
+CK frame=952 terr=e1fd459d rng=8f958290,5fb68f4f wc=4 nc=0 sc=0 bc=0 obj=7075fc45 kl=-1 vp=95,97|75,97 shk=-2464,-2464 w0 p=174,176 v=27476,0 hp=100 vis=1 kt=0 lr=35,96 aim=69 dir=1 cur=19 w=4 wslot=0 am=4 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=7,0 hp=100 vis=1 kt=0 lr=70,96 aim=97 dir=1 cur=2 w=4 wslot=0 am=1 dly=1 ld=0 lv=5 k=0 sf=0
+AI f=953 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=953 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=954 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=954 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=955 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=955 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+AI f=956 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=956 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+NN f=956 n=0
+AI f=957 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=957 fi=0 j=0 c=0 l=0 r=1 u=0 d=1
+WT f=957 i=0 x=11662473 y=10321237 vx=26104 vy=35447 t=61 ty=4 ow=0
+WT f=957 i=1 x=8000791 y=11778617 vx=32400 vy=9336 t=2 ty=4 ow=1
+WT f=957 i=2 x=10441240 y=10324224 vx=-37343 vy=868 t=35 ty=4 ow=1
+WT f=957 i=3 x=11149063 y=11789896 vx=-33235 vy=-5251 t=49 ty=4 ow=1
+WT f=957 i=4 x=10953114 y=11551347 vx=119185 vy=18768 t=73 ty=4 ow=1
+AI f=958 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=958 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+AI f=959 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=959 fi=0 j=0 c=0 l=0 r=1 u=0 d=0
+CK frame=959 terr=e1fd459d rng=a2dbd3f4,1ea5c54c wc=5 nc=0 sc=0 bc=0 obj=b9a92309 kl=-1 vp=98,97|75,97 shk=-2464,-2464 w0 p=177,176 v=27361,0 hp=100 vis=1 kt=0 lr=35,96 aim=75 dir=1 cur=19 w=4 wslot=0 am=4 dly=11 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=97 dir=1 cur=2 w=4 wslot=0 am=5 dly=14 ld=219 lv=5 k=0 sf=0
+AI f=960 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=960 fi=0 j=1 c=0 l=0 r=0 u=0 d=0
+AI f=961 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=97 w=4
+A0 f=961 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=961 n=0
+AI f=962 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=97 w=4
+A0 f=962 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=962 i=0 x=11792993 y=10508472 vx=-7831 vy=32557 t=56 ty=4 ow=0
+WT f=962 i=2 x=10291868 y=10333696 vx=-37343 vy=4868 t=31 ty=4 ow=1
+WT f=962 i=3 x=11016123 y=11774892 vx=-33235 vy=-1251 t=45 ty=4 ow=1
+WT f=962 i=4 x=11429854 y=11632419 vx=119185 vy=22768 t=69 ty=4 ow=1
+AI f=963 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=97 w=4
+A0 f=963 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=964 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=97 w=4
+A0 f=964 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=965 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=97 w=4
+A0 f=965 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=966 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=966 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=966 n=0
+AI f=967 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=967 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=967 i=0 x=11753838 y=10681257 vx=-7831 vy=37557 t=51 ty=4 ow=0
+WT f=967 i=2 x=10105153 y=10368036 vx=-37343 vy=9868 t=26 ty=4 ow=1
+WT f=967 i=3 x=10849948 y=11778637 vx=-33235 vy=3749 t=40 ty=4 ow=1
+WT f=967 i=4 x=11715899 y=11746351 vx=-35755 vy=22814 t=64 ty=4 ow=1
+AI f=968 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=968 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=969 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=969 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=970 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=970 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=971 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=971 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=971 n=0
+AI f=972 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=972 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=972 i=0 x=11714683 y=10879042 vx=-7831 vy=42557 t=46 ty=4 ow=0
+WT f=972 i=2 x=9918438 y=10427376 vx=-37343 vy=14868 t=21 ty=4 ow=1
+WT f=972 i=3 x=10697067 y=11792436 vx=-26588 vy=1276 t=35 ty=4 ow=1
+WT f=972 i=4 x=11558577 y=11777547 vx=-28604 vy=-3144 t=59 ty=4 ow=1
+AI f=973 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=93 w=4
+A0 f=973 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=974 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=93 w=4
+A0 f=974 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=975 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=975 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=976 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=976 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=976 n=0
+AI f=977 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=977 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=977 i=0 x=11675528 y=11101827 vx=-7831 vy=47557 t=41 ty=4 ow=0
+WT f=977 i=1 x=12010914 y=11022883 vx=4785 vy=-5434 t=69 ty=4 ow=0
+WT f=977 i=2 x=9731723 y=10511716 vx=-37343 vy=19868 t=16 ty=4 ow=1
+WT f=977 i=3 x=10564127 y=11808816 vx=7976 vy=5220 t=30 ty=4 ow=1
+WT f=977 i=4 x=11415557 y=11771827 vx=-28604 vy=1856 t=54 ty=4 ow=1
+CK frame=977 terr=e1fd459d rng=5774296a,0e0210bc wc=5 nc=0 sc=0 bc=0 obj=7bfbca63 kl=-1 vp=99,95|75,97 shk=-2464,-2464 w0 p=178,174 v=0,19500 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=3 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=92 dir=1 cur=3 w=4 wslot=0 am=5 dly=-1 ld=201 lv=5 k=0 sf=0
+AI f=978 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=978 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=979 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=91 w=4
+A0 f=979 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=980 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=91 w=4
+A0 f=980 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=981 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=91 w=4
+A0 f=981 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=981 n=0
+AI f=982 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=91 w=4
+A0 f=982 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=982 i=0 x=11636373 y=11349612 vx=-7831 vy=52557 t=36 ty=4 ow=0
+WT f=982 i=1 x=12014776 y=11018498 vx=-3 vy=3 t=64 ty=4 ow=0
+WT f=982 i=2 x=9545008 y=10621056 vx=-37343 vy=24868 t=11 ty=4 ow=1
+WT f=982 i=3 x=10604007 y=11844916 vx=7976 vy=10220 t=25 ty=4 ow=1
+WT f=982 i=4 x=11272537 y=11791107 vx=-22883 vy=-756 t=49 ty=4 ow=1
+AI f=983 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=983 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=984 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=984 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=985 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=985 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=986 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=92 w=4
+A0 f=986 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=986 n=0
+AI f=987 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=93 w=4
+A0 f=987 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=987 i=0 x=11597218 y=11622397 vx=-7831 vy=57557 t=31 ty=4 ow=0
+WT f=987 i=1 x=12014773 y=11018501 vx=0 vy=0 t=59 ty=4 ow=0
+WT f=987 i=2 x=9358293 y=10755396 vx=-37343 vy=29868 t=6 ty=4 ow=1
+WT f=987 i=3 x=10614220 y=11861000 vx=-1913 vy=548 t=20 ty=4 ow=1
+WT f=987 i=4 x=11158122 y=11797327 vx=5491 vy=-778 t=44 ty=4 ow=1
+AI f=988 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=93 w=4
+A0 f=988 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=989 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=989 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=990 fi=1 j=0 c=0 l=0 r=0 u=0 d=1 aim=94 w=4
+A0 f=990 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=991 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=991 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=991 n=0
+AI f=992 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=95 w=4
+A0 f=992 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=992 i=0 x=11562764 y=11691810 vx=-6264 vy=-13567 t=26 ty=4 ow=0
+WT f=992 i=1 x=12014773 y=11018501 vx=0 vy=0 t=54 ty=4 ow=0
+WT f=992 i=2 x=9171578 y=10914736 vx=-37343 vy=34868 t=1 ty=4 ow=1
+WT f=992 i=3 x=10604655 y=11873740 vx=-1913 vy=5548 t=15 ty=4 ow=1
+WT f=992 i=4 x=11162289 y=11796854 vx=-4 vy=0 t=39 ty=4 ow=1
+AI f=993 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=993 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=994 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=994 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=995 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=995 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=996 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=996 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=996 n=0
+AI f=997 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=997 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=997 i=0 x=11531444 y=11633975 vx=-6264 vy=-8567 t=21 ty=4 ow=0
+WT f=997 i=1 x=12014773 y=11018501 vx=0 vy=0 t=49 ty=4 ow=0
+WT f=997 i=3 x=10597003 y=11901932 vx=-1913 vy=9548 t=11 ty=4 ow=1
+WT f=997 i=4 x=11162285 y=11796854 vx=0 vy=0 t=35 ty=4 ow=1
+AI f=998 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=998 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=999 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=999 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1000 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1000 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1001 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1001 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1001 n=0
+AI f=1002 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1002 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1002 i=0 x=11500124 y=11601140 vx=-6264 vy=-3567 t=16 ty=4 ow=0
+WT f=1002 i=1 x=12014773 y=11018501 vx=0 vy=0 t=44 ty=4 ow=0
+WT f=1002 i=2 x=12025620 y=11161565 vx=5016 vy=-5768 t=76 ty=4 ow=0
+WT f=1002 i=3 x=10588587 y=11918536 vx=-1530 vy=836 t=6 ty=4 ow=1
+WT f=1002 i=4 x=11162285 y=11796854 vx=0 vy=0 t=30 ty=4 ow=1
+CK frame=1002 terr=47b2e5a9 rng=6225327c,721e1f6f wc=5 nc=0 sc=0 bc=0 obj=d02afde8 kl=-1 vp=99,97|75,97 shk=-2464,-2464 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=18 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=98 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=176 lv=5 k=0 sf=0
+AI f=1003 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1003 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1004 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1004 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1005 fi=1 j=0 c=0 l=0 r=0 u=1 d=0 aim=98 w=4
+A0 f=1005 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1006 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=1006 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1006 n=0
+AI f=1007 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=1007 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1007 i=0 x=11468804 y=11593305 vx=-6264 vy=1433 t=11 ty=4 ow=0
+WT f=1007 i=1 x=12014773 y=11018501 vx=0 vy=0 t=39 ty=4 ow=0
+WT f=1007 i=2 x=12029669 y=11156910 vx=-3 vy=4 t=71 ty=4 ow=0
+WT f=1007 i=3 x=10582834 y=11927960 vx=-88 vy=-19 t=1 ty=4 ow=1
+WT f=1007 i=4 x=11162285 y=11796854 vx=0 vy=0 t=25 ty=4 ow=1
+AI f=1008 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=1008 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1009 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=97 w=4
+A0 f=1009 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1010 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1010 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1011 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1011 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1011 n=0
+AI f=1012 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1012 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1012 i=0 x=11437484 y=11610470 vx=-6264 vy=6433 t=6 ty=4 ow=0
+WT f=1012 i=1 x=12014773 y=11018501 vx=0 vy=0 t=34 ty=4 ow=0
+WT f=1012 i=2 x=12029666 y=11156914 vx=0 vy=0 t=66 ty=4 ow=0
+WT f=1012 i=4 x=11162285 y=11796854 vx=0 vy=0 t=21 ty=4 ow=1
+AI f=1013 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1013 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1014 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1014 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1015 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1015 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1016 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1016 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1016 n=0
+AI f=1017 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1017 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1017 i=0 x=11406164 y=11652635 vx=-6264 vy=11433 t=1 ty=4 ow=0
+WT f=1017 i=1 x=12014773 y=11018501 vx=0 vy=0 t=29 ty=4 ow=0
+WT f=1017 i=2 x=12029666 y=11156914 vx=0 vy=0 t=61 ty=4 ow=0
+WT f=1017 i=4 x=11162285 y=11796854 vx=0 vy=0 t=16 ty=4 ow=1
+AI f=1018 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1018 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1019 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1019 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=1019 terr=47b2e5a9 rng=38b4860d,2570540a wc=3 nc=0 sc=0 bc=0 obj=87c448fb kl=-1 vp=99,97|75,97 shk=-2464,-2464 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=1 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=96 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=159 lv=5 k=0 sf=0
+AI f=1020 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1020 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+CK frame=1020 terr=47b2e5a9 rng=fb1dad0d,6530c080 wc=3 nc=0 sc=0 bc=0 obj=b47afe76 kl=-1 vp=99,97|75,97 shk=-2464,-2464 w0 p=178,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=80 dir=1 cur=4 w=4 wslot=0 am=2 dly=0 ld=0 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=96 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=158 lv=5 k=0 sf=0
+AI f=1021 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1021 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1021 n=0
+AI f=1022 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1022 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1022 i=1 x=12014773 y=11018501 vx=0 vy=0 t=25 ty=4 ow=0
+WT f=1022 i=2 x=12029666 y=11156914 vx=0 vy=0 t=57 ty=4 ow=0
+WT f=1022 i=4 x=11162285 y=11796854 vx=0 vy=0 t=12 ty=4 ow=1
+AI f=1023 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1023 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1024 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1024 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1025 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1025 fi=1 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1026 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1026 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1026 n=0
+AI f=1027 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1027 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1027 i=0 x=12023694 y=11171084 vx=4870 vy=-5046 t=68 ty=4 ow=0
+WT f=1027 i=1 x=12014773 y=11018501 vx=0 vy=0 t=20 ty=4 ow=0
+WT f=1027 i=2 x=12029666 y=11156914 vx=0 vy=0 t=52 ty=4 ow=0
+WT f=1027 i=4 x=11162285 y=11796854 vx=0 vy=0 t=7 ty=4 ow=1
+AI f=1028 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1028 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1029 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1029 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1030 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1030 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1031 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1031 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1031 n=0
+AI f=1032 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1032 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1032 i=0 x=12027625 y=11167011 vx=-3 vy=3 t=63 ty=4 ow=0
+WT f=1032 i=1 x=12014773 y=11018501 vx=0 vy=0 t=15 ty=4 ow=0
+WT f=1032 i=2 x=12029666 y=11156914 vx=0 vy=0 t=47 ty=4 ow=0
+WT f=1032 i=4 x=11162285 y=11796854 vx=0 vy=0 t=2 ty=4 ow=1
+AI f=1033 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1033 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1034 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1034 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1035 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1035 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1036 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1036 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1036 n=0
+AI f=1037 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1037 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1037 i=0 x=12027622 y=11167014 vx=0 vy=0 t=58 ty=4 ow=0
+WT f=1037 i=1 x=12014773 y=11018501 vx=0 vy=0 t=10 ty=4 ow=0
+WT f=1037 i=2 x=12029666 y=11156914 vx=0 vy=0 t=42 ty=4 ow=0
+AI f=1038 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1038 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1039 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1039 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1040 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1040 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1041 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1041 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1041 n=0
+AI f=1042 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1042 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1042 i=0 x=12027622 y=11167014 vx=0 vy=0 t=53 ty=4 ow=0
+WT f=1042 i=1 x=12014773 y=11018501 vx=0 vy=0 t=5 ty=4 ow=0
+WT f=1042 i=2 x=12029666 y=11156914 vx=0 vy=0 t=37 ty=4 ow=0
+AI f=1043 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1043 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1044 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1044 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1045 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1045 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1046 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1046 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+NN f=1046 n=0
+AI f=1047 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1047 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+WT f=1047 i=0 x=12027622 y=11167014 vx=0 vy=0 t=48 ty=4 ow=0
+WT f=1047 i=1 x=12014773 y=11018501 vx=0 vy=0 t=0 ty=4 ow=0
+WT f=1047 i=2 x=12029666 y=11156914 vx=0 vy=0 t=32 ty=4 ow=0
+AI f=1048 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1048 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1049 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1049 fi=0 j=0 c=0 l=0 r=0 u=0 d=0
+AI f=1050 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1050 fi=1 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1051 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1051 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1051 n=0
+AI f=1052 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1052 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1052 i=0 x=12027622 y=11167014 vx=0 vy=0 t=43 ty=4 ow=0
+WT f=1052 i=1 x=12037957 y=11174891 vx=5952 vy=-4758 t=64 ty=4 ow=0
+WT f=1052 i=2 x=12029666 y=11156914 vx=0 vy=0 t=28 ty=4 ow=0
+AI f=1053 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1053 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1054 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1054 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1055 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1055 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1056 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1056 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1056 n=0
+AI f=1057 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1057 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1057 i=0 x=12027622 y=11167014 vx=0 vy=0 t=38 ty=4 ow=0
+WT f=1057 i=1 x=12042761 y=11171051 vx=-4 vy=3 t=59 ty=4 ow=0
+WT f=1057 i=2 x=12029666 y=11156914 vx=0 vy=0 t=23 ty=4 ow=0
+AI f=1058 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1058 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1059 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1059 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1060 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1060 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1061 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1061 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1061 n=0
+AI f=1062 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1062 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1062 i=0 x=12027622 y=11167014 vx=0 vy=0 t=33 ty=4 ow=0
+WT f=1062 i=1 x=12042757 y=11171054 vx=0 vy=0 t=54 ty=4 ow=0
+WT f=1062 i=2 x=12029666 y=11156914 vx=0 vy=0 t=18 ty=4 ow=0
+AI f=1063 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1063 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1064 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1064 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1065 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1065 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1066 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1066 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1066 n=0
+AI f=1067 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1067 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1067 i=0 x=12027622 y=11167014 vx=0 vy=0 t=28 ty=4 ow=0
+WT f=1067 i=1 x=12042757 y=11171054 vx=0 vy=0 t=49 ty=4 ow=0
+WT f=1067 i=2 x=12029666 y=11156914 vx=0 vy=0 t=13 ty=4 ow=0
+AI f=1068 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1068 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1069 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1069 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1070 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1070 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1071 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1071 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1071 n=0
+AI f=1072 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1072 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1072 i=0 x=12027622 y=11167014 vx=0 vy=0 t=23 ty=4 ow=0
+WT f=1072 i=1 x=12042757 y=11171054 vx=0 vy=0 t=44 ty=4 ow=0
+WT f=1072 i=2 x=12029666 y=11156914 vx=0 vy=0 t=8 ty=4 ow=0
+AI f=1073 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1073 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1074 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1074 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1075 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1075 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1076 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1076 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1076 n=0
+AI f=1077 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1077 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1077 i=0 x=12027622 y=11167014 vx=0 vy=0 t=18 ty=4 ow=0
+WT f=1077 i=1 x=12042757 y=11171054 vx=0 vy=0 t=39 ty=4 ow=0
+WT f=1077 i=2 x=12029666 y=11156914 vx=0 vy=0 t=3 ty=4 ow=0
+AI f=1078 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1078 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1079 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1079 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=1079 terr=47b2e5a9 rng=065ba9ed,27d8b99f wc=3 nc=0 sc=0 bc=0 obj=d9f4bc09 kl=-1 vp=92,97|75,97 shk=-2464,-2464 w0 p=171,176 v=-26443,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=196 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=96 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=99 lv=5 k=0 sf=0
+AI f=1080 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1080 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1081 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1081 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1081 n=0
+AI f=1082 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1082 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1082 i=0 x=12027622 y=11167014 vx=0 vy=0 t=13 ty=4 ow=0
+WT f=1082 i=1 x=12042757 y=11171054 vx=0 vy=0 t=34 ty=4 ow=0
+AI f=1083 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1083 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1084 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1084 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1085 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1085 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1086 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1086 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1086 n=0
+AI f=1087 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1087 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1087 i=0 x=12027622 y=11167014 vx=0 vy=0 t=8 ty=4 ow=0
+WT f=1087 i=1 x=12042757 y=11171054 vx=0 vy=0 t=29 ty=4 ow=0
+AI f=1088 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1088 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1089 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1089 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1090 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1090 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1091 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1091 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1091 n=0
+AI f=1092 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1092 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1092 i=0 x=12027622 y=11167014 vx=0 vy=0 t=3 ty=4 ow=0
+WT f=1092 i=1 x=12042757 y=11171054 vx=0 vy=0 t=24 ty=4 ow=0
+AI f=1093 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1093 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1094 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1094 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1095 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1095 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1096 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1096 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1096 n=0
+AI f=1097 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1097 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1097 i=1 x=12042757 y=11171054 vx=0 vy=0 t=20 ty=4 ow=0
+AI f=1098 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1098 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1099 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=96 w=4
+A0 f=1099 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1100 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=1100 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1101 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=1101 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1101 n=0
+AI f=1102 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=96 w=4
+A0 f=1102 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1102 i=1 x=12042757 y=11171054 vx=0 vy=0 t=15 ty=4 ow=0
+CK frame=1102 terr=47b2e5a9 rng=b07748ca,02c98c28 wc=1 nc=0 sc=0 bc=0 obj=545c1dfa kl=-1 vp=83,96|75,97 shk=-2464,-2464 w0 p=162,175 v=-27212,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=11 w=4 wslot=0 am=5 dly=-1 ld=173 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=95 dir=1 cur=2 w=4 wslot=0 am=5 dly=-1 ld=76 lv=5 k=0 sf=0
+AI f=1103 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=1103 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1104 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=1104 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1105 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=1105 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1106 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=95 w=4
+A0 f=1106 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1106 n=0
+AI f=1107 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=94 w=4
+A0 f=1107 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1107 i=1 x=12042757 y=11171054 vx=0 vy=0 t=10 ty=4 ow=0
+AI f=1108 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=1108 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1109 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=94 w=4
+A0 f=1109 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1110 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=93 w=4
+A0 f=1110 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1111 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=93 w=4
+A0 f=1111 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1111 n=0
+AI f=1112 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=92 w=4
+A0 f=1112 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1112 i=1 x=12042757 y=11171054 vx=0 vy=0 t=5 ty=4 ow=0
+AI f=1113 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=92 w=4
+A0 f=1113 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1114 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=91 w=4
+A0 f=1114 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1115 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=91 w=4
+A0 f=1115 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1116 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=91 w=4
+A0 f=1116 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1116 n=0
+AI f=1117 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=90 w=4
+A0 f=1117 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+WT f=1117 i=1 x=12042757 y=11171054 vx=0 vy=0 t=0 ty=4 ow=0
+AI f=1118 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=90 w=4
+A0 f=1118 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1119 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=90 w=4
+A0 f=1119 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1120 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=90 w=4
+A0 f=1120 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1121 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=89 w=4
+A0 f=1121 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1121 n=0
+AI f=1122 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=89 w=4
+A0 f=1122 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1123 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=88 w=4
+A0 f=1123 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1124 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=88 w=4
+A0 f=1124 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1125 fi=0 j=0 c=0 l=1 r=0 u=1 d=0 aim=87 w=4
+A0 f=1125 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1126 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=40 w=4
+A0 f=1126 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1126 n=0
+AI f=1127 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=40 w=4
+A0 f=1127 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=1127 terr=47b2e5a9 rng=abbaed58,4729ec2c wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=73,96|75,97 shk=-2464,-2464 w0 p=152,175 v=-29374,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=148 lv=5 k=0 sf=0 | w1 p=154,176 v=-2376,0 hp=100 vis=1 kt=0 lr=70,96 aim=40 dir=0 cur=3 w=4 wslot=0 am=5 dly=-1 ld=51 lv=5 k=0 sf=0
+AI f=1128 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=40 w=4
+A0 f=1128 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1129 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=40 w=4
+A0 f=1129 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1130 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1130 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1131 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1131 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1131 n=0
+AI f=1132 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1132 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1133 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1133 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1134 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1134 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1135 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=41 w=4
+A0 f=1135 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1136 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=40 w=4
+A0 f=1136 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1136 n=0
+AI f=1137 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=40 w=4
+A0 f=1137 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1138 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=40 w=4
+A0 f=1138 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1139 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=39 w=4
+A0 f=1139 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=1139 terr=47b2e5a9 rng=c45b52c2,41532839 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=68,96|75,97 shk=-2464,-2464 w0 p=147,175 v=-30854,1500 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=136 lv=5 k=0 sf=0 | w1 p=154,176 v=-583,0 hp=100 vis=1 kt=0 lr=70,96 aim=39 dir=0 cur=3 w=4 wslot=0 am=5 dly=-1 ld=39 lv=5 k=0 sf=0
+AI f=1140 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=39 w=4
+A0 f=1140 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1141 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=39 w=4
+A0 f=1141 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1141 n=0
+AI f=1142 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=38 w=4
+A0 f=1142 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1143 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=37 w=4
+A0 f=1143 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1144 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=37 w=4
+A0 f=1144 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1145 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=36 w=4
+A0 f=1145 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1146 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=35 w=4
+A0 f=1146 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1146 n=0
+AI f=1147 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1147 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1148 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1148 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1149 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1149 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1150 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1150 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1151 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=1151 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1151 n=0
+AI f=1152 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=1152 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+CK frame=1152 terr=47b2e5a9 rng=d2883427,6200c420 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=63,97|75,97 shk=-2464,-2464 w0 p=142,176 v=-28387,0 hp=100 vis=1 kt=0 lr=35,96 aim=47 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=123 lv=5 k=0 sf=0 | w1 p=154,176 v=-124,0 hp=100 vis=1 kt=0 lr=70,96 aim=30 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=26 lv=5 k=0 sf=0
+AI f=1153 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=1153 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1154 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1154 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1155 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1155 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1156 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1156 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1156 n=0
+AI f=1157 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1157 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1158 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=1158 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1159 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=1159 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1160 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=1160 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1161 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=1161 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1161 n=0
+AI f=1162 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=28 w=4
+A0 f=1162 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1163 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1163 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1164 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1164 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1165 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1165 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1166 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=29 w=4
+A0 f=1166 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+NN f=1166 n=0
+AI f=1167 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=1167 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1168 fi=0 j=0 c=0 l=0 r=0 u=1 d=0 aim=30 w=4
+A0 f=1168 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1169 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=1169 fi=0 j=0 c=0 l=1 r=0 u=0 d=0
+AI f=1170 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=31 w=4
+A0 f=1170 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1171 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1171 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1171 n=0
+AI f=1172 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1172 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1173 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1173 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1174 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1174 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1175 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1175 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1176 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1176 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1176 n=0
+AI f=1177 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1177 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=1177 terr=47b2e5a9 rng=d1dd8e89,35733aa0 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=54,97|75,97 shk=-2464,-2464 w0 p=133,176 v=-10793,0 hp=100 vis=1 kt=0 lr=35,96 aim=49 dir=0 cur=4 w=4 wslot=0 am=5 dly=-1 ld=98 lv=5 k=0 sf=0 | w1 p=154,176 v=-3,0 hp=100 vis=1 kt=0 lr=70,96 aim=34 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=1 lv=5 k=0 sf=0
+AI f=1178 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1178 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1179 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1179 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1180 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1180 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=1181 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1181 fi=0 j=0 c=1 l=1 r=0 u=1 d=0
+NN f=1181 n=0
+AI f=1182 fi=0 j=0 c=0 l=0 r=0 u=0 d=1 aim=34 w=4
+A0 f=1182 fi=0 j=0 c=1 l=0 r=0 u=1 d=0
+AI f=1183 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1183 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1184 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1184 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1185 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1185 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1186 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1186 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=1186 n=0
+AI f=1187 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1187 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1188 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1188 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1189 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1189 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1190 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1190 fi=0 j=0 c=0 l=0 r=0 u=1 d=1
+AI f=1191 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1191 fi=1 j=0 c=0 l=0 r=0 u=1 d=1
+NN f=1191 n=0
+AI f=1192 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=33 w=4
+A0 f=1192 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1193 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1193 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1194 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1194 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1195 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1195 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1196 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1196 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1196 n=0
+AI f=1197 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1197 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1198 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1198 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1199 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1199 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=1199 terr=47b2e5a9 rng=41642b20,5ccc6181 wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=53,97|75,97 shk=-2464,-2464 w0 p=132,176 v=-827,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=76 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=1200 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1200 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1201 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1201 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1201 n=0
+AI f=1202 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1202 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=1202 terr=47b2e5a9 rng=1edb1ead,78581a5c wc=0 nc=0 sc=0 bc=0 obj=811c9dc5 kl=-1 vp=53,97|75,97 shk=-2464,-2464 w0 p=132,176 v=-582,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=73 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=5 dly=-1 ld=0 lv=5 k=0 sf=0
+AI f=1203 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1203 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1204 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1204 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1205 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1205 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1206 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1206 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1206 n=0
+AI f=1207 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1207 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1208 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1208 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1209 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1209 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1210 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1210 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1211 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1211 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1211 n=0
+AI f=1212 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1212 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1213 fi=0 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1213 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1214 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1214 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1215 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1215 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1216 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1216 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1216 n=0
+AI f=1217 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1217 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1217 i=0 x=9375338 y=11484757 vx=-140691 vy=6854 t=69 ty=4 ow=1
+AI f=1218 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1218 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1219 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1219 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1220 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1220 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1221 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1221 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1221 n=0
+AI f=1222 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1222 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1222 i=0 x=8671883 y=11529027 vx=-140691 vy=11854 t=64 ty=4 ow=1
+AI f=1223 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1223 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1224 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1224 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1225 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1225 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1226 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1226 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1226 n=0
+AI f=1227 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1227 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1227 i=0 x=7968428 y=11598297 vx=-140691 vy=16854 t=59 ty=4 ow=1
+CK frame=1227 terr=47b2e5a9 rng=ddb3427b,4feb790c wc=1 nc=0 sc=0 bc=0 obj=743a4110 kl=-1 vp=53,97|75,97 shk=-2464,-2464 w0 p=132,176 v=-27,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=48 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=4 dly=7 ld=0 lv=5 k=0 sf=0
+AI f=1228 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1228 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1229 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1229 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1230 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1230 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1231 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1231 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1231 n=0
+AI f=1232 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1232 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1232 i=0 x=7264973 y=11692567 vx=-140691 vy=21854 t=54 ty=4 ow=1
+AI f=1233 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1233 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1234 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1234 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1235 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1235 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1236 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1236 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1236 n=0
+AI f=1237 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1237 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1237 i=0 x=6589657 y=11779527 vx=33765 vy=-4164 t=49 ty=4 ow=1
+WT f=1237 i=1 x=9380945 y=11444875 vx=-138822 vy=-6440 t=73 ty=4 ow=1
+AI f=1238 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1238 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1239 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1239 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1240 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1240 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1241 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1241 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1241 n=0
+AI f=1242 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1242 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1242 i=0 x=6758482 y=11768707 vx=33765 vy=836 t=44 ty=4 ow=1
+WT f=1242 i=1 x=8686835 y=11422675 vx=-138822 vy=-1440 t=68 ty=4 ow=1
+AI f=1243 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1243 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1244 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1244 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1245 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1245 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1246 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1246 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1246 n=0
+AI f=1247 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1247 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1247 i=0 x=6927307 y=11782887 vx=33765 vy=5836 t=39 ty=4 ow=1
+WT f=1247 i=1 x=7992725 y=11425475 vx=-138822 vy=3560 t=63 ty=4 ow=1
+AI f=1248 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1248 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1249 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1249 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1250 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1250 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1251 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1251 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1251 n=0
+AI f=1252 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1252 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1252 i=0 x=7075873 y=11795409 vx=27012 vy=1950 t=34 ty=4 ow=1
+WT f=1252 i=1 x=7298615 y=11453275 vx=-138822 vy=8560 t=58 ty=4 ow=1
+CK frame=1252 terr=47b2e5a9 rng=19fdf230,570c33d5 wc=2 nc=0 sc=0 bc=0 obj=7b6c07cc kl=-1 vp=53,97|75,97 shk=-2464,-2464 w0 p=132,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=23 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=3 dly=2 ld=0 lv=5 k=0 sf=0
+AI f=1253 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1253 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1254 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1254 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1255 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1255 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1256 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1256 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+NN f=1256 n=0
+AI f=1257 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1257 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+WT f=1257 i=0 x=7097903 y=11797050 vx=-32 vy=40 t=29 ty=4 ow=1
+WT f=1257 i=1 x=6604505 y=11506075 vx=41646 vy=11048 t=53 ty=4 ow=1
+WT f=1257 i=2 x=9394241 y=11499031 vx=-134390 vy=11612 t=75 ty=4 ow=1
+AI f=1258 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1258 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+AI f=1259 fi=1 j=0 c=0 l=0 r=0 u=0 d=0 aim=32 w=4
+A0 f=1259 fi=0 j=0 c=0 l=0 r=0 u=1 d=0
+CK frame=1259 terr=47b2e5a9 rng=875c9e76,02435914 wc=3 nc=0 sc=0 bc=0 obj=9f1d21fc kl=-1 vp=53,97|75,97 shk=-2464,-2464 w0 p=132,176 v=0,0 hp=100 vis=1 kt=0 lr=35,96 aim=64 dir=0 cur=6 w=4 wslot=0 am=5 dly=-1 ld=16 lv=5 k=0 sf=0 | w1 p=154,176 v=0,0 hp=100 vis=1 kt=0 lr=70,96 aim=32 dir=0 cur=2 w=4 wslot=0 am=2 dly=15 ld=0 lv=5 k=0 sf=0
