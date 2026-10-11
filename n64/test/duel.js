@@ -4,7 +4,8 @@ ares.setRenderer("none");
 ares.loadRom(ares.args[0]);
 ares.resume();
 if (!ares.waitLog("GEN ", 60)) { console.log("GEN TIMEOUT"); ares.exit(1); }
-if (!ares.waitLog("CK frame=1259", 600)) { console.log("CK1259 TIMEOUT"); }
+var endmark = "CK frame=" + (ares.args[1] ? ares.args[1] : "1259");
+if (!ares.waitLog(endmark, 1200)) { console.log("END TIMEOUT " + endmark); }
 var lg = ares.log().split("\n");
 var n = 0;
 for (var i = 0; i < lg.length; i++) {

@@ -372,7 +372,11 @@ typedef struct {
     int vp_x, vp_y, shake;
 } Worm;
 #define N_WORMS 2
+#ifdef FRAMES_AUTO_X
+#define FRAMES_AUTO FRAMES_AUTO_X
+#else
 #define FRAMES_AUTO 1260
+#endif
 static Worm worms[N_WORMS];
 #define worm worms[0]
 

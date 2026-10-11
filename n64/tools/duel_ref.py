@@ -1034,7 +1034,8 @@ def fnv(b):
 CK_MARKS = (112, 137, 162, 180, 262, 287, 312, 337, 362, 387, 412,
             37, 62, 87, 612, 637, 662, 712, 762, 812, 862, 912, 962,
             1012, 1062, 1112, 1162, 1212)
-FRAMES = 1260
+import os as _os
+FRAMES = int(_os.environ.get("DUEL_FRAMES", "1260"))
 AI_ON = [bool(int(x)) for x in (sys.argv[1] if len(sys.argv) > 1 else "01").strip()] or [0,0]
 if len(AI_ON) < 2: AI_ON += [0]*(2-len(AI_ON))
 print("AI_ON %s" % "".join(map(str, AI_ON)))
