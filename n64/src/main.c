@@ -409,7 +409,11 @@ static int angle_frame(Worm* w) {
 
 typedef WKeys WormInput;
 static int g_last_killed = -1;
+#ifdef AI_VERSUS_AI
+static int worms_ai_on[N_WORMS] = {1, 1};   // duel: both AI
+#else
 static int worms_ai_on[N_WORMS] = {0, 1};   // duel: worm1 = AI
+#endif
 
 #ifdef WEAPONS
 static void worm_weapons(Worm* w);
